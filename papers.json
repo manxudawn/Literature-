@@ -1,0 +1,12 @@
+{
+  "brief_date": "2026 · 09 · 28",
+  "last_updated": "等待首次自动更新",
+  "match_score": 0,
+  "trackers": [
+    {"name": "Ni electrocarboxylation", "rate": "持续追踪"},
+    {"name": "GDE flooding & wetting", "rate": "持续追踪"},
+    {"name": "Micro-CT segmentation", "rate": "持续追踪"},
+    {"name": "CV / EIS mechanism analysis", "rate": "持续追踪"}
+  ],
+  "papers": []
+}
