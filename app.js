@@ -4,6 +4,8 @@ const state = {
   query: '',
   read: new Set(JSON.parse(localStorage.getItem('cs-read') || '[]')),
   deleted: new Set(JSON.parse(localStorage.getItem('cs-deleted') || '[]')),
+  keywordConfig: null,
+  repoKeywordConfig: null,
 };
 
 const topicLabels = {
@@ -37,6 +39,157 @@ function persist() {
   localStorage.setItem('cs-deleted', JSON.stringify([...state.deleted]));
 }
 
+const KEYWORD_STORAGE_KEY = 'cs-keywords-v1';
+
+function cloneJson(value) {
+  return JSON.parse(JSON.stringify(value));
+}
+
+function normalizeKeywordConfig(raw) {
+  const base = {
+    version: 1,
+    updated_at: new Date().toISOString().slice(0, 10),
+    topics: {},
+  };
+  ['organic', 'gde', 'analysis'].forEach((topic) => {
+    const source = raw?.topics?.[topic] || {};
+    const keywords = Array.isArray(source.keywords) ? source.keywords : [];
+    const seen = new Set();
+    base.topics[topic] = {
+      label: source.label || topicLabels[topic],
+      keywords: keywords
+        .map((x) => String(x || '').trim())
+        .filter((x) => x && !seen.has(x.toLowerCase()) && seen.add(x.toLowerCase())),
+    };
+  });
+  return base;
+}
+
+function persistKeywords() {
+  if (!state.keywordConfig) return;
+  state.keywordConfig.updated_at = new Date().toISOString().slice(0, 10);
+  localStorage.setItem(KEYWORD_STORAGE_KEY, JSON.stringify(state.keywordConfig));
+}
+
+async function loadKeywords() {
+  let repoConfig;
+  try {
+    const response = await fetch(`data/keywords.json?v=${Date.now()}`, { cache: 'no-store' });
+    if (!response.ok) throw new Error(`keywords.json HTTP ${response.status}`);
+    repoConfig = normalizeKeywordConfig(await response.json());
+  } catch (err) {
+    console.warn('Keyword config unavailable; using empty config.', err);
+    repoConfig = normalizeKeywordConfig({});
+  }
+  state.repoKeywordConfig = repoConfig;
+
+  try {
+    const local = JSON.parse(localStorage.getItem(KEYWORD_STORAGE_KEY) || 'null');
+    state.keywordConfig = local ? normalizeKeywordConfig(local) : cloneJson(repoConfig);
+  } catch (_) {
+    state.keywordConfig = cloneJson(repoConfig);
+  }
+}
+
+function allKeywords() {
+  if (!state.keywordConfig) return [];
+  return Object.entries(state.keywordConfig.topics).flatMap(([topic, group]) =>
+    group.keywords.map((keyword) => ({ topic, keyword }))
+  );
+}
+
+function renderKeywordManager() {
+  const holder = document.getElementById('keywordGroups');
+  if (!holder || !state.keywordConfig) return;
+
+  const groups = Object.entries(state.keywordConfig.topics).map(([topic, group]) => {
+    const chips = group.keywords.map((keyword) => `
+      <span class="keyword-chip" data-topic="${esc(topic)}" data-keyword="${esc(keyword)}">
+        <button class="keyword-search" type="button" title="用此关键词筛选文献">${esc(keyword)}</button>
+        <button class="keyword-remove" type="button" aria-label="删除 ${esc(keyword)}" title="删除">×</button>
+      </span>`).join('');
+
+    return `<div class="keyword-group">
+      <div class="keyword-group-head">
+        <b>${esc(group.label || topicLabels[topic] || topic)}</b>
+        <span>${group.keywords.length}</span>
+      </div>
+      <div class="keyword-chips">${chips || '<span class="keyword-empty">暂无关键词</span>'}</div>
+    </div>`;
+  }).join('');
+
+  holder.innerHTML = groups;
+  const counter = document.getElementById('keywordCount');
+  if (counter) counter.textContent = allKeywords().length;
+
+  holder.querySelectorAll('.keyword-search').forEach((button) => {
+    button.onclick = () => {
+      const keyword = button.parentElement.dataset.keyword || '';
+      state.query = keyword;
+      const search = document.getElementById('searchInput');
+      search.value = keyword;
+      render();
+      document.getElementById('today').scrollIntoView({ behavior: 'smooth', block: 'start' });
+    };
+  });
+
+  holder.querySelectorAll('.keyword-remove').forEach((button) => {
+    button.onclick = () => {
+      const chip = button.closest('.keyword-chip');
+      const topic = chip.dataset.topic;
+      const keyword = chip.dataset.keyword;
+      const list = state.keywordConfig?.topics?.[topic]?.keywords || [];
+      state.keywordConfig.topics[topic].keywords = list.filter(
+        (x) => x.toLowerCase() !== keyword.toLowerCase()
+      );
+      persistKeywords();
+      renderKeywordManager();
+    };
+  });
+}
+
+function addKeyword() {
+  const input = document.getElementById('keywordInput');
+  const topic = document.getElementById('keywordTopic').value;
+  const keyword = String(input.value || '').trim().replace(/\s+/g, ' ');
+  if (!keyword) return;
+  if (keyword.length < 2) {
+    input.setCustomValidity('关键词至少需要 2 个字符。');
+    input.reportValidity();
+    return;
+  }
+  input.setCustomValidity('');
+
+  const list = state.keywordConfig.topics[topic].keywords;
+  if (!list.some((x) => x.toLowerCase() === keyword.toLowerCase())) {
+    list.push(keyword);
+    persistKeywords();
+    renderKeywordManager();
+  }
+  input.value = '';
+  input.focus();
+}
+
+function exportKeywords() {
+  const payload = cloneJson(state.keywordConfig);
+  payload.updated_at = new Date().toISOString().slice(0, 10);
+  const blob = new Blob([`${JSON.stringify(payload, null, 2)}\n`], { type: 'application/json;charset=utf-8' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = 'keywords.json';
+  document.body.appendChild(a);
+  a.click();
+  a.remove();
+  URL.revokeObjectURL(url);
+}
+
+function resetKeywords() {
+  state.keywordConfig = cloneJson(state.repoKeywordConfig);
+  localStorage.removeItem(KEYWORD_STORAGE_KEY);
+  renderKeywordManager();
+}
+
 function detailBlock(p) {
   const methods = p.methods_summary
     ? `<div class="insight-block"><b>研究方法</b><p>${esc(p.methods_summary)}</p></div>`
@@ -57,8 +210,8 @@ function card(p, i) {
     <div>
       <div class="paper-meta"><b>${esc(topicLabels[p.topic] || p.topic)}</b> • ${esc(p.badge || '精选研究')} • ${esc(p.read_minutes || 10)} min${date}</div>
       <h3><a href="${esc(url)}" target="_blank" rel="noopener noreferrer">${esc(p.title)} ↗</a></h3>
-      <div class="journal">${esc(p.journal)} ${esc(p.year || '')} <span>${p.impact_factor ? `IF ${esc(p.impact_factor)}` : 'IF —'} · ${esc(p.quartile || 'Q —')}</span></div>
-      <p class="paper-summary">${esc(p.summary_zh || p.abstract || '暂无摘要')}</p>
+      <div class="journal">${esc(p.journal)} ${esc(p.year || '')} <span>${p.impact_factor ? `IF ${esc(p.impact_factor)}` : 'IF —'} · ${esc(p.quartile || 'JCR —')}${p.metric_year ? ` · ${esc(p.metric_year)}` : ''}</span></div>
+      <p class="paper-summary">${esc(p.summary_en || p.summary_zh || p.abstract || '暂无摘要')}</p>
       <div class="why">${detailBlock(p)}</div>
       <div class="tags">${(p.tags || []).map((x) => `<span class="tag">${esc(x)}</span>`).join('')}</div>
       <div class="actions">
@@ -85,6 +238,7 @@ function filtered(papers) {
       const q = state.query.toLowerCase();
       return [
         p.title,
+        p.summary_en,
         p.summary_zh,
         p.methods_summary,
         p.key_findings,
@@ -133,7 +287,10 @@ function bindCards() {
 }
 
 async function init() {
-  const r = await fetch(`data/papers.json?v=${Date.now()}`, { cache: 'no-store' });
+  const [r] = await Promise.all([
+    fetch(`data/papers.json?v=${Date.now()}`, { cache: 'no-store' }),
+    loadKeywords(),
+  ]);
   if (!r.ok) throw new Error(`papers.json HTTP ${r.status}`);
   state.data = await r.json();
   const d = state.data;
@@ -166,6 +323,7 @@ async function init() {
     `<div class="topic-row"><span>${esc(t.name)}</span><span>${esc(t.rate)}</span></div>`
   ).join('');
 
+  renderKeywordManager();
   render();
 }
 
@@ -181,6 +339,17 @@ document.addEventListener('keydown', (e) => {
   }
 });
 document.getElementById('settingsBtn').onclick = () => document.getElementById('settingsDialog').showModal();
+document.getElementById('scrollKeywords').onclick = () =>
+  document.getElementById('keywords').scrollIntoView({ behavior: 'smooth', block: 'start' });
+document.getElementById('addKeyword').onclick = addKeyword;
+document.getElementById('keywordInput').addEventListener('keydown', (e) => {
+  if (e.key === 'Enter') {
+    e.preventDefault();
+    addKeyword();
+  }
+});
+document.getElementById('exportKeywords').onclick = exportKeywords;
+document.getElementById('resetKeywords').onclick = resetKeywords;
 
 init().catch((err) => {
   console.error(err);

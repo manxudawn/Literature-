@@ -136,7 +136,7 @@ nav a:hover{color:var(--lime-strong)}
 .score strong{display:block;color:var(--lime-strong);font:19px "DM Mono"}
 .score span{font-size:9px;color:#879188}
 .sidebar{padding-top:24px}
-.digest-card,.topic-card{
+.digest-card,.topic-card,.keyword-card{
   border:1px solid var(--line);
   background:rgba(255,255,255,.92);
   border-radius:18px;
@@ -193,7 +193,7 @@ dialog label{display:block;margin:12px 0}
   .hero h1{font-size:45px}
   .content-grid{grid-template-columns:1fr}
   .sidebar{display:grid;grid-template-columns:1fr 1fr;gap:16px}
-  .digest-card,.topic-card{margin:0}
+  .digest-card,.topic-card,.keyword-card{margin:0}
   .match-card{max-width:430px}
   .paper{grid-template-columns:36px 1fr}
   .score{grid-column:2;text-align:left;display:flex;gap:7px;align-items:center}
@@ -208,8 +208,128 @@ dialog label{display:block;margin:12px 0}
   .hero h1{font-size:39px}
   .stats{gap:24px}
   .sidebar{display:block}
-  .digest-card,.topic-card{margin-bottom:14px}
+  .digest-card,.topic-card,.keyword-card{margin-bottom:14px}
   .paper h3{font-size:17px}
   .paper-summary{font-size:12px}
   .footer{font-size:10px}
+}
+
+
+.keyword-card{
+  border:1px solid var(--line);
+  background:rgba(255,255,255,.94);
+  border-radius:18px;
+  padding:22px;
+  margin-bottom:18px;
+  box-shadow:0 12px 34px rgba(44,59,41,.05)
+}
+.keyword-card .topic-title{align-items:flex-start}
+.keyword-card h3{font-size:15px;margin:5px 0 0}
+.keyword-count{
+  min-width:30px;
+  height:30px;
+  display:grid;
+  place-items:center;
+  border-radius:999px;
+  background:var(--soft);
+  color:#507c0d;
+  font:11px "DM Mono"
+}
+.keyword-help,.keyword-sync-note{
+  font-size:11px;
+  line-height:1.6;
+  color:var(--muted)
+}
+.keyword-sync-note{margin:12px 0 0}
+.keyword-sync-note code{
+  font:10px "DM Mono";
+  padding:2px 4px;
+  border-radius:5px;
+  background:#f1f5ed;
+  border:1px solid var(--line)
+}
+.keyword-add-row{
+  display:grid;
+  grid-template-columns:1fr;
+  gap:8px;
+  margin:14px 0 16px
+}
+.keyword-add-row select,.keyword-add-row input{
+  width:100%;
+  border:1px solid var(--line);
+  background:#fff;
+  color:var(--text);
+  border-radius:9px;
+  padding:10px 11px;
+  font:11px Inter,system-ui,sans-serif;
+  outline:none
+}
+.keyword-add-row select:focus,.keyword-add-row input:focus{
+  border-color:#b9d58d;
+  box-shadow:0 0 0 3px rgba(143,209,31,.10)
+}
+.primary.compact{margin:0;width:100%;cursor:pointer}
+.keyword-groups{display:grid;gap:14px}
+.keyword-group{
+  padding-top:13px;
+  border-top:1px solid var(--line)
+}
+.keyword-group:first-child{padding-top:0;border-top:0}
+.keyword-group-head{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:10px;
+  margin-bottom:8px
+}
+.keyword-group-head b{font-size:11px;color:#4b574f}
+.keyword-group-head span{font:10px "DM Mono";color:#8a958d}
+.keyword-chips{display:flex;flex-wrap:wrap;gap:6px}
+.keyword-chip{
+  display:inline-flex;
+  align-items:center;
+  max-width:100%;
+  border:1px solid #d5ded2;
+  background:#fbfcf9;
+  border-radius:999px;
+  overflow:hidden
+}
+.keyword-search,.keyword-remove{
+  border:0;
+  background:transparent;
+  color:#59675e;
+  cursor:pointer
+}
+.keyword-search{
+  max-width:220px;
+  padding:6px 4px 6px 9px;
+  font:10px "DM Mono";
+  overflow:hidden;
+  white-space:nowrap;
+  text-overflow:ellipsis
+}
+.keyword-search:hover{color:var(--lime-strong)}
+.keyword-remove{
+  padding:5px 8px 6px 4px;
+  color:#9aa39c;
+  font-size:14px;
+  line-height:1
+}
+.keyword-remove:hover{color:#a33}
+.keyword-empty{font-size:10px;color:#929c95}
+.keyword-actions{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:8px;
+  margin-top:15px
+}
+.ghost.small{font-size:10px;padding:9px 8px}
+
+@media(max-width:900px){
+  .sidebar{grid-template-columns:1fr 1fr}
+  .keyword-card{grid-column:1 / -1}
+}
+@media(max-width:620px){
+  .keyword-actions{grid-template-columns:1fr}
+  .keyword-search{max-width:245px}
 }

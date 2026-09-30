@@ -17,6 +17,7 @@
       <a href="#today">今日文献</a>
       <a href="#archive">历史推送</a>
       <a href="#topics">主题追踪</a>
+      <a href="#keywords">关键词</a>
     </nav>
     <div class="top-actions"><button class="icon-btn" id="openSearch" aria-label="search">⌕</button><button class="avatar">SU</button></div>
   </header>
@@ -57,14 +58,40 @@
           <div class="section-kicker">DAILY DIGEST</div>
           <h3>每天 08:00</h3>
           <strong>送达你的研究简报</strong>
-          <p>只推送高相关文献。每篇包含中文摘要、研究方法、重点结论和与你课题的关联。</p>
+          <p>只推送高相关文献。每篇包含英文摘要、研究方法、重点结论和与你课题的关联；不需要 AI API。</p>
           <div class="status-line"><span class="dot"></span>推送已开启 <em>每天 · Berlin 时间</em></div>
           <button class="ghost" id="settingsBtn">调整推送设置</button>
         </section>
 
         <section class="topic-card" id="topics">
-          <div class="topic-title"><h3>持续追踪</h3><button class="mini">管理</button></div>
+          <div class="topic-title"><h3>持续追踪</h3><button class="mini" type="button" id="scrollKeywords">管理</button></div>
           <div id="topicTracker"></div>
+        </section>
+
+        <section class="keyword-card" id="keywords">
+          <div class="topic-title">
+            <div>
+              <div class="section-kicker">KEYWORD CONTROL</div>
+              <h3>追踪关键词</h3>
+            </div>
+            <span class="keyword-count" id="keywordCount">0</span>
+          </div>
+          <p class="keyword-help">在网页上添加、删除或点击关键词筛选文献。修改会先保存在当前浏览器。</p>
+          <div class="keyword-add-row">
+            <select id="keywordTopic" aria-label="关键词主题">
+              <option value="organic">有机电催化 CO₂</option>
+              <option value="gde">GDE / Micro-CT</option>
+              <option value="analysis">电化学分析</option>
+            </select>
+            <input id="keywordInput" type="text" maxlength="100" placeholder="例如：electrodeposition" />
+            <button class="primary compact" id="addKeyword" type="button">添加</button>
+          </div>
+          <div id="keywordGroups" class="keyword-groups"></div>
+          <div class="keyword-actions">
+            <button class="ghost small" id="exportKeywords" type="button">导出 keywords.json</button>
+            <button class="ghost small" id="resetKeywords" type="button">恢复仓库版本</button>
+          </div>
+          <p class="keyword-sync-note">GitHub Pages 是静态网页。要让每天 08:00 的自动检索使用这些改动，请导出后用它替换仓库中的 <code>data/keywords.json</code>。</p>
         </section>
       </aside>
     </section>
@@ -78,13 +105,13 @@
     </section>
   </main>
 
-  <footer class="shell footer"><div><span class="brand-mark">e⁻</span>CarbonScope <small>Built for Su's research loop</small></div><div>期刊指标：手动维护 JIF / 分区 · <span id="lastUpdated">最后更新 —</span></div></footer>
+  <footer class="shell footer"><div><span class="brand-mark">e⁻</span>CarbonScope <small>Built for Su's research loop</small></div><div>期刊指标：扩展期刊库 · 2025 JIF / JCR 分区快照 · <span id="lastUpdated">最后更新 —</span></div></footer>
 
   <dialog id="settingsDialog">
     <form method="dialog">
       <button class="dialog-close">×</button>
       <h3>推送设置</h3>
-      <p>当前仓库通过 GitHub Actions 在 Berlin 时间每天约 08:00 更新。浏览器中的已读/删除状态只保存在当前设备。</p>
+      <p>当前仓库通过 GitHub Actions 在 Berlin 时间每天约 08:00 更新。浏览器中的已读、删除与关键词编辑状态只保存在当前设备；关键词需导出并替换 data/keywords.json 后才会影响自动检索。</p>
       <label><input type="checkbox" checked disabled> 每天自动更新</label>
       <label><input type="checkbox" checked disabled> 高相关文献优先</label>
       <button class="primary">完成</button>
