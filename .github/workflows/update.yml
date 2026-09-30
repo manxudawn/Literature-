@@ -40,8 +40,6 @@ jobs:
         if: github.event_name != 'push'
         env:
           OPENALEX_MAILTO: ${{ secrets.OPENALEX_MAILTO }}
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          OPENAI_MODEL: ${{ vars.OPENAI_MODEL || 'gpt-5.6-luna' }}
         run: python scripts/update_papers.py
 
       - name: Commit literature data
@@ -66,13 +64,14 @@ jobs:
           cp app.js _site/
           cp data/papers.json _site/data/
           cp data/journal_metrics.json _site/data/
+          cp data/keywords.json _site/data/
           touch _site/.nojekyll
 
       - name: Configure Pages
-        uses: actions/configure-pages@v5
+        uses: actions/configure-pages@v6
 
       - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v4
+        uses: actions/upload-pages-artifact@v5
         with:
           path: _site
 
@@ -88,4 +87,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
