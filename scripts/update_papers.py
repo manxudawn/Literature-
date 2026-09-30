@@ -4,6 +4,7 @@ import json
 import os
 import re
 import sys
+import time
 from dataclasses import dataclass
 from datetime import date, datetime, timedelta
 from pathlib import Path
@@ -27,6 +28,29 @@ MAX_DAILY = 10
 MAX_PER_TOPIC = 4
 MAX_ARCHIVE = 320
 MIN_SCORE = {"organic": 38, "gde": 33, "analysis": 34}
+
+# Keep the scheduled job fast and resilient when OpenAlex is degraded.
+OPENALEX_CONNECT_TIMEOUT = 4
+OPENALEX_READ_TIMEOUT = 12
+OPENALEX_MAX_CONSECUTIVE_FAILURES = 3
+OPENALEX_REQUEST_PAUSE = 0.15
+MAX_SEARCHES_PER_TOPIC = 3
+FALLBACK_SEARCHES_PER_TOPIC = 1
+
+API_STATS = {
+    "ok": 0,
+    "failed": 0,
+    "consecutive_failed": 0,
+    "circuit_open": False,
+}
+
+
+class OpenAlexRequestFailed(RuntimeError):
+    pass
+
+
+class OpenAlexCircuitOpen(RuntimeError):
+    pass
 
 TOPICS = {
     "organic": [
@@ -189,12 +213,13 @@ class Candidate:
 
 def http_session() -> requests.Session:
     retry = Retry(
-        total=4,
-        connect=4,
-        read=4,
-        backoff_factor=0.7,
+        total=1,
+        connect=1,
+        read=1,
+        backoff_factor=0.5,
         status_forcelist=(429, 500, 502, 503, 504),
         allowed_methods=("GET",),
+        respect_retry_after_header=False,
     )
     session = requests.Session()
     session.mount("https://", HTTPAdapter(max_retries=retry))
@@ -428,13 +453,39 @@ def build_paper(work: dict, topic: str, rank: int, matched: list[str], discovery
     }
 
 
+def _short_error(exc: Exception) -> str:
+    text = re.sub(r"\s+", " ", str(exc)).strip()
+    # urllib3 errors can contain the full query URL; keep Actions logs readable.
+    if " with url:" in text:
+        text = text.split(" with url:", 1)[0]
+    return text[:240]
+
+
 def openalex_get(params: dict) -> dict:
+    if API_STATS["circuit_open"]:
+        raise OpenAlexCircuitOpen("OpenAlex circuit breaker is open for this run")
+
     mailto = os.getenv("OPENALEX_MAILTO", "").strip()
     if mailto:
         params["mailto"] = mailto
-    response = SESSION.get("https://api.openalex.org/works", params=params, timeout=40)
-    response.raise_for_status()
-    return response.json()
+
+    try:
+        response = SESSION.get(
+            "https://api.openalex.org/works",
+            params=params,
+            timeout=(OPENALEX_CONNECT_TIMEOUT, OPENALEX_READ_TIMEOUT),
+        )
+        response.raise_for_status()
+        API_STATS["ok"] += 1
+        API_STATS["consecutive_failed"] = 0
+        time.sleep(OPENALEX_REQUEST_PAUSE)
+        return response.json()
+    except requests.RequestException as exc:
+        API_STATS["failed"] += 1
+        API_STATS["consecutive_failed"] += 1
+        if API_STATS["consecutive_failed"] >= OPENALEX_MAX_CONSECUTIVE_FAILURES:
+            API_STATS["circuit_open"] = True
+        raise OpenAlexRequestFailed(_short_error(exc)) from exc
 
 
 def fetch_query(topic: str, query: str, date_from: str, date_to: str) -> list[Candidate]:
@@ -484,7 +535,7 @@ def fetch_watchlist(metrics: dict, date_from: str, date_to: str) -> list[Candida
     """
     issns = watched_issns(metrics)
     candidates: list[Candidate] = []
-    batch_size = 12
+    batch_size = 30
 
     for start in range(0, len(issns), batch_size):
         batch = issns[start : start + batch_size]
@@ -511,8 +562,14 @@ def fetch_watchlist(metrics: dict, date_from: str, date_to: str) -> list[Candida
                 candidates.append(Candidate(build_paper(work, topic, rank, matched, "journal-watchlist"), rank))
                 accepted += 1
             print(f"journal watchlist | batch {start // batch_size + 1} | {accepted:2d} accepted")
+        except OpenAlexCircuitOpen:
+            print("OpenAlex circuit breaker opened during journal watchlist; stopping remote requests.", file=sys.stderr)
+            break
         except Exception as exc:
-            print(f"OpenAlex journal watchlist batch failed: {exc}", file=sys.stderr)
+            print(f"OpenAlex journal watchlist batch failed: {_short_error(exc)}", file=sys.stderr)
+            if API_STATS["circuit_open"]:
+                print("OpenAlex is repeatedly unavailable; skipping remaining watchlist batches.", file=sys.stderr)
+                break
 
     return candidates
 
@@ -543,22 +600,78 @@ def configured_searches(keyword_config: dict) -> dict[str, list[str]]:
     return configured
 
 
-def collect_candidates(now: datetime, days: int, metrics: dict, search_topics: dict[str, list[str]]) -> list[dict]:
+def selected_queries_for_run(
+    topic: str, queries: list[str], now: datetime, *, fallback: bool = False
+) -> list[str]:
+    """Use a small rotating subset instead of hammering OpenAlex with every keyword.
+
+    User-added keywords (those not in the built-in default list) are searched first so
+    they take effect immediately. Remaining slots rotate through the configured list
+    across days, so the whole keyword library is still covered over time.
+    """
+    if not queries:
+        return []
+
+    limit = FALLBACK_SEARCHES_PER_TOPIC if fallback else MAX_SEARCHES_PER_TOPIC
+    defaults = {normalize(q).strip() for q in TOPICS.get(topic, [])}
+    custom = [q for q in queries if normalize(q).strip() not in defaults]
+
+    picked: list[str] = []
+    for q in custom:
+        if q not in picked:
+            picked.append(q)
+        if len(picked) >= limit:
+            return picked
+
+    remaining = [q for q in queries if q not in picked]
+    if not remaining:
+        return picked
+
+    # Stable daily rotation with a different offset per topic.
+    offsets = {"organic": 0, "gde": 7, "analysis": 13}
+    start = (now.date().toordinal() + offsets.get(topic, 0)) % len(remaining)
+    rotated = remaining[start:] + remaining[:start]
+    for q in rotated:
+        if q not in picked:
+            picked.append(q)
+        if len(picked) >= limit:
+            break
+    return picked
+
+
+def collect_candidates(
+    now: datetime,
+    days: int,
+    metrics: dict,
+    search_topics: dict[str, list[str]],
+    *,
+    fallback: bool = False,
+) -> list[dict]:
     start = (now.date() - timedelta(days=days)).isoformat()
     end = now.date().isoformat()
     all_candidates: list[Candidate] = []
 
-    for topic, queries in search_topics.items():
+    for topic, configured_queries in search_topics.items():
+        queries = selected_queries_for_run(topic, configured_queries, now, fallback=fallback)
         for query in queries:
+            if API_STATS["circuit_open"]:
+                break
             try:
                 found = fetch_query(topic, query, start, end)
                 all_candidates.extend(found)
-                print(f"{topic:8s} | {query[:48]:48s} | {len(found):2d} accepted")
+                print(f"{topic:8s} | {query[:48]:48s} | {len(found):2d} accepted", flush=True)
+            except OpenAlexCircuitOpen:
+                break
             except Exception as exc:
-                print(f"OpenAlex fetch failed [{topic}] {query}: {exc}", file=sys.stderr)
+                print(f"OpenAlex fetch failed [{topic}] {query}: {_short_error(exc)}", file=sys.stderr, flush=True)
+        if API_STATS["circuit_open"]:
+            print("OpenAlex circuit breaker open; stopping remaining keyword searches.", file=sys.stderr, flush=True)
+            break
 
-    # Additional source-centric scan over the curated journal library.
-    all_candidates.extend(fetch_watchlist(metrics, start, end))
+    # The expensive journal scan runs only on the normal window and only while the
+    # API is healthy. The wide fallback intentionally skips it.
+    if not fallback and not API_STATS["circuit_open"]:
+        all_candidates.extend(fetch_watchlist(metrics, start, end))
 
     best: dict[str, Candidate] = {}
     for candidate in all_candidates:
@@ -731,7 +844,7 @@ def main() -> None:
     old_keys = {canonical_key(p) for p in old_papers}
     old_ids = {str(p.get("id", "")) for p in old_papers}
 
-    candidates = collect_candidates(now, LOOKBACK_DAYS, metrics, search_topics)
+    candidates = collect_candidates(now, LOOKBACK_DAYS, metrics, search_topics, fallback=False)
     unseen = [
         p for p in candidates
         if canonical_key(p) not in old_keys and str(p.get("id", "")) not in old_ids
@@ -739,7 +852,7 @@ def main() -> None:
 
     # OpenAlex indexing can lag. Broaden the window if today's strict scan is sparse.
     if len(unseen) < 4:
-        wider = collect_candidates(now, FALLBACK_LOOKBACK_DAYS, metrics, search_topics)
+        wider = collect_candidates(now, FALLBACK_LOOKBACK_DAYS, metrics, search_topics, fallback=True)
         merged: dict[str, dict] = {canonical_key(p): p for p in unseen}
         for paper in wider:
             key = canonical_key(paper)
@@ -748,6 +861,18 @@ def main() -> None:
                 if current is None or paper.get("_rank", 0) > current.get("_rank", 0):
                     merged[key] = paper
         unseen = list(merged.values())
+
+    attempts = API_STATS["ok"] + API_STATS["failed"]
+    failure_ratio = (API_STATS["failed"] / attempts) if attempts else 0.0
+    if API_STATS["circuit_open"] or (attempts >= 3 and failure_ratio > 0.50):
+        print(
+            "OpenAlex is currently unstable "
+            f"(ok={API_STATS['ok']}, failed={API_STATS['failed']}). "
+            "Preserving the existing papers.json instead of publishing an incomplete/empty digest.",
+            file=sys.stderr,
+            flush=True,
+        )
+        return
 
     fresh = select_balanced(unseen, MAX_DAILY)
 
@@ -783,7 +908,8 @@ def main() -> None:
         f"Radar updated at {now.isoformat(timespec='minutes')} | "
         f"fresh={len(fresh)} | high={high_count} | archive={len(archive)} | "
         f"journal-library={len(metric_records(metrics))} | "
-        f"keywords={sum(len(v) for v in search_topics.values())}"
+        f"keywords={sum(len(v) for v in search_topics.values())} | "
+        f"openalex-ok={API_STATS['ok']} | openalex-failed={API_STATS['failed']}"
     )
 
 
