@@ -1,7 +1,7 @@
 {
   "brief_date": "2026 · 09 · 30",
-  "last_updated": "2026-09-30T09:10+02:00",
-  "match_score": 93,
+  "last_updated": "2026-09-30T09:32+02:00",
+  "match_score": 86,
   "trackers": [
     {
       "name": "Ni electrocarboxylation",
@@ -21,6 +21,269 @@
     }
   ],
   "papers": [
+    {
+      "id": "W7211875689",
+      "doi": "https://doi.org/10.3390/nanoenergyadv6030026",
+      "topic": "gde",
+      "badge": "近期研究",
+      "read_minutes": 6,
+      "title": "Microenvironment Engineering for High-Current-Density Electrochemical CO2 Reduction",
+      "journal": "Nanoenergy Advances",
+      "year": 2026,
+      "publication_date": "2026-09-07",
+      "authors": [
+        "Jimin Koh",
+        "Ayeong Jang",
+        "Jihwan Mun",
+        "Juran Noh"
+      ],
+      "summary_zh": "摘要提要（未启用 AI 中文总结）：Electrochemical CO2 reduction reaction (ECO2RR) is a promising technology for converting rapidly rising atmospheric CO2—driven by fossil fuel consumption and industrial processes—into a circular carbon economy. In particular, ECO2RR is expected to enable renewable-based long-duration energy storage (LDES) systems through the highly efficient conversion of CO2 into high-value multi-carbon (C2+) compounds.",
+      "methods_summary": "原文摘要中的方法信息：However, scaling ECO2RR to the industrial level remains challenging because, under high-current operation, the CO2 consumption rate exceeds its supply rate, causing a sharp decline in local CO2 concentration. To address this challenge, this review categorizes and analyzes recent strategies for CO2 microenvironment engineering that overcome mass transfer limitations at high-current densities, focusing on two compleme…",
+      "key_findings": "原文摘要中的主要结果：In particular, ECO2RR is expected to enable renewable-based long-duration energy storage (LDES) systems through the highly efficient conversion of CO2 into high-value multi-carbon (C2+) compounds. We further show that these strategies are not mutually independent but create complementary structural and chemical synergies, and we propose future directions for simultaneously improving high-current operability and C2+…",
+      "relevance_reason": "命中 gas diffusion electrode、flooding、wetting，可用于 GDE 润湿/淹没、孔结构或 Micro-CT 三维结构—性能分析。",
+      "abstract": "Electrochemical CO2 reduction reaction (ECO2RR) is a promising technology for converting rapidly rising atmospheric CO2—driven by fossil fuel consumption and industrial processes—into a circular carbon economy. In particular, ECO2RR is expected to enable renewable-based long-duration energy storage (LDES) systems through the highly efficient conversion of CO2 into high-value multi-carbon (C2+) compounds. However, scaling ECO2RR to the industrial level remains challenging because, under high-current operation, the CO2 consumption rate exceeds its supply rate, causing a sharp decline in local CO2 concentration. The resulting increase in local pH promotes both carbonate formation and electrode flooding within the gas diffusion electrode (GDE), creating a wetting-induced mass transfer bottleneck. To address this challenge, this review categorizes and analyzes recent strategies for CO2 microenvironment engineering that overcome mass transfer limitations at high-current densities, focusing on two complementary approaches: (1) enhancing gas-phase CO2 supply while suppressing flooding through nano/microscale hydrophobic polymers and structural gradient designs, and (2) enhancing active CO supply in the liquid phase through electrolyte composition optimization. We further show that these strategies are not mutually independent but create complementary structural and chemical synergies, and we propose future directions for simultaneously improving high-current operability and C2+ product selectivity.",
+      "tags": [
+        "gas diffusion electrode",
+        "flooding",
+        "wetting"
+      ],
+      "score": 95,
+      "url": "https://doi.org/10.3390/nanoenergyadv6030026",
+      "archive": false,
+      "impact_factor": null,
+      "quartile": "Q —",
+      "first_seen": "2026-09-30T09:32:23+02:00"
+    },
+    {
+      "id": "W7214645631",
+      "doi": "https://doi.org/10.1021/acsami.6c14371",
+      "topic": "analysis",
+      "badge": "最新研究",
+      "read_minutes": 6,
+      "title": "Mitigating Chemomechanical Degradation in All-Solid-State Batteries via Combined Porous Silicon and Hard-Carbon Architectures",
+      "journal": "ACS Applied Materials & Interfaces",
+      "year": 2026,
+      "publication_date": "2026-09-29",
+      "authors": [
+        "Yangchen Wu",
+        "Jinmin Luo",
+        "Zhijie Yang",
+        "Yiting Fang",
+        "Ximin Zhai",
+        "Han Cui",
+        "Hao Dang",
+        "Bing Ding"
+      ],
+      "summary_zh": "摘要提要（未启用 AI 中文总结）：Abstract Silicon (Si) is a highly promising anode for next-generation all-solid-state batteries (ASSBs) owing to its exceptional theoretical capacity and low propensity for dendrite formation. However, severe volume fluctuations during (de)lithiation induce chemomechanical degradation and progressive loss of solid–solid contact, drastically limiting long-term cycling stability.",
+      "methods_summary": "原文摘要中的方法信息：Utilizing in situ three-electrode electrochemical impedance spectroscopy, we successfully decouple the interfacial kinetics, revealing significantly suppressed interfacial resistance during operation.",
+      "key_findings": "原文摘要中的主要结果：However, severe volume fluctuations during (de)lithiation induce chemomechanical degradation and progressive loss of solid–solid contact, drastically limiting long-term cycling stability.",
+      "relevance_reason": "命中 kinetic、electrochemical impedance spectroscopy、impedance spectroscopy，可用于 CV、EIS、参比校准、传质或动力学/机理分析。",
+      "abstract": "Abstract Silicon (Si) is a highly promising anode for next-generation all-solid-state batteries (ASSBs) owing to its exceptional theoretical capacity and low propensity for dendrite formation. However, severe volume fluctuations during (de)lithiation induce chemomechanical degradation and progressive loss of solid–solid contact, drastically limiting long-term cycling stability. Here, we report a structurally engineered anode comprising a porous silicon core conformally encapsulated by a graphene-like hard-carbon (HC) layer (pSi@C) to resolve these interfacial bottlenecks. The predefined internal voids of the porous framework intrinsically buffer Si swelling, while the robust carbon shell mitigates macroscopic mechanical stress and establishes a highly efficient mixed ionic–electronic transport network. Utilizing in situ three-electrode electrochemical impedance spectroscopy, we successfully decouple the interfacial kinetics, revealing significantly suppressed interfacial resistance during operation. Consequently, paired with an NCM811 cathode in a full-cell configuration, the pSi@C anode demonstrates robust cycling, delivering a capacity retention of 73.2% after 200 cycles at 0.5 C. This combined architectural design fundamentally addresses the chemomechanical failure of Si, offering a compelling pathway for the practical deployment of high-energy-density ASSBs.",
+      "tags": [
+        "kinetic",
+        "electrochemical impedance spectroscopy",
+        "impedance spectroscopy"
+      ],
+      "score": 84,
+      "url": "https://doi.org/10.1021/acsami.6c14371",
+      "archive": false,
+      "impact_factor": null,
+      "quartile": "Q —",
+      "first_seen": "2026-09-30T09:32:23+02:00"
+    },
+    {
+      "id": "W7212271305",
+      "doi": "https://doi.org/10.1016/j.jcis.2026.141583",
+      "topic": "gde",
+      "badge": "近期研究",
+      "read_minutes": 6,
+      "title": "Fluorine-free gas diffusion layers via covalent hydrocarbon grafting",
+      "journal": "Journal of Colloid and Interface Science",
+      "year": 2026,
+      "publication_date": "2026-09-11",
+      "authors": [
+        "Irene Sinisgalli",
+        "Meike Rijsdijk",
+        "Rik van Gorp",
+        "Antoni Forner‐Cuenca"
+      ],
+      "summary_zh": "摘要提要（未启用 AI 中文总结）：Hypothesis Covalent grafting of linear hydrocarbon chains onto carbon surfaces can provide a controllable route to hydrophobic interfaces, in which chain length governs surface energetics and liquid repellency while improving coating robustness relative to non-covalent hydrophobization approaches. This fluorine-free strategy is therefore hypothesized to provide a fundamentally relevant route for re-engineering porou…",
+      "methods_summary": "原文摘要中的方法信息：The resulting interfaces were analyzed by microscopy and spectroscopy to verify coating formation, and by contact-angle and electrochemical measurements to relate molecular structure to wettability, surface energy, and transport-relevant behavior. Experiments A chemical grafting route using an 18‑carbon alkyl chain was evaluated, while electrochemical grafting was systematically applied to unbranched hydrocarbon cha…",
+      "key_findings": "原文摘要中的主要结果：These results show that covalent hydrocarbon grafting offers a robust platform for engineering low-energy carbon interfaces and establish molecular chain length as a key parameter governing the macroscopic wetting behavior of porous carbon materials.",
+      "relevance_reason": "命中 gas diffusion layer、wetting，可用于 GDE 润湿/淹没、孔结构或 Micro-CT 三维结构—性能分析。",
+      "abstract": "Hypothesis Covalent grafting of linear hydrocarbon chains onto carbon surfaces can provide a controllable route to hydrophobic interfaces, in which chain length governs surface energetics and liquid repellency while improving coating robustness relative to non-covalent hydrophobization approaches. This fluorine-free strategy is therefore hypothesized to provide a fundamentally relevant route for re-engineering porous transport materials, where fluoropolymer-based wetting control remains the prevailing paradigm in electrochemical energy systems. Experiments A chemical grafting route using an 18‑carbon alkyl chain was evaluated, while electrochemical grafting was systematically applied to unbranched hydrocarbon chains containing 10, 14, 16, and 18 carbon atoms. The resulting interfaces were analyzed by microscopy and spectroscopy to verify coating formation, and by contact-angle and electrochemical measurements to relate molecular structure to wettability, surface energy, and transport-relevant behavior. Findings Within the electrografted series, the grafted layers establish a clear chain length-dependent evolution of interfacial properties. Increasing alkyl chain length progressively lowers the solid surface energy and enhances liquid repellency, demonstrating that hydrophobicity can be tuned through molecular design of the grafted interface. The electrografted C18 surface reaches a surface energy of 22.3 mJ m −2 , close to that of polytetrafluoroethylene (20.4 mJ m −2 ), despite being fluorine-free. These results show that covalent hydrocarbon grafting offers a robust platform for engineering low-energy carbon interfaces and establish molecular chain length as a key parameter governing the macroscopic wetting behavior of porous carbon materials.",
+      "tags": [
+        "gas diffusion layer",
+        "wetting"
+      ],
+      "score": 91,
+      "url": "https://doi.org/10.1016/j.jcis.2026.141583",
+      "archive": false,
+      "impact_factor": null,
+      "quartile": "Q —",
+      "first_seen": "2026-09-30T09:32:23+02:00"
+    },
+    {
+      "id": "W7213275047",
+      "doi": "https://doi.org/10.1016/j.nxener.2026.100972",
+      "topic": "analysis",
+      "badge": "近期研究",
+      "read_minutes": 6,
+      "title": "Cobalt-ZIF67 supported growth and exfoliation in molybdenum diselenide nanosheets for enhanced electrocatalytic performance in dye-sensitized solar cells",
+      "journal": "Next Energy",
+      "year": 2026,
+      "publication_date": "2026-09-15",
+      "authors": [
+        "Ankita Singh",
+        "Usama Ansari",
+        "Gaurav Goel",
+        "Sudip Kumar Pattanayek",
+        "Sanjeeve Thakur"
+      ],
+      "summary_zh": "摘要提要（未启用 AI 中文总结）：Molybdenum diselenide (MoSe 2 ) is known for its high intrinsic electrocatalytic activity; however, its practical performance is often limited by severe nanosheet agglomeration, which restricts the exposure of electrochemically active basal planes. In this study, MoSe 2 nanostructures are synthesized in the presence of uniformly dispersed zeolitic imidazole framework (ZIF-67) dodecahedra, which retains most of its s…",
+      "methods_summary": "原文摘要中的方法信息：Cyclic voltammetry reveals a 88% reduction in peak-to-peak potential (Epp), indicating enhanced charge-transfer kinetics, while Tafel analysis shows a 35% improvement in corrosion stability.",
+      "key_findings": "原文摘要中的主要结果：Cyclic voltammetry reveals a 88% reduction in peak-to-peak potential (Epp), indicating enhanced charge-transfer kinetics, while Tafel analysis shows a 35% improvement in corrosion stability. The device shows a 37% increase in power conversion efficiency and stability up to 30 days, retaining 70% of its initial PCE.",
+      "relevance_reason": "命中 cyclic voltammetry、kinetic、tafel，可用于 CV、EIS、参比校准、传质或动力学/机理分析。",
+      "abstract": "Molybdenum diselenide (MoSe 2 ) is known for its high intrinsic electrocatalytic activity; however, its practical performance is often limited by severe nanosheet agglomeration, which restricts the exposure of electrochemically active basal planes. In this study, MoSe 2 nanostructures are synthesized in the presence of uniformly dispersed zeolitic imidazole framework (ZIF-67) dodecahedra, which retains most of its structure. This strategy promoted the circumferential anchoring of MoSe 2 on the ZIF67 surface, effectively suppressing restacking and inducing considerable exfoliation. As a result, the specific surface area (SSA) increases by 1.5-fold, leading to a higher density of accessible active sites. Cyclic voltammetry reveals a 88% reduction in peak-to-peak potential (Epp), indicating enhanced charge-transfer kinetics, while Tafel analysis shows a 35% improvement in corrosion stability. The device shows a 37% increase in power conversion efficiency and stability up to 30 days, retaining 70% of its initial PCE. Moreover, post-restoration measurements reveal an efficiency of 4.41% with only a 16.3% loss compared to the initial PCE. These results demonstrate that ZIF67-mediated growth is an effective route to enhance the electrocatalytic performance of MoSe 2 by mitigating nanosheet agglomeration and increasing the accessibility of active sites.",
+      "tags": [
+        "cyclic voltammetry",
+        "kinetic",
+        "tafel"
+      ],
+      "score": 81,
+      "url": "https://doi.org/10.1016/j.nxener.2026.100972",
+      "archive": false,
+      "impact_factor": null,
+      "quartile": "Q —",
+      "first_seen": "2026-09-30T09:32:23+02:00"
+    },
+    {
+      "id": "W7213759149",
+      "doi": "https://doi.org/10.26434/chemrxiv.15009425/v1",
+      "topic": "gde",
+      "badge": "最新研究",
+      "read_minutes": 6,
+      "title": "Micro-computed-tomography-guided multiphysics simulation: insights into enclosed microelectrochemical flow cells",
+      "journal": "ChemRxiv",
+      "year": 2026,
+      "publication_date": "2026-09-24",
+      "authors": [
+        "Mostafa Mahmoudi",
+        "Darvish Cameron",
+        "Edgar M. Manriquez",
+        "Glen D. O’Neil",
+        "Martin Andrew Edwards"
+      ],
+      "summary_zh": "摘要提要（未启用 AI 中文总结）：Quantitative interpretation of hydrodynamic electrochemical measurements commonly relies on analytical models that assume idealized device geometries. However, verifying the internal geometry of fully enclosed, single-step-3D-printed electrochemical flow cells is challenging because the devices cannot be taken apart without being destroyed.",
+      "methods_summary": "原文摘要中的方法信息：Herein, X-ray micro-computed tomography (micro-CT) is used to non-destructively characterize 3D channel architectures with sub-10 µm voxel resolution. Yet both the simulated and theory results deviate by 30-40% from experimental voltammetry, indicating a discrepancy that geometric non-idealities do not explain.",
+      "key_findings": "原文摘要中的主要结果：Yet, employing true (micro-CT-generated) geometries in three-dimensional multiphysics models of fluid flow and mass transport yielded currents in agreement with the channel flow electrode limiting current equation (based on flux equations formalized by Levich) for rectangular channels!",
+      "relevance_reason": "命中 micro-ct、tomography，可用于 GDE 润湿/淹没、孔结构或 Micro-CT 三维结构—性能分析。",
+      "abstract": "Quantitative interpretation of hydrodynamic electrochemical measurements commonly relies on analytical models that assume idealized device geometries. However, verifying the internal geometry of fully enclosed, single-step-3D-printed electrochemical flow cells is challenging because the devices cannot be taken apart without being destroyed. Herein, X-ray micro-computed tomography (micro-CT) is used to non-destructively characterize 3D channel architectures with sub-10 µm voxel resolution. The 3D-printed channels deviate substantially from the as-designed rectangular geometry, showing corrugated sloping sidewalls and a sagging, undulating ceiling. Yet, employing true (micro-CT-generated) geometries in three-dimensional multiphysics models of fluid flow and mass transport yielded currents in agreement with the channel flow electrode limiting current equation (based on flux equations formalized by Levich) for rectangular channels! This agreement and analysis of transport demonstrate that sidewall corrugation/slope and ceiling sag/undulation do not account for experimental deviations from ideal hydrodynamic behavior. Yet both the simulated and theory results deviate by 30-40% from experimental voltammetry, indicating a discrepancy that geometric non-idealities do not explain. Together, this suggests the disagreement between theory and experiment arises from incomplete consumption of the redox probe at the electrode surface, a condition consistent with the 3D-printed composite electrodes being partially blocked. More broadly, the work establishes the combination of micro-CT, multiphysics simulation, and experiment as a general, non-destructive framework for characterizing complex hydrodynamic electrochemical systems.",
+      "tags": [
+        "micro-ct",
+        "tomography"
+      ],
+      "score": 87,
+      "url": "https://doi.org/10.26434/chemrxiv.15009425/v1",
+      "archive": false,
+      "impact_factor": null,
+      "quartile": "Q —",
+      "first_seen": "2026-09-30T09:32:23+02:00"
+    },
+    {
+      "id": "W7214521452",
+      "doi": "https://doi.org/10.17675/2305-6894-2026-3-19",
+      "topic": "analysis",
+      "badge": "最新研究",
+      "read_minutes": 6,
+      "title": "Corrosion and hydrogen permeation inhibition of St3–steel in H2S/CO2 media by AKB-1 organic inhibitor",
+      "journal": "International Journal of Corrosion and Scale Inhibition",
+      "year": 2026,
+      "publication_date": "2026-09-28",
+      "authors": [],
+      "summary_zh": "摘要提要（未启用 AI 中文总结）：The corrosion inhibition and hydrogen permeation behavior of St3 carbon steel were investigated in aggressive environments containing H2S (400 ppm), CO2 (1 atm), and mixed H2S/CO2 media in a 3 wt.%NaCl solution using the AKB-1 organic inhibitor at concentrations of 5-15 ppm.Gravimetric measurements, electrochemical polarization, electrochemical impedance spectroscopy (EIS), and hydrogen permeation techniques were em…",
+      "methods_summary": "原文摘要中的方法信息：The corrosion inhibition and hydrogen permeation behavior of St3 carbon steel were investigated in aggressive environments containing H2S (400 ppm), CO2 (1 atm), and mixed H2S/CO2 media in a 3 wt.%NaCl solution using the AKB-1 organic inhibitor at concentrations of 5-15 ppm.Gravimetric measurements, electrochemical polarization, electrochemical impedance spectroscopy (EIS), and hydrogen permeation techniques were em…",
+      "key_findings": "原文摘要中的主要结果：The corrosion inhibition and hydrogen permeation behavior of St3 carbon steel were investigated in aggressive environments containing H2S (400 ppm), CO2 (1 atm), and mixed H2S/CO2 media in a 3 wt.%NaCl solution using the AKB-1 organic inhibitor at concentrations of 5-15 ppm.Gravimetric measurements, electrochemical polarization, electrochemical impedance spectroscopy (EIS), and hydrogen permeation techniques were em…",
+      "relevance_reason": "命中 electrochemical impedance spectroscopy、impedance spectroscopy，可用于 CV、EIS、参比校准、传质或动力学/机理分析。",
+      "abstract": "The corrosion inhibition and hydrogen permeation behavior of St3 carbon steel were investigated in aggressive environments containing H2S (400 ppm), CO2 (1 atm), and mixed H2S/CO2 media in a 3 wt.%NaCl solution using the AKB-1 organic inhibitor at concentrations of 5-15 ppm.Gravimetric measurements, electrochemical polarization, electrochemical impedance spectroscopy (EIS), and hydrogen permeation techniques were employed to evaluate the protective performance of the inhibitor.The results showed that AKB-1 significantly reduced the corrosion rate of St3 steel in all investigated media, and its protective efficiency increased with inhibitor concentration.The highest inhibition efficiency reached 98.0% in H2S medium, 94.8% in CO2 medium, and 96.8% in mixed H2S/CO2 medium at an inhibitor concentration of 15 ppm.Hydrogen permeation studies demonstrated that AKB-1 effectively retarded hydrogen transport through the steel membrane, with the hydrogen diffusion retardation coefficient reaching γH=15.4 in H2S medium.Electrochemical results indicated that the inhibitor predominantly suppressed the anodic dissolution process and increased charge transfer resistance.Adsorption analysis showed that surface coverage exceeded θ=0.9 at 15 ppm and followed the Frumkin adsorption isotherm.The calculated adsorption free energy (ΔGads= -21 to -24 kJ/mol) suggests that the inhibitor acts mainly through physical adsorption mechanisms.The obtained results demonstrate that AKB-1 is an effective corrosion inhibitor for steel operating in H2S/CO2-containing environments.",
+      "tags": [
+        "electrochemical impedance spectroscopy",
+        "impedance spectroscopy"
+      ],
+      "score": 79,
+      "url": "https://doi.org/10.17675/2305-6894-2026-3-19",
+      "archive": false,
+      "impact_factor": null,
+      "quartile": "Q —",
+      "first_seen": "2026-09-30T09:32:23+02:00"
+    },
+    {
+      "id": "W7212018207",
+      "doi": "https://doi.org/10.1021/acsmeasuresciau.6c00202",
+      "topic": "gde",
+      "badge": "近期研究",
+      "read_minutes": 6,
+      "title": "Electrical Impedance Tomography for Spatial Conductivity Mapping of PEM Fuel Cell Components",
+      "journal": "ACS Measurement Science Au",
+      "year": 2026,
+      "publication_date": "2026-09-10",
+      "authors": [
+        "Susanne Thiel",
+        "Lennart Mozer",
+        "Maik Eichelbaum"
+      ],
+      "summary_zh": "摘要提要（未启用 AI 中文总结）：Abstract Electrical impedance tomography (EIT) was assessed as a measurement approach for spatial conductivity mapping of electrochemical energy system materials such as polymer electrolyte membrane fuel cell components. Polymer electrolyte membranes were selectively activated or deactivated, and defined artificial defects were introduced into catalyst-coated membranes (CCMs) and gas diffusion layers to evaluate the…",
+      "methods_summary": "原文摘要中的方法信息：Abstract Electrical impedance tomography (EIT) was assessed as a measurement approach for spatial conductivity mapping of electrochemical energy system materials such as polymer electrolyte membrane fuel cell components. Reconstructed conductivity distributions were independently verified using scanning electrochemical microscopy to confirm spatial contrast and reconstruction accuracy.",
+      "key_findings": "原文摘要中的主要结果：Reproducibility studies on CCMs showed that measurement variability and sample remounting effects remained sufficiently low for consistent defect identification, with defect and background signals clearly separated for different confidence intervals.",
+      "relevance_reason": "命中 gas diffusion layer、tomography，可用于 GDE 润湿/淹没、孔结构或 Micro-CT 三维结构—性能分析。",
+      "abstract": "Abstract Electrical impedance tomography (EIT) was assessed as a measurement approach for spatial conductivity mapping of electrochemical energy system materials such as polymer electrolyte membrane fuel cell components. Polymer electrolyte membranes were selectively activated or deactivated, and defined artificial defects were introduced into catalyst-coated membranes (CCMs) and gas diffusion layers to evaluate the sensitivity and diagnostic capability of EIT. Reconstructed conductivity distributions were independently verified using scanning electrochemical microscopy to confirm spatial contrast and reconstruction accuracy. EIT enabled rapid, nondestructive detection of large-area variations in activation state and degradation. Localized defects were reliably detected, with the methodology prioritizing spatial localization and fault identification providing a distinct advantage over electrical impedance spectroscopy, which lacks the spatial context to distinguish between localized and global degradation. Reproducibility studies on CCMs showed that measurement variability and sample remounting effects remained sufficiently low for consistent defect identification, with defect and background signals clearly separated for different confidence intervals. Simulation studies with different electrode counts and positions, defect arrangements, and sample sizes including a realistic fuel cell application-scale CCM sample were performed as a qualitative design illustration for possible future EIT applications. This development constitutes an important methodological step toward fast nondestructive electrochemical imaging of fuel cell materials and may provide a powerful tool for in-line, in situ, and operando investigations of localized activation, degradation, defects, and heterogeneities in electrochemical energy devices.",
+      "tags": [
+        "gas diffusion layer",
+        "tomography"
+      ],
+      "score": 87,
+      "url": "https://doi.org/10.1021/acsmeasuresciau.6c00202",
+      "archive": false,
+      "impact_factor": null,
+      "quartile": "Q —",
+      "first_seen": "2026-09-30T09:32:23+02:00"
+    },
+    {
+      "id": "W7204988593",
+      "doi": "https://doi.org/10.1038/s41598-026-49097-8",
+      "topic": "gde",
+      "badge": "近期研究",
+      "read_minutes": 6,
+      "title": "Morpho-electrochemical behavior of particulate Zn electrodes revealed by X-ray and neutron tomography",
+      "journal": "Scientific Reports",
+      "year": 2026,
+      "publication_date": "2026-09-02",
+      "authors": [
+        "Benedetto Bozzini",
+        "Francesco Casamichiela",
+        "Elisa Emanuele",
+        "Andrea Favalli",
+        "Riccardo Ferretti",
+        "Marc Looman",
+        "A. Pola",
+        "Nicola Sodini"
+      ],
+      "summary_zh": "摘要提要（未启用 AI 中文总结）：Aqueous rechargeable Zn-based batteries are gaining attention for their sustainability, safety, and cost-effectiveness; however, no industrially viable solutions are yet available, due to the synergistic issues of passivation and shape change. In particular, flow batteries with particulate Zn anodes are attractive for long-term stationary storage, at the cost of additional morpho-chemical processes involving the Zn…",
+      "methods_summary": "原文摘要中的方法信息：To this aim, we employ dual-probe chemically sensitive X-ray and thermal neutron tomography and radiography. Specifically, we analyzed an in situ anode in both pristine and discharged states, and we followed its self-discharge process in operando.",
+      "key_findings": "原文摘要中的主要结果：Our findings contribute to paving the way for next-generation Zn flow batteries with improved efficiency and longevity.",
+      "relevance_reason": "命中 x-ray tomography、tomography，可用于 GDE 润湿/淹没、孔结构或 Micro-CT 三维结构—性能分析。",
+      "abstract": "Aqueous rechargeable Zn-based batteries are gaining attention for their sustainability, safety, and cost-effectiveness; however, no industrially viable solutions are yet available, due to the synergistic issues of passivation and shape change. In particular, flow batteries with particulate Zn anodes are attractive for long-term stationary storage, at the cost of additional morpho-chemical processes involving the Zn particle bed and the interparticle space (IPS). Thus, the understanding of this system requires space-dependent information about the arrangement, dimensions, and chemical states of Zn and its discharge products. To this aim, we employ dual-probe chemically sensitive X-ray and thermal neutron tomography and radiography. Specifically, we analyzed an in situ anode in both pristine and discharged states, and we followed its self-discharge process in operando. In situ X-ray tomography reveals the advancement of Zn particle consumption and IPS development. In situ neutron tomography shows the formation and distribution of hydroxides. In operando, neutron radiography gives access to hydrogen bubble formation and dynamics. This first-of-its-kind analysis provides crucial insights, directly informing anode design strategies. Our findings contribute to paving the way for next-generation Zn flow batteries with improved efficiency and longevity.",
+      "tags": [
+        "x-ray tomography",
+        "tomography"
+      ],
+      "score": 85,
+      "url": "https://doi.org/10.1038/s41598-026-49097-8",
+      "archive": false,
+      "impact_factor": null,
+      "quartile": "Q —",
+      "first_seen": "2026-09-30T09:32:23+02:00"
+    },
     {
       "id": "W7213974616",
       "doi": "https://doi.org/10.1021/acs.energyfuels.6c03182",
@@ -51,7 +314,7 @@
       ],
       "score": 99,
       "url": "https://doi.org/10.1021/acs.energyfuels.6c03182",
-      "archive": false,
+      "archive": true,
       "impact_factor": null,
       "quartile": "Q —",
       "first_seen": "2026-09-30T09:10:56+02:00"
@@ -90,7 +353,7 @@
       ],
       "score": 99,
       "url": "https://doi.org/10.1002/celc.70303",
-      "archive": false,
+      "archive": true,
       "impact_factor": null,
       "quartile": "Q —",
       "first_seen": "2026-09-30T09:10:56+02:00"
@@ -123,7 +386,7 @@
       ],
       "score": 99,
       "url": "https://doi.org/10.65382/2221-8688-2027-1-149-169",
-      "archive": false,
+      "archive": true,
       "impact_factor": null,
       "quartile": "Q —",
       "first_seen": "2026-09-30T09:10:56+02:00"
@@ -159,7 +422,7 @@
       ],
       "score": 77,
       "url": "https://doi.org/10.1016/j.nwnano.2026.100245",
-      "archive": false,
+      "archive": true,
       "impact_factor": null,
       "quartile": "Q —",
       "first_seen": "2026-09-30T09:10:56+02:00"
@@ -192,7 +455,7 @@
       ],
       "score": 99,
       "url": "https://doi.org/10.1021/acs.energyfuels.6c03732",
-      "archive": false,
+      "archive": true,
       "impact_factor": null,
       "quartile": "Q —",
       "first_seen": "2026-09-30T09:10:56+02:00"
@@ -227,7 +490,7 @@
       ],
       "score": 92,
       "url": "https://doi.org/10.31224/8334",
-      "archive": false,
+      "archive": true,
       "impact_factor": null,
       "quartile": "Q —",
       "first_seen": "2026-09-30T09:10:56+02:00"
@@ -264,7 +527,7 @@
       ],
       "score": 96,
       "url": "https://doi.org/10.1016/j.jcou.2026.103569",
-      "archive": false,
+      "archive": true,
       "impact_factor": null,
       "quartile": "Q —",
       "first_seen": "2026-09-30T09:10:56+02:00"
@@ -292,7 +555,7 @@
       ],
       "score": 85,
       "url": "https://doi.org/10.17675/2305-6894-2026-15-3-13",
-      "archive": false,
+      "archive": true,
       "impact_factor": null,
       "quartile": "Q —",
       "first_seen": "2026-09-30T09:10:56+02:00"
