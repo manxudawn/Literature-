@@ -1,7 +1,7 @@
 {
   "brief_date": "2026 · 09 · 30",
-  "last_updated": "2026-09-30T09:32+02:00",
-  "match_score": 86,
+  "last_updated": "2026-09-30T09:42+02:00",
+  "match_score": 79,
   "trackers": [
     {
       "name": "Ni electrocarboxylation",
@@ -21,6 +21,172 @@
     }
   ],
   "papers": [
+    {
+      "id": "W7212009378",
+      "doi": "https://doi.org/10.1002/smll.75713",
+      "topic": "gde",
+      "badge": "近期研究",
+      "read_minutes": 6,
+      "title": "In Situ Fluorescence Imaging of Electrode‐Structure‐Dependent Dissolved Oxygen Distributions During Electrocatalytic H 2 O 2 Production",
+      "journal": "Small",
+      "year": 2026,
+      "publication_date": "2026-09-09",
+      "authors": [
+        "Jiawang He",
+        "Hao Lin",
+        "Dongxu Chen",
+        "Ling Lu",
+        "Lele Cui",
+        "Tianle Zhou",
+        "Lianyu Li",
+        "Huaiyi Xu"
+      ],
+      "summary_zh": "摘要提要（未启用 AI 中文总结）：ABSTRACT Hydrogen peroxide (H 2 O 2 ) is an important green oxidant, and its electrosynthesis via the two‐electron oxygen reduction reaction (2e − ORR) provides a sustainable alternative to the conventional anthraquinone process. However, H 2 O 2 production is governed not only by catalyst properties but also by the local dissolved oxygen (DO) distribution at the electrode–electrolyte interface, which remains diffic…",
+      "methods_summary": "原文摘要中的方法信息：However, H 2 O 2 production is governed not only by catalyst properties but also by the local dissolved oxygen (DO) distribution at the electrode–electrolyte interface, which remains difficult to resolve using conventional bulk measurements. Using this system, current‐dependent near‐interface fluorescence‐derived DO variation is monitored, revealing rapid initial DO redistribution followed by a quasi‐steady transpor…",
+      "key_findings": "原文摘要中的主要结果：Spatially resolved analysis of laser‐perforated porous electrodes reveals heterogeneous DO distributions in non‐pore regions, pore interiors, and pore edges. This work provides a quantitative in situ approach for probing electrode‐structure‐dependent DO distributions during H 2 O 2 electrosynthesis.",
+      "relevance_reason": "命中 gas diffusion electrode、porous electrode，可用于 GDE 润湿/淹没、孔结构或 Micro-CT 三维结构—性能分析。",
+      "abstract": "ABSTRACT Hydrogen peroxide (H 2 O 2 ) is an important green oxidant, and its electrosynthesis via the two‐electron oxygen reduction reaction (2e − ORR) provides a sustainable alternative to the conventional anthraquinone process. However, H 2 O 2 production is governed not only by catalyst properties but also by the local dissolved oxygen (DO) distribution at the electrode–electrolyte interface, which remains difficult to resolve using conventional bulk measurements. Herein, we develop an in situ fluorescence imaging system based on the oxygen‐dependent quenching of tris(2,2‐bipyridine) ruthenium(II) (Ru(bpy) 3 2+ ), enabling quantitative visualization of fluorescence‐derived DO variations in the near‐electrode region during electrocatalytic H 2 O 2 production. A reliable calibration correlates fluorescence intensity with DO concentration, while a DnCNN‐based denoising strategy suppresses fluorescence noise, improves the detection limit, and preserves pixel‐scale spatial information. Using this system, current‐dependent near‐interface fluorescence‐derived DO variation is monitored, revealing rapid initial DO redistribution followed by a quasi‐steady transport–reaction balance. Comparative studies of carbon paper and gas diffusion electrodes reveal distinct electrode‐architecture‐associated near‐interface DO responses, suggesting differences in local oxygen accessibility and interfacial transport behavior. Spatially resolved analysis of laser‐perforated porous electrodes reveals heterogeneous DO distributions in non‐pore regions, pore interiors, and pore edges. This work provides a quantitative in situ approach for probing electrode‐structure‐dependent DO distributions during H 2 O 2 electrosynthesis.",
+      "tags": [
+        "gas diffusion electrode",
+        "porous electrode"
+      ],
+      "score": 84,
+      "url": "https://doi.org/10.1002/smll.75713",
+      "archive": false,
+      "impact_factor": null,
+      "quartile": "Q —",
+      "first_seen": "2026-09-30T09:42:29+02:00"
+    },
+    {
+      "id": "W7204895863",
+      "doi": "https://doi.org/10.26434/chemrxiv.15003438/v2",
+      "topic": "analysis",
+      "badge": "近期研究",
+      "read_minutes": 6,
+      "title": "Proton-Donor Identity Shapes Electrochemical Nitrate Reduction to Nitrite on Silver",
+      "journal": "ChemRxiv",
+      "year": 2026,
+      "publication_date": "2026-09-01",
+      "authors": [
+        "Jaxiry Shamara Barroso Martínez",
+        "Gabriel F. Costa",
+        "María Escudero‐Escribano"
+      ],
+      "summary_zh": "摘要提要（未启用 AI 中文总结）：Electrocatalytic nitrate reduction is a key reaction in sustainable nitrogen cycling and water remediation, yet the mechanistic interpretation of its voltammetric response remains poorly understood. On silver electrodes, cyclic voltammograms often display multiple cathodic features assigned to different reaction steps, although a consistent mechanistic interpretation remains elusive.",
+      "methods_summary": "原文摘要中的方法信息：Here, we combine cyclic voltammetry analysis with in-situ product detection using scanning electrochemical microscopy (SECM), and hydrodynamic analysis using rotating disk electrode (RDE), to investigate nitrate-to-nitrite electroreduction on silver. We show that the cathodic response changes from a single peak to two distinct features with increasing nitrate concentration when using phosphate buffer as supporting e…",
+      "key_findings": "原文摘要中的主要结果：We show that the cathodic response changes from a single peak to two distinct features with increasing nitrate concentration when using phosphate buffer as supporting electrolyte. Analysis of concentration, scan rate, and pH dependencies, together with systematic variation of phosphate electrolyte composition, indicates that these features arise from distinct interfacial proton-transfer regimes associated with the a…",
+      "relevance_reason": "命中 cyclic voltammetry、voltammetric，可用于 CV、EIS、参比校准、传质或动力学/机理分析。",
+      "abstract": "Electrocatalytic nitrate reduction is a key reaction in sustainable nitrogen cycling and water remediation, yet the mechanistic interpretation of its voltammetric response remains poorly understood. On silver electrodes, cyclic voltammograms often display multiple cathodic features assigned to different reaction steps, although a consistent mechanistic interpretation remains elusive. Here, we combine cyclic voltammetry analysis with in-situ product detection using scanning electrochemical microscopy (SECM), and hydrodynamic analysis using rotating disk electrode (RDE), to investigate nitrate-to-nitrite electroreduction on silver. We show that the cathodic response changes from a single peak to two distinct features with increasing nitrate concentration when using phosphate buffer as supporting electrolyte. Analysis of concentration, scan rate, and pH dependencies, together with systematic variation of phosphate electrolyte composition, indicates that these features arise from distinct interfacial proton-transfer regimes associated with the availability of H 2 PO 4- as a proton donor. In addition, SECM enables the assignment of each feature to local nitrite formation, ruling out changes in product identity as the origin of each feature. These findings show that phosphate electrolyte modulates proton-donor availability, and, consequently, the voltammetric response of nitrate reduction on silver, providing a framework for interpreting the complex electrocatalytic behavior observed in this system.",
+      "tags": [
+        "cyclic voltammetry",
+        "voltammetric"
+      ],
+      "score": 79,
+      "url": "https://doi.org/10.26434/chemrxiv.15003438/v2",
+      "archive": false,
+      "impact_factor": null,
+      "quartile": "Q —",
+      "first_seen": "2026-09-30T09:42:29+02:00"
+    },
+    {
+      "id": "W7213876650",
+      "doi": "https://doi.org/10.26434/chemrxiv.15009145/v1",
+      "topic": "gde",
+      "badge": "最新研究",
+      "read_minutes": 6,
+      "title": "Fiber-Scale Discrete Element Modeling Approach for Microstructural Evolution in Carbon Felt Electrode Manufacturing",
+      "journal": "ChemRxiv",
+      "year": 2026,
+      "publication_date": "2026-09-21",
+      "authors": [
+        "Arjun Sankar",
+        "Abhilash Valisammagari",
+        "Francisco Fernandez",
+        "Alejandro A. Franco"
+      ],
+      "summary_zh": "摘要提要（未启用 AI 中文总结）：Porous carbon components strongly influence transport, kinetics, and performance in electrochemical energy devices, like electrodes in redox flow batteries or gas diffusion layers in proton exchange membrane fuel cells. Yet quantitative links between industrial felt manufacturing and the resulting microstructure remain insufficiently understood.",
+      "methods_summary": "原文摘要中的方法信息：At each stage, the evolving three-dimensional microstructure is resolved and quantified using fiber- and pore-scale descriptors, including pore-size distributions, fiber-orientation tensors, and transport-related properties.",
+      "key_findings": "原文摘要中的主要结果：The simulations reveal process–structure–transport relationships, identifying key parameters governing pore-throat size, fiber reorientation, and effective diffusivity. These findings define the microstructural design space accessible through conventional felt manufacturing and provide a basis for future process optimization and integration with subsequent thermal-processing stages.",
+      "relevance_reason": "命中 gas diffusion layer、microstructure，可用于 GDE 润湿/淹没、孔结构或 Micro-CT 三维结构—性能分析。",
+      "abstract": "Porous carbon components strongly influence transport, kinetics, and performance in electrochemical energy devices, like electrodes in redox flow batteries or gas diffusion layers in proton exchange membrane fuel cells. Yet quantitative links between industrial felt manufacturing and the resulting microstructure remain insufficiently understood. Recent studies have explored alternative bottom-up fabrication strategies to achieve greater microstructural control, while computational optimization often considers stochastic microstructures without accounting for manufacturability. Consequently, the extent to which conventional manufacturing processes can tailor microstructure remains unclear. Here, we develop a discrete element method framework that resolves fiber-scale interactions and microstructural evolution during mechanical processing of oxidized polyacrylonitrile precursor felts. The framework represents successive stages of fiber generation, web formation, web laying, needle punching, and calendering. At each stage, the evolving three-dimensional microstructure is resolved and quantified using fiber- and pore-scale descriptors, including pore-size distributions, fiber-orientation tensors, and transport-related properties. The simulations reveal process–structure–transport relationships, identifying key parameters governing pore-throat size, fiber reorientation, and effective diffusivity. These findings define the microstructural design space accessible through conventional felt manufacturing and provide a basis for future process optimization and integration with subsequent thermal-processing stages.",
+      "tags": [
+        "gas diffusion layer",
+        "microstructure"
+      ],
+      "score": 80,
+      "url": "https://doi.org/10.26434/chemrxiv.15009145/v1",
+      "archive": false,
+      "impact_factor": null,
+      "quartile": "Q —",
+      "first_seen": "2026-09-30T09:42:29+02:00"
+    },
+    {
+      "id": "W7214501293",
+      "doi": "https://doi.org/10.1002/elan.70228",
+      "topic": "analysis",
+      "badge": "最新研究",
+      "read_minutes": 6,
+      "title": "Electrolyte Potential Control Schemes for Redox‐Cycling",
+      "journal": "Electroanalysis",
+      "year": 2026,
+      "publication_date": "2026-09-25",
+      "authors": [
+        "Alexander Frey",
+        "Nadine Philippin",
+        "Thorsten Koch",
+        "R. Thewes",
+        "Ingo Kuehne"
+      ],
+      "summary_zh": "摘要提要（未启用 AI 中文总结）：Redox‐cycling at interdigitated microelectrode arrays provides amplified current signals for the detection of electroactive species. However, stable operation conventionally requires a reference electrode to control the electrolyte potential.",
+      "methods_summary": "原文摘要中的方法信息：By modulating the electrolyte potential and using the phase‐sensitive current response as an error signal, the counter‐electrode potential is adjusted to maintain maximum redox‐cycling current.",
+      "key_findings": "原文摘要中的主要结果：SPICE simulations based on FEM‐derived current–potential characteristics demonstrate suppression of drift‐induced current variations. The concept is suitable for compact and highly integrated redox‐cycling sensor systems.",
+      "relevance_reason": "命中 kinetic、reference electrode，可用于 CV、EIS、参比校准、传质或动力学/机理分析。",
+      "abstract": "Redox‐cycling at interdigitated microelectrode arrays provides amplified current signals for the detection of electroactive species. However, stable operation conventionally requires a reference electrode to control the electrolyte potential. Here, a two‐dimensional finite‐element model based on Nernst–Planck transport and Butler–Volmer electrode kinetics was developed to analyze the influence of electrolyte potential on redox‐cycling currents. The model was parameterized for the p‐aminophenol/quinoneimine redox couple and reproduced experimentally reported steady‐state currents of approximately 80 nA for 10 µM p‐aminophenol. For the investigated sensor system, the simulations show a broad current maximum around the optimum electrolyte potential. With generator and collector potentials of +150 and −150 mV, respectively, electrolyte‐potential deviations of ±50 mV had little influence on the redox‐cycling current, whereas deviations of ±100 mV reduced the current by approximately 7.5%. These findings explain the experimentally observed tolerance of the system toward potential drift when Au pseudo‐reference electrodes are used. A reference‐electrode‐free control approach based on maximum‐current‐point detection is proposed. By modulating the electrolyte potential and using the phase‐sensitive current response as an error signal, the counter‐electrode potential is adjusted to maintain maximum redox‐cycling current. SPICE simulations based on FEM‐derived current–potential characteristics demonstrate suppression of drift‐induced current variations. The concept is suitable for compact and highly integrated redox‐cycling sensor systems.",
+      "tags": [
+        "kinetic",
+        "reference electrode"
+      ],
+      "score": 77,
+      "url": "https://doi.org/10.1002/elan.70228",
+      "archive": false,
+      "impact_factor": null,
+      "quartile": "Q —",
+      "first_seen": "2026-09-30T09:42:29+02:00"
+    },
+    {
+      "id": "W7214352146",
+      "doi": "https://doi.org/10.1016/j.jtice.2026.107016",
+      "topic": "analysis",
+      "badge": "最新研究",
+      "read_minutes": 6,
+      "title": "Dual-centre Ag@SnO2/multiwalled carbon nanotubes electrocatalyst for hydrogen peroxide reduction",
+      "journal": "Journal of the Taiwan Institute of Chemical Engineers",
+      "year": 2026,
+      "publication_date": "2026-09-25",
+      "authors": [
+        "Marjan S. Ranđelović",
+        "Aleksandra Zarubica",
+        "Miloš Marinković",
+        "Marija Vasić Jovev",
+        "Radomir B. Ljupković",
+        "Valentin Mirceski"
+      ],
+      "summary_zh": "摘要提要（未启用 AI 中文总结）：Background Efficient electrochemical reduction of hydrogen peroxide is important for catalytic, sensing, and energy-related electrochemical applications, while understanding the underlying electrode mechanism remains essential for the rational design of high-performance materials. Methods An Ag@SnO 2 /MWCNT hybrid nanocomposite was synthesized hydrothermally using SnCl 2 and silver acetate precursors, with citric ac…",
+      "methods_summary": "原文摘要中的方法信息：Methods An Ag@SnO 2 /MWCNT hybrid nanocomposite was synthesized hydrothermally using SnCl 2 and silver acetate precursors, with citric acid as a complexing agent. Additionally, cyclic voltammetry and square-wave voltammetry indicate an EC′-type mechanism at the Ag/SnO/SnO 2 heterojunction, where the SnO/SnO 2 redox couple acts as a mediator facilitating electron transfer.",
+      "key_findings": "原文摘要中的主要结果：Physico-chemical characterization confirmed the formation of SnO 2 nanostructures integrated with conductive multiwalled carbon nanotubes (MWCNTs), while Ag incorporation provided additional active sites and improved the electrode kinetics. The developed electrode exhibited improved electrocatalytic performance toward H 2 O 2 reduction.",
+      "relevance_reason": "命中 cyclic voltammetry、kinetic，可用于 CV、EIS、参比校准、传质或动力学/机理分析。",
+      "abstract": "Background Efficient electrochemical reduction of hydrogen peroxide is important for catalytic, sensing, and energy-related electrochemical applications, while understanding the underlying electrode mechanism remains essential for the rational design of high-performance materials. Methods An Ag@SnO 2 /MWCNT hybrid nanocomposite was synthesized hydrothermally using SnCl 2 and silver acetate precursors, with citric acid as a complexing agent. Physico-chemical characterization confirmed the formation of SnO 2 nanostructures integrated with conductive multiwalled carbon nanotubes (MWCNTs), while Ag incorporation provided additional active sites and improved the electrode kinetics. The obtained composite was employed as a modified electrode for H 2 O 2 reduction in an alkaline medium. Significant findings Cyclic voltammograms recorded between 20 and 100 mV s −1 in the presence of 4 mM H 2 O 2 exhibited nearly invariant profiles with minimal current variation, indicating a complex electrocatalytic mechanism. The observed behaviour suggests surface-mediated disproportionation of H 2 O 2 on Ag sites, generating O 2 that is subsequently reduced electrochemically, thereby maintaining the interfacial H 2 O 2 concentration during catalysis. Additionally, cyclic voltammetry and square-wave voltammetry indicate an EC′-type mechanism at the Ag/SnO/SnO 2 heterojunction, where the SnO/SnO 2 redox couple acts as a mediator facilitating electron transfer. The developed electrode exhibited improved electrocatalytic performance toward H 2 O 2 reduction.",
+      "tags": [
+        "cyclic voltammetry",
+        "kinetic"
+      ],
+      "score": 76,
+      "url": "https://doi.org/10.1016/j.jtice.2026.107016",
+      "archive": false,
+      "impact_factor": null,
+      "quartile": "Q —",
+      "first_seen": "2026-09-30T09:42:29+02:00"
+    },
     {
       "id": "W7211875689",
       "doi": "https://doi.org/10.3390/nanoenergyadv6030026",
@@ -49,7 +215,7 @@
       ],
       "score": 95,
       "url": "https://doi.org/10.3390/nanoenergyadv6030026",
-      "archive": false,
+      "archive": true,
       "impact_factor": null,
       "quartile": "Q —",
       "first_seen": "2026-09-30T09:32:23+02:00"
@@ -86,7 +252,7 @@
       ],
       "score": 84,
       "url": "https://doi.org/10.1021/acsami.6c14371",
-      "archive": false,
+      "archive": true,
       "impact_factor": null,
       "quartile": "Q —",
       "first_seen": "2026-09-30T09:32:23+02:00"
@@ -118,7 +284,7 @@
       ],
       "score": 91,
       "url": "https://doi.org/10.1016/j.jcis.2026.141583",
-      "archive": false,
+      "archive": true,
       "impact_factor": null,
       "quartile": "Q —",
       "first_seen": "2026-09-30T09:32:23+02:00"
@@ -152,7 +318,7 @@
       ],
       "score": 81,
       "url": "https://doi.org/10.1016/j.nxener.2026.100972",
-      "archive": false,
+      "archive": true,
       "impact_factor": null,
       "quartile": "Q —",
       "first_seen": "2026-09-30T09:32:23+02:00"
@@ -185,7 +351,7 @@
       ],
       "score": 87,
       "url": "https://doi.org/10.26434/chemrxiv.15009425/v1",
-      "archive": false,
+      "archive": true,
       "impact_factor": null,
       "quartile": "Q —",
       "first_seen": "2026-09-30T09:32:23+02:00"
@@ -212,7 +378,7 @@
       ],
       "score": 79,
       "url": "https://doi.org/10.17675/2305-6894-2026-3-19",
-      "archive": false,
+      "archive": true,
       "impact_factor": null,
       "quartile": "Q —",
       "first_seen": "2026-09-30T09:32:23+02:00"
@@ -243,7 +409,7 @@
       ],
       "score": 87,
       "url": "https://doi.org/10.1021/acsmeasuresciau.6c00202",
-      "archive": false,
+      "archive": true,
       "impact_factor": null,
       "quartile": "Q —",
       "first_seen": "2026-09-30T09:32:23+02:00"
@@ -279,7 +445,7 @@
       ],
       "score": 85,
       "url": "https://doi.org/10.1038/s41598-026-49097-8",
-      "archive": false,
+      "archive": true,
       "impact_factor": null,
       "quartile": "Q —",
       "first_seen": "2026-09-30T09:32:23+02:00"
