@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "updated_at": "2026-09-30",
+  "topics": {
+    "organic": {
+      "label": "有机电催化 CO₂",
+      "keywords": [
+        "electrocarboxylation CO2",
+        "organic electrocarboxylation carbon dioxide",
+        "electrochemical carboxylation CO2",
+        "reductive carboxylation carbon dioxide electrochemistry",
+        "electrochemical CO2 fixation organic synthesis",
+        "electrochemical hydrocarboxylation carbon dioxide",
+        "carboxylative cyclization electrochemistry CO2",
+        "nickel electrosynthesis CO2 carboxylation",
+        "nickel mediated electrocarboxylation",
+        "diene electrocarboxylation",
+        "alkene electrocarboxylation",
+        "CO2 incorporation electrosynthesis",
+        "electrochemical carbon dioxide incorporation organic"
+      ]
+    },
+    "gde": {
+      "label": "GDE / Micro-CT",
+      "keywords": [
+        "gas diffusion electrode CO2 electrolysis",
+        "gas diffusion layer CO2 electrolyzer",
+        "zero gap CO2 electrolyzer gas diffusion electrode",
+        "GDE flooding wetting CO2",
+        "cathode flooding gas diffusion electrode",
+        "operando gas diffusion electrode water management",
+        "X-ray tomography gas diffusion electrode",
+        "operando X-ray tomography electrolyzer electrode",
+        "micro CT porous electrode catalyst layer",
+        "microcomputed tomography electrochemical electrode",
+        "3D reconstruction porous electrode tomography",
+        "micro-CT segmentation gas diffusion electrode",
+        "porous transport layer tomography electrolysis"
+      ]
+    },
+    "analysis": {
+      "label": "电化学分析",
+      "keywords": [
+        "cyclic voltammetry coupled chemical reaction kinetics",
+        "cyclic voltammetry EC ECE mechanism",
+        "cyclic voltammetry reaction mechanism electrosynthesis",
+        "nonaqueous reference electrode ferrocene DMF",
+        "reference electrode calibration nonaqueous electrochemistry",
+        "electrochemical impedance spectroscopy porous electrode",
+        "EIS equivalent circuit porous electrode",
+        "distribution of relaxation times electrochemical impedance",
+        "rotating ring disk electrode selectivity mechanism",
+        "RRDE peroxide selectivity alkaline",
+        "electrochemical kinetics mass transport mechanism",
+        "Tafel transfer coefficient electrocatalysis"
+      ]
+    }
+  }
+}
