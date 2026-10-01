@@ -1,7 +1,11 @@
 {
-  "brief_date": "2026 · 09 · 30",
-  "last_updated": "2026-09-30T09:42+02:00",
-  "match_score": 79,
+  "brief_date": "2026 · 10 · 01",
+  "last_updated": "2026-10-01T14:17+02:00",
+  "summary_mode": "English abstract extraction; no AI/API required",
+  "journal_metric_snapshot": "2025 JIF / JCR quartile, curated 2026-09-30",
+  "keyword_count": 38,
+  "keyword_config_updated": "2026-09-30",
+  "match_score": 90,
   "trackers": [
     {
       "name": "Ni electrocarboxylation",
@@ -21,6 +25,418 @@
     }
   ],
   "papers": [
+    {
+      "id": "W7204254964",
+      "doi": "https://doi.org/10.26434/chemrxiv.15007901/v1",
+      "topic": "organic",
+      "badge": "Recent research",
+      "read_minutes": 6,
+      "title": "Electrocarboxylation of 1,3-butadiene with CO2 to 3-hexenedioic acid: effect of operating parameters on product selectivity",
+      "journal": "ChemRxiv",
+      "journal_issn": [
+        "2573-2293"
+      ],
+      "year": 2026,
+      "publication_date": "2026-08-26",
+      "authors": [
+        "Shahid Ullah Khan",
+        "Adwait Bhingarde",
+        "Wiebren de Jong",
+        "Earl Lawrence Vincent Goetheer",
+        "Ruud Kortlever"
+      ],
+      "summary_en": "The electrochemical carboxylation of alkenes using CO2 is a sustainable and promising approach for synthesizing a variety of organic compounds, especially carboxylic acid derivatives. Temperature was found to play a key role as a maximum Faradaic efficiency of 36% toward electrocarboxylation products was achieved under ambient conditions, which increased to 59% at 40 °C but decreased to 49% at 60 °C.",
+      "methods_summary": "The electrochemical carboxylation of alkenes using CO2 is a sustainable and promising approach for synthesizing a variety of organic compounds, especially carboxylic acid derivatives. The electrocarboxylation was performed in acetonitrile using a nickel cathode, an aluminium anode, and Ag/AgCl reference electrode in an undivided cell.",
+      "key_findings": "Temperature was found to play a key role as a maximum Faradaic efficiency of 36% toward electrocarboxylation products was achieved under ambient conditions, which increased to 59% at 40 °C but decreased to 49% at 60 °C.",
+      "relevance_reason": "Matched electrocarboxylation, electrochemical carboxylation, carboxylation, co2; directly relevant to CO2 electrocarboxylation, non-aqueous electrosynthesis, or Ni-mediated carbon incorporation.",
+      "abstract": "The electrochemical carboxylation of alkenes using CO2 is a sustainable and promising approach for synthesizing a variety of organic compounds, especially carboxylic acid derivatives. These processes are of high scientific and commercial interest as only one or two electrons are required per CO2 molecule to produce value-added products. Here, we report on the electrochemical dicarboxylation of 1,3-butadiene with CO2 to obtain 3-hexenedioic acid, a key intermediate to produce adipic acid. The electrocarboxylation was performed in acetonitrile using a nickel cathode, an aluminium anode, and Ag/AgCl reference electrode in an undivided cell. We systematically explore how different operating conditions including the applied voltage, water content, and temperature affect the reaction performance and the product distribution. Importantly, we find that the water content significantly influences product formation, highlighting its critical role in optimizing the reaction conditions. Temperature was found to play a key role as a maximum Faradaic efficiency of 36% toward electrocarboxylation products was achieved under ambient conditions, which increased to 59% at 40 °C but decreased to 49% at 60 °C.",
+      "tags": [
+        "electrocarboxylation",
+        "electrochemical carboxylation",
+        "carboxylation",
+        "co2",
+        "nickel",
+        "diene"
+      ],
+      "score": 99,
+      "url": "https://doi.org/10.26434/chemrxiv.15007901/v1",
+      "archive": false,
+      "discovery_source": "topic-search",
+      "summary_mode": "abstract-extraction",
+      "impact_factor": null,
+      "quartile": "JCR —",
+      "first_seen": "2026-10-01T14:17:53+02:00"
+    },
+    {
+      "id": "W7214193328",
+      "doi": "https://doi.org/10.1002/fuce.70152",
+      "topic": "gde",
+      "badge": "Latest research",
+      "read_minutes": 6,
+      "title": "Permeability Measurement and Water Transport Visualization in PEMFC Gas Diffusion Layers: A Review",
+      "journal": "Fuel Cells",
+      "journal_issn": [
+        "1615-6846",
+        "1615-6854"
+      ],
+      "year": 2026,
+      "publication_date": "2026-09-24",
+      "authors": [
+        "Tian Tong",
+        "Gaojian Liu",
+        "Chenglin Ren",
+        "Xuelin Li",
+        "Degang Xie"
+      ],
+      "summary_en": "ABSTRACT The performance of proton exchange membrane fuel cells (PEMFCs) is significantly influenced by the mass transport behavior of the gas diffusion layer (GDL), which plays a key role in reactant delivery and water removal. This review is intended to support the rational design of GDL materials and improved water management strategies in PEMFC systems.",
+      "methods_summary": "A comparative analysis of different water transport visualization methods, including direct optical imaging, fluorescence microscopy, environmental scanning electron microscopy, neutron radiography, and X‐ray computed tomography, is presented, focusing on their spatial resolution, real‐time imaging capabilities, and potential for quantitative two‐phase flow analysis. Recent progress in operando neutron imaging, time‐resolved X‐ray tomography, micro‐CT‐informed simulations, machine‐learning‐assisted image analysis,…",
+      "key_findings": "This review is intended to support the rational design of GDL materials and improved water management strategies in PEMFC systems.",
+      "relevance_reason": "Matched gas diffusion layer, gdl, micro-ct, x-ray tomography; relevant to GDE flooding/wetting, porous-electrode transport, or Micro-CT / tomography structure analysis.",
+      "abstract": "ABSTRACT The performance of proton exchange membrane fuel cells (PEMFCs) is significantly influenced by the mass transport behavior of the gas diffusion layer (GDL), which plays a key role in reactant delivery and water removal. This review systematically explores current methods for characterizing GDL gas and liquid permeability and for visualizing water transport using in situ and ex situ techniques. A comparative analysis of different water transport visualization methods, including direct optical imaging, fluorescence microscopy, environmental scanning electron microscopy, neutron radiography, and X‐ray computed tomography, is presented, focusing on their spatial resolution, real‐time imaging capabilities, and potential for quantitative two‐phase flow analysis. Rather than treating these methods as interchangeable diagnostics, this review distinguishes the transport quantities that each method can constrain, including permeability anisotropy, saturation‐dependent transport, breakthrough pathways, water‐cluster connectivity, and the scale gap between pore‐level observation and cell‐level operation. Recent progress in operando neutron imaging, time‐resolved X‐ray tomography, micro‐CT‐informed simulations, machine‐learning‐assisted image analysis, and device‐compatible electrothermal or embedded‐sensor diagnostics indicate that GDL characterization is moving from qualitative visualization toward quantitative, model‐constrained water management design. This review is intended to support the rational design of GDL materials and improved water management strategies in PEMFC systems.",
+      "tags": [
+        "gas diffusion layer",
+        "gdl",
+        "micro-ct",
+        "x-ray tomography",
+        "tomography",
+        "water management"
+      ],
+      "score": 99,
+      "url": "https://doi.org/10.1002/fuce.70152",
+      "archive": false,
+      "discovery_source": "topic-search",
+      "summary_mode": "abstract-extraction",
+      "impact_factor": null,
+      "quartile": "JCR —",
+      "first_seen": "2026-10-01T14:17:53+02:00"
+    },
+    {
+      "id": "W7214970546",
+      "doi": "https://doi.org/10.1021/acsami.6c14641",
+      "topic": "analysis",
+      "badge": "Latest research",
+      "read_minutes": 6,
+      "title": "Fe-Doped Non-stoichiometric Na3.4Co2.4(PO4)1.4P2O7 Cathode for High-Energy-Density Sodium-Ion Batteries",
+      "journal": "ACS Applied Materials & Interfaces",
+      "journal_issn": [
+        "1944-8244",
+        "1944-8252"
+      ],
+      "year": 2026,
+      "publication_date": "2026-09-30",
+      "authors": [
+        "Canfu Zhang",
+        "Yuqi Chen",
+        "Jinbo Ye",
+        "Hao Cheng",
+        "Bowen Yang",
+        "Changwei Shi",
+        "Ting Zhu",
+        "Ping Hu"
+      ],
+      "summary_en": "Abstract Na4Co3(PO4)2P2O7 is a representative mixed polyanionic cathode with a high operating voltage and high energy density. However, insufficient cycling stability is the core bottleneck constraining the widespread application of sodium-ion batteries (SIBs).",
+      "methods_summary": "Through ex situ electrochemical impedance spectroscopy-distribution of relaxation times and galvanostatic intermittent titration technique analyses, it is demonstrated that Fe doping leads to the reduced charge transfer impedance and enhanced Na+ diffusion coefficient.",
+      "key_findings": "However, insufficient cycling stability is the core bottleneck constraining the widespread application of sodium-ion batteries (SIBs). Herein, we propose a synergistic strategy that combines non-stoichiometry with Fe2+ doping to construct Na3.4Co2.4–xFex(PO4)1.4P2O7 (NCFPP-x), which not only enhances phase purity but also improves material stability.",
+      "relevance_reason": "Matched reaction mechanism, electrochemical impedance spectroscopy, impedance spectroscopy, distribution of relaxation times; relevant to CV, EIS, reference-electrode calibration, mass transport, selectivity, or electrochemical mechanism analysis.",
+      "abstract": "Abstract Na4Co3(PO4)2P2O7 is a representative mixed polyanionic cathode with a high operating voltage and high energy density. However, insufficient cycling stability is the core bottleneck constraining the widespread application of sodium-ion batteries (SIBs). Herein, we propose a synergistic strategy that combines non-stoichiometry with Fe2+ doping to construct Na3.4Co2.4–xFex(PO4)1.4P2O7 (NCFPP-x), which not only enhances phase purity but also improves material stability. Through ex situ electrochemical impedance spectroscopy-distribution of relaxation times and galvanostatic intermittent titration technique analyses, it is demonstrated that Fe doping leads to the reduced charge transfer impedance and enhanced Na+ diffusion coefficient. The in situ XRD characterization results demonstrate a highly reversible incomplete solid-solution reaction mechanism during the Na+ intercalation and deintercalation processes. The NCFPP-1.2||Hard carbon (HC) full cell assembled with an HC anode delivers an energy density of 325 Wh kg–1, retaining 80.0% after 200 cycles. The present work offers important theoretical basis and experimental support for the advancement of high-voltage polyanion-type cathode materials.",
+      "tags": [
+        "reaction mechanism",
+        "electrochemical impedance spectroscopy",
+        "impedance spectroscopy",
+        "distribution of relaxation times"
+      ],
+      "score": 97,
+      "url": "https://doi.org/10.1021/acsami.6c14641",
+      "archive": false,
+      "discovery_source": "topic-search",
+      "summary_mode": "abstract-extraction",
+      "impact_factor": null,
+      "quartile": "JCR —",
+      "first_seen": "2026-10-01T14:17:53+02:00"
+    },
+    {
+      "id": "W7210286027",
+      "doi": "https://doi.org/10.1016/j.chphi.2026.101159",
+      "topic": "gde",
+      "badge": "Recent research",
+      "read_minutes": 6,
+      "title": "Air-breathing polymer electrolyte fuel cells: A critical review of recent progress and future research needs",
+      "journal": "Chemical Physics Impact",
+      "journal_issn": [
+        "2667-0224"
+      ],
+      "year": 2026,
+      "publication_date": "2026-09-06",
+      "authors": [
+        "Flavio Odoi-Yorke",
+        "Ephraim Bonah Agyekum",
+        "John Eshun Davis",
+        "Feras Alnaimat",
+        "Arman Ameen",
+        "Seepana Praveenkumar",
+        "Farhan Lafta Rashid"
+      ],
+      "summary_en": "Air-breathing polymer electrolyte fuel cells (PEFCs) are a simplified alternative to conventional forced-convection PEFC systems, eliminating external air-supply devices to reduce system complexity, weight, and cost, and to minimise parasitic losses. The findings highlight that future technological progress depends on improved mass-transport engineering, enhanced membrane stability, optimised passive flow architectures, and integrated stack-level thermal management.",
+      "methods_summary": "Using the Scopus database and a PRISMA-guided screening framework, 224 relevant documents were analysed through the Bibliometrix package in RStudio and VOSviewer to map publication trends, international collaborations, keyword evolution, and thematic research clusters. Keyword co-occurrence analysis identified major research themes centred on water management, gas diffusion layer optimisation, flow-field design, numerical modelling, thermal diagnostics, and durability enhancement.",
+      "key_findings": "The findings highlight that future technological progress depends on improved mass-transport engineering, enhanced membrane stability, optimised passive flow architectures, and integrated stack-level thermal management. The results indicate irregular but sustained growth in research output, with an annual growth rate of 8.67%.",
+      "relevance_reason": "Matched gas diffusion layer, water management; relevant to GDE flooding/wetting, porous-electrode transport, or Micro-CT / tomography structure analysis.",
+      "abstract": "Air-breathing polymer electrolyte fuel cells (PEFCs) are a simplified alternative to conventional forced-convection PEFC systems, eliminating external air-supply devices to reduce system complexity, weight, and cost, and to minimise parasitic losses. Despite these advantages, their passive configuration poses critical challenges in oxygen mass transport, water management, thermal regulation, and environmental sensitivity. This study presents a comprehensive bibliometric and systematic review of air-breathing PEFC research published between 2000 and 2025. Using the Scopus database and a PRISMA-guided screening framework, 224 relevant documents were analysed through the Bibliometrix package in RStudio and VOSviewer to map publication trends, international collaborations, keyword evolution, and thematic research clusters. The results indicate irregular but sustained growth in research output, with an annual growth rate of 8.67%. Keyword co-occurrence analysis identified major research themes centred on water management, gas diffusion layer optimisation, flow-field design, numerical modelling, thermal diagnostics, and durability enhancement. Emerging niches include piezoelectric-assisted mass transport and advanced membrane materials for high-temperature and miniature systems. The findings highlight that future technological progress depends on improved mass-transport engineering, enhanced membrane stability, optimised passive flow architectures, and integrated stack-level thermal management. For researchers, the study clarifies the field's conceptual evolution and highlights the most critical research gaps. For industry stakeholders, it provides strategic insights into design priorities for compact, reliable hydrogen-powered systems suitable for portable, off-grid, and unmanned aerial vehicle applications.",
+      "tags": [
+        "gas diffusion layer",
+        "water management"
+      ],
+      "score": 87,
+      "url": "https://doi.org/10.1016/j.chphi.2026.101159",
+      "archive": false,
+      "discovery_source": "topic-search",
+      "summary_mode": "abstract-extraction",
+      "impact_factor": null,
+      "quartile": "JCR —",
+      "first_seen": "2026-10-01T14:17:53+02:00"
+    },
+    {
+      "id": "W7214612546",
+      "doi": "https://doi.org/10.12691/wjac-11-1-4",
+      "topic": "analysis",
+      "badge": "Latest research",
+      "read_minutes": 7,
+      "title": "Seeing the Two- and Four-Electron Pathways of Oxygen Reduction: A Rotating Ring–Disk Electrode Experiment for the Advanced Curriculum in Electrochemistry",
+      "journal": "World Journal of Analytical Chemistry",
+      "journal_issn": [
+        "2333-1178",
+        "2333-1283"
+      ],
+      "year": 2026,
+      "publication_date": "2026-09-28",
+      "authors": [
+        "Achim Habekost"
+      ],
+      "summary_en": "The oxygen reduction reaction (ORR) is fundamental to fuel cells and metal–air batteries. The Levich and Koutecký–Levich analyses of the disk currents illustrate mass transport control and the extraction of kinetic information, while the potential-resolved hydroperoxide yield and the average number of transferred electrons are obtained from the ratio of ring and disk currents.",
+      "methods_summary": "However, its practical value depends on a mechanistic detail that cannot be resolved by ordinary voltammetry: whether oxygen is reduced directly by four electrons to hydroxide, or by two electrons to hydroperoxide.",
+      "key_findings": "The Levich and Koutecký–Levich analyses of the disk currents illustrate mass transport control and the extraction of kinetic information, while the potential-resolved hydroperoxide yield and the average number of transferred electrons are obtained from the ratio of ring and disk currents. Furthermore, it distinguishes between reliable and unreliable observables (the ratio-based electron number and hydroperoxide yield versus absolute diffusion coefficients and electron numbers from slope analysis).",
+      "relevance_reason": "Matched kinetic, rotating ring-disk, mass transport, tafel; relevant to CV, EIS, reference-electrode calibration, mass transport, selectivity, or electrochemical mechanism analysis.",
+      "abstract": "The oxygen reduction reaction (ORR) is fundamental to fuel cells and metal–air batteries. However, its practical value depends on a mechanistic detail that cannot be resolved by ordinary voltammetry: whether oxygen is reduced directly by four electrons to hydroxide, or by two electrons to hydroperoxide. This article presents an accessible rotating ring–disk electrode experiment that makes this branching process directly observable. Oxygen reduction is measured on a platinum disk in oxygen-saturated 1 M potassium hydroxide solution at five different rotation rates. At the same time, a concentric glassy-carbon ring collects and re-oxidises the hydroperoxide leaving the disk. The Levich and Koutecký–Levich analyses of the disk currents illustrate mass transport control and the extraction of kinetic information, while the potential-resolved hydroperoxide yield and the average number of transferred electrons are obtained from the ratio of ring and disk currents. The measurements reveal a predominantly four-electron pathway (n ≈ 3.4–3.9), alongside a parallel two-electron route whose contribution (approximately 10–30% hydroperoxide) increases towards the onset potential. The mean Tafel slope is approximately 83 mV per decade, which means that a tenfold increase in the magnitude of the kinetic current requires an overpotential change of approximately 83 mV within the fitted region. Its intermediate value between the commonly discussed ~60 and ~120 mV per decade regimes is consistent with coverage- and potential-dependent ORR kinetics on Pt, and it should not be assigned to a single elementary rate-determining step. Beyond the numbers, the experiment demonstrates why the ring is indispensable: it transforms an abstract concept into a measurable quantity that students can interpret from a plot. Furthermore, it distinguishes between reliable and unreliable observables (the ratio-based electron number and hydroperoxide yield versus absolute diffusion coefficients and electron numbers from slope analysis). An open-source analysis workflow lowers the barrier to adoption. This approach is suitable for advanced physical, analytical or inorganic chemistry courses, linking a key electroanalytical technique to a reaction of central importance in electrochemical energy conversion.",
+      "tags": [
+        "kinetic",
+        "rotating ring-disk",
+        "mass transport",
+        "tafel"
+      ],
+      "score": 94,
+      "url": "https://doi.org/10.12691/wjac-11-1-4",
+      "archive": false,
+      "discovery_source": "topic-search",
+      "summary_mode": "abstract-extraction",
+      "impact_factor": null,
+      "quartile": "JCR —",
+      "first_seen": "2026-10-01T14:17:53+02:00"
+    },
+    {
+      "id": "W7214292706",
+      "doi": "https://doi.org/10.1016/j.cej.2026.182338",
+      "topic": "gde",
+      "badge": "Recent research",
+      "read_minutes": 6,
+      "title": "In-situ CO2 capture outperforms conventional bulk pH-swing electrolyzers",
+      "journal": "Chemical Engineering Journal",
+      "journal_issn": [
+        "1385-8947",
+        "1873-3212"
+      ],
+      "year": 2026,
+      "publication_date": "2026-09-01",
+      "authors": [
+        "Silvia Di Martino",
+        "Alessio Mezza",
+        "Rebecca Toscano",
+        "Adriano Sacco",
+        "Francesca Cardano",
+        "Andréa Fin",
+        "Daniele Sassone"
+      ],
+      "summary_en": "Electrochemical CO 2 capture via pH-swing electrolyzers offers a promising alternative to thermally driven amine scrubbing, yet mass transfer limitations at the gas-liquid interface remain a critical bottleneck limiting scalability. Using 0.1 M 2,7-anthraquinone disulfonic acid (AQDS) as a model active redox carrier, the in-situ setup achieved 213.0 mL captured CO 2 versus 152.2 mL for bulk one, representing a 39.9% volumetric gain.",
+      "methods_summary": "Using 0.1 M 2,7-anthraquinone disulfonic acid (AQDS) as a model active redox carrier, the in-situ setup achieved 213.0 mL captured CO 2 versus 152.2 mL for bulk one, representing a 39.9% volumetric gain.",
+      "key_findings": "Using 0.1 M 2,7-anthraquinone disulfonic acid (AQDS) as a model active redox carrier, the in-situ setup achieved 213.0 mL captured CO 2 versus 152.2 mL for bulk one, representing a 39.9% volumetric gain. Energy consumption decreased from 86.1 kJ·mol −1 ( bulk ) to 66.7 kJ·mol −1 ( in-situ ), corresponding to 22.5% reduction.",
+      "relevance_reason": "Matched gas diffusion electrode, electrolyzer; relevant to GDE flooding/wetting, porous-electrode transport, or Micro-CT / tomography structure analysis.",
+      "abstract": "Electrochemical CO 2 capture via pH-swing electrolyzers offers a promising alternative to thermally driven amine scrubbing, yet mass transfer limitations at the gas-liquid interface remain a critical bottleneck limiting scalability. This work addresses this challenge through a novel reactor architecture integrating gas diffusion electrodes (GDE) to enable in-situ CO 2 capture at the electrode surface. We systematically evaluated two flow regimes: the flow-by (diffusion dominated) and flow-through (convective gas transport) and compared their performance against conventional ex-situ setups including bulk bubbling and countercurrent scrubbing . Using 0.1 M 2,7-anthraquinone disulfonic acid (AQDS) as a model active redox carrier, the in-situ setup achieved 213.0 mL captured CO 2 versus 152.2 mL for bulk one, representing a 39.9% volumetric gain. Energy consumption decreased from 86.1 kJ·mol −1 ( bulk ) to 66.7 kJ·mol −1 ( in-situ ), corresponding to 22.5% reduction. Finally, it demonstrated superior capture efficiency (43.7%), volumetric capacity (5.6 kgm −3 ) with minimum CO 2 concentrations of 6.4% from a 10% feed stream compared to the ex-situ setups. Continuous operation over 96 h confirmed reversible cycling without performance degradation. These findings establish reactor engineering as the primary design variable for electrochemical capture systems, enabling substantial performance improvements independent of electrolyte optimization. The demonstrated scalability pathway provides actionable design principles for industrial CO 2 capture applications across diverse source concentrations.",
+      "tags": [
+        "gas diffusion electrode",
+        "electrolyzer"
+      ],
+      "score": 86,
+      "url": "https://doi.org/10.1016/j.cej.2026.182338",
+      "archive": false,
+      "discovery_source": "topic-search",
+      "summary_mode": "abstract-extraction",
+      "impact_factor": null,
+      "quartile": "JCR —",
+      "first_seen": "2026-10-01T14:17:53+02:00"
+    },
+    {
+      "id": "W7214889477",
+      "doi": "https://doi.org/10.1002/cctc.202600023",
+      "topic": "analysis",
+      "badge": "Latest research",
+      "read_minutes": 6,
+      "title": "Current‐Dependent Pathway Switching in Electrochemical Oxidative Dehydrogenation of Ethane Over an LSC Electrode in SOEC",
+      "journal": "ChemCatChem",
+      "journal_issn": [
+        "1867-3880",
+        "1867-3899"
+      ],
+      "year": 2026,
+      "publication_date": "2026-09-30",
+      "authors": [
+        "Zhijie Wang",
+        "Jinxuan Hao",
+        "Hongpeng Fan",
+        "Xiao Lin",
+        "Linjuan Zhang",
+        "Jian‐Qiang Wang"
+      ],
+      "summary_en": "ABSTRACT Electrochemical oxidative dehydrogenation (ODH) of ethane in solid oxide electrolysis cells (SOECs) offers a promising alternative to energy‐intensive steam cracking. This work investigates the ODH mechanism using an LSC (La 0.6 Sr 0.4 CoO 3‐δ ) anode in a 5 cm*5 cm single cell, achieving high ethylene selectivity (∼44%) at 650°C.",
+      "methods_summary": "Through a combination of electrochemical impedance spectroscopy with distribution of relaxation times (EIS‐DRT) and detailed product analysis, we reveal a decisive shift in the dominant reaction pathway governed by the applied current density. ABSTRACT Electrochemical oxidative dehydrogenation (ODH) of ethane in solid oxide electrolysis cells (SOECs) offers a promising alternative to energy‐intensive steam cracking.",
+      "key_findings": "This work investigates the ODH mechanism using an LSC (La 0.6 Sr 0.4 CoO 3‐δ ) anode in a 5 cm*5 cm single cell, achieving high ethylene selectivity (∼44%) at 650°C. In contrast, operation at elevated temperatures (e.g., 700°C) leads to anode degradation and a shift in selectivity.",
+      "relevance_reason": "Matched electrochemical impedance spectroscopy, impedance spectroscopy, distribution of relaxation times; relevant to CV, EIS, reference-electrode calibration, mass transport, selectivity, or electrochemical mechanism analysis.",
+      "abstract": "ABSTRACT Electrochemical oxidative dehydrogenation (ODH) of ethane in solid oxide electrolysis cells (SOECs) offers a promising alternative to energy‐intensive steam cracking. This work investigates the ODH mechanism using an LSC (La 0.6 Sr 0.4 CoO 3‐δ ) anode in a 5 cm*5 cm single cell, achieving high ethylene selectivity (∼44%) at 650°C. In contrast, operation at elevated temperatures (e.g., 700°C) leads to anode degradation and a shift in selectivity. Through a combination of electrochemical impedance spectroscopy with distribution of relaxation times (EIS‐DRT) and detailed product analysis, we reveal a decisive shift in the dominant reaction pathway governed by the applied current density. At low current densities, the direct electrochemical oxidation of ethane by surface oxygen species prevails. As the current increases, the mechanism transitions to a tandem process where the oxygen evolution reaction occurs first, followed by the thermochemical ODH of ethane. This mechanistic crossover is rationalized by the competition between ethane diffusion to active sites and the rate of electrochemical oxygen supply. These findings provide fundamental insights into the interplay of electrochemical and thermochemical steps in high‐temperature alkane electrolysis, highlighting current density as a key lever for controlling selectivity.",
+      "tags": [
+        "electrochemical impedance spectroscopy",
+        "impedance spectroscopy",
+        "distribution of relaxation times"
+      ],
+      "score": 92,
+      "url": "https://doi.org/10.1002/cctc.202600023",
+      "archive": false,
+      "discovery_source": "topic-search",
+      "summary_mode": "abstract-extraction",
+      "impact_factor": null,
+      "quartile": "JCR —",
+      "first_seen": "2026-10-01T14:17:53+02:00"
+    },
+    {
+      "id": "W7212036907",
+      "doi": "https://doi.org/10.1002/cctc.71046",
+      "topic": "gde",
+      "badge": "Recent research",
+      "read_minutes": 6,
+      "title": "Enhancing Selectivity of AuCu Electrocatalysts for CO 2 Electroreduction in Chloride Electrolyte",
+      "journal": "ChemCatChem",
+      "journal_issn": [
+        "1867-3880",
+        "1867-3899"
+      ],
+      "year": 2026,
+      "publication_date": "2026-09-01",
+      "authors": [
+        "Mohamed Amazian",
+        "Daniel Dolz",
+        "Bokinala Moses Abraham",
+        "Maria Sarret",
+        "Ángel Morales‐García",
+        "Francesc Viñes",
+        "Francesc Illas",
+        "Teresa Andreu"
+      ],
+      "summary_en": "ABSTRACT The electrochemical reduction of CO 2 (CO 2 RR) into valuable C 1 products such as CO is a promising strategy for sustainable fuel and commodity chemicals production. While Au exhibited high CO selectivity in KHCO 3 , the AuCu and Au 2 Cu alloys showed significantly improved CO production in KCl, achieving faradaic efficiencies up to 80%.",
+      "methods_summary": "Hereby, the synergistic effects of Au–Cu bimetallic electrocatalysts in the presence of chloride electrolytes to enhance CO 2 RR selectivity and efficiency are explored by combining experiments and computational modeling. First‐principles calculations based on density functional theory on suited bimetallic models rationalize the observed experimental changes in selectivity in terms of promoting/inhibiting CO 2 RR versus formic acid formation and hydrogen evolution reaction (HER).",
+      "key_findings": "While Au exhibited high CO selectivity in KHCO 3 , the AuCu and Au 2 Cu alloys showed significantly improved CO production in KCl, achieving faradaic efficiencies up to 80%. Hereby, the synergistic effects of Au–Cu bimetallic electrocatalysts in the presence of chloride electrolytes to enhance CO 2 RR selectivity and efficiency are explored by combining experiments and computational modeling.",
+      "relevance_reason": "Matched gas diffusion electrode; relevant to GDE flooding/wetting, porous-electrode transport, or Micro-CT / tomography structure analysis.",
+      "abstract": "ABSTRACT The electrochemical reduction of CO 2 (CO 2 RR) into valuable C 1 products such as CO is a promising strategy for sustainable fuel and commodity chemicals production. Hereby, the synergistic effects of Au–Cu bimetallic electrocatalysts in the presence of chloride electrolytes to enhance CO 2 RR selectivity and efficiency are explored by combining experiments and computational modeling. Gas diffusion electrodes (GDEs) composed of Au, Cu, and AuCu alloys were synthesized by electrodeposition and tested in KHCO 3 and KCl electrolytes. While Au exhibited high CO selectivity in KHCO 3 , the AuCu and Au 2 Cu alloys showed significantly improved CO production in KCl, achieving faradaic efficiencies up to 80%. First‐principles calculations based on density functional theory on suited bimetallic models rationalize the observed experimental changes in selectivity in terms of promoting/inhibiting CO 2 RR versus formic acid formation and hydrogen evolution reaction (HER). Our analysis shows that Au 2 Cu displays the highest CO 2 RR activity, with an Au‐rich surface composition together with Cu‐rich subsurface. These findings highlight the potential of halide‐functionalized AuCu alloys for efficient and selective CO 2 electroreduction.",
+      "tags": [
+        "gas diffusion electrode"
+      ],
+      "score": 80,
+      "url": "https://doi.org/10.1002/cctc.71046",
+      "archive": false,
+      "discovery_source": "topic-search",
+      "summary_mode": "abstract-extraction",
+      "impact_factor": null,
+      "quartile": "JCR —",
+      "first_seen": "2026-10-01T14:17:53+02:00"
+    },
+    {
+      "id": "W7213919896",
+      "doi": "https://doi.org/10.1002/cssc.71062",
+      "topic": "analysis",
+      "badge": "Latest research",
+      "read_minutes": 6,
+      "title": "Effect of SiO x Nanocoating Deposition Route on Oxygen Evolution Reaction/Chlorine Evolution Reaction Selectivity of IrO x Anodes in Acidic Saline Water Electrolysis",
+      "journal": "ChemSusChem",
+      "journal_issn": [
+        "1864-5631",
+        "1864-564X"
+      ],
+      "year": 2026,
+      "publication_date": "2026-09-20",
+      "authors": [
+        "Katherine Stephanie Encalada‐Flores",
+        "Koen De Graaf",
+        "Athina Tzavara‐Roussi",
+        "B. S. Chavan",
+        "Philipp Brüner",
+        "Thomas Grehl",
+        "J. Ruud van Ommen",
+        "Ruud Kortlever"
+      ],
+      "summary_en": "Proton exchange membrane water electrolysis for green hydrogen production is typically designed for ultrapure water feeds. Previous studies used spin coating (SC) to fabricate SiO x coatings, but enhanced OER selectivity was limited to smooth catalyst surfaces, and the coatings showed poor mechanical stability.",
+      "methods_summary": "Proton exchange membrane water electrolysis for green hydrogen production is typically designed for ultrapure water feeds. SiO x ‐coated anodes were evaluated in a low‐salinity acidic electrolyte using a rotating ring–disk electrode (RRDE) to quantify chlorine evolution and assess mechanical integrity.",
+      "key_findings": "Previous studies used spin coating (SC) to fabricate SiO x coatings, but enhanced OER selectivity was limited to smooth catalyst surfaces, and the coatings showed poor mechanical stability. After 50 scans, plasma‐enhanced ALD and spray coating at a SiO x thickness of 0.5 nm both reduced CER selectivity by approximately 36% relative to uncoated IrO x , whereas thermal ALD showed no selective CER suppression.",
+      "relevance_reason": "Matched rotating ring-disk, rrde; relevant to CV, EIS, reference-electrode calibration, mass transport, selectivity, or electrochemical mechanism analysis.",
+      "abstract": "Proton exchange membrane water electrolysis for green hydrogen production is typically designed for ultrapure water feeds. In offshore applications, for example, when coupled to desalination, residual chloride can still trigger the chlorine evolution reaction (CER), motivating the development of oxygen evolution reaction (OER)‐selective anodes. Silicon oxide (SiO x ) nanocoatings exhibit chloride‐blocking behavior and suppress Cl 2 formation. Previous studies used spin coating (SC) to fabricate SiO x coatings, but enhanced OER selectivity was limited to smooth catalyst surfaces, and the coatings showed poor mechanical stability. Here, we introduce atomic layer deposition (ALD) as a vapor‐phase alternative and benchmark it against SC to investigate how the SiO x fabrication method influences chlorine suppression on rough amorphous IrO x anodes. SiO x ‐coated anodes were evaluated in a low‐salinity acidic electrolyte using a rotating ring–disk electrode (RRDE) to quantify chlorine evolution and assess mechanical integrity. After 50 scans, plasma‐enhanced ALD and spray coating at a SiO x thickness of 0.5 nm both reduced CER selectivity by approximately 36% relative to uncoated IrO x , whereas thermal ALD showed no selective CER suppression. These findings show that the chloride‐blocking behavior of ultrathin SiO x nanocoatings depends strongly on the deposition route and likely arises from multiple coupled chemical, structural, and interfacial properties.",
+      "tags": [
+        "rotating ring-disk",
+        "rrde"
+      ],
+      "score": 84,
+      "url": "https://doi.org/10.1002/cssc.71062",
+      "archive": false,
+      "discovery_source": "topic-search",
+      "summary_mode": "abstract-extraction",
+      "impact_factor": null,
+      "quartile": "JCR —",
+      "first_seen": "2026-10-01T14:17:53+02:00"
+    },
+    {
+      "id": "W7213456799",
+      "doi": "https://doi.org/10.36347/sjpms.2026.v13i09.003",
+      "topic": "analysis",
+      "badge": "Recent research",
+      "read_minutes": 6,
+      "title": "From First-Principles Descriptors to Device Performance: A Quantitative Review and Meta-Analysis of Two-Dimensional Electrocatalysts for Green Hydrogen Production and Fuel Cells",
+      "journal": "Scholars Journal of Physics Mathematics and Statistics",
+      "journal_issn": [
+        "2393-8056",
+        "2393-8064"
+      ],
+      "year": 2026,
+      "publication_date": "2026-09-16",
+      "authors": [
+        "Waqar Yousaf Sidra",
+        "Muhammad Abdullah",
+        "Usama Tahir",
+        "Aasma Bibi",
+        "Usman Tariq",
+        "Muhammad Abdullah Fiza"
+      ],
+      "summary_en": "Green hydrogen and fuel cells are central to renewable-energy systems, yet their deployment remains constrained by sluggish electrocatalytic kinetics, scarce noble metals, insufficient durability, and weak translation from theoretical activity to device performance. Following PRISMA 2020, eligible computational, experimental, and integrated studies will be identified, critically appraised, and assembled into a harmonized database spanning structural stability, adsorption free energies, electronic descriptors, overpotentials, Tafel slopes, current densit…",
+      "methods_summary": "Random-effects meta-analysis, subgroup analysis, meta-regression, correlation testing, sensitivity analysis, and publication-bias assessment will quantify performance trends and DFT-to-experiment agreement across graphene derivatives, transition-metal dichalcogenides, MXenes, layered hydroxides, Janus structures, heterostructures, and atomically dispersed catalysts.",
+      "key_findings": "Following PRISMA 2020, eligible computational, experimental, and integrated studies will be identified, critically appraised, and assembled into a harmonized database spanning structural stability, adsorption free energies, electronic descriptors, overpotentials, Tafel slopes, current densities, turnover frequencies, durability, electrolyzer efficiency, and fuel-cell power density.",
+      "relevance_reason": "Matched kinetic, mass transport, tafel; relevant to CV, EIS, reference-electrode calibration, mass transport, selectivity, or electrochemical mechanism analysis.",
+      "abstract": "Green hydrogen and fuel cells are central to renewable-energy systems, yet their deployment remains constrained by sluggish electrocatalytic kinetics, scarce noble metals, insufficient durability, and weak translation from theoretical activity to device performance. Two-dimensional electrocatalysts offer high surface accessibility, tunable electronic structures, and engineerable active sites; however, fragmented computational and experimental evidence prevents reliable cross-material comparison. This review will systematically connect first-principles descriptors with reaction-, electrode-, and device-level performance for the hydrogen evolution, oxygen evolution, and oxygen reduction reactions. Following PRISMA 2020, eligible computational, experimental, and integrated studies will be identified, critically appraised, and assembled into a harmonized database spanning structural stability, adsorption free energies, electronic descriptors, overpotentials, Tafel slopes, current densities, turnover frequencies, durability, electrolyzer efficiency, and fuel-cell power density. Random-effects meta-analysis, subgroup analysis, meta-regression, correlation testing, sensitivity analysis, and publication-bias assessment will quantify performance trends and DFT-to-experiment agreement across graphene derivatives, transition-metal dichalcogenides, MXenes, layered hydroxides, Janus structures, heterostructures, and atomically dispersed catalysts. Particular attention will be given to solvation, electrode potential, surface reconstruction, catalyst loading, and mass transport as origins of prediction–performance divergence. The resulting evidence framework will establish reproducible benchmarking practices and a multiscale roadmap for translating first-principles-designed two-dimensional catalysts into durable, scalable, practical hydrogen technologies.",
+      "tags": [
+        "kinetic",
+        "mass transport",
+        "tafel"
+      ],
+      "score": 78,
+      "url": "https://doi.org/10.36347/sjpms.2026.v13i09.003",
+      "archive": false,
+      "discovery_source": "topic-search",
+      "summary_mode": "abstract-extraction",
+      "impact_factor": null,
+      "quartile": "JCR —",
+      "first_seen": "2026-10-01T14:17:53+02:00"
+    },
     {
       "id": "W7212009378",
       "doi": "https://doi.org/10.1002/smll.75713",
@@ -42,9 +458,9 @@
         "Huaiyi Xu"
       ],
       "summary_zh": "摘要提要（未启用 AI 中文总结）：ABSTRACT Hydrogen peroxide (H 2 O 2 ) is an important green oxidant, and its electrosynthesis via the two‐electron oxygen reduction reaction (2e − ORR) provides a sustainable alternative to the conventional anthraquinone process. However, H 2 O 2 production is governed not only by catalyst properties but also by the local dissolved oxygen (DO) distribution at the electrode–electrolyte interface, which remains diffic…",
-      "methods_summary": "原文摘要中的方法信息：However, H 2 O 2 production is governed not only by catalyst properties but also by the local dissolved oxygen (DO) distribution at the electrode–electrolyte interface, which remains difficult to resolve using conventional bulk measurements. Using this system, current‐dependent near‐interface fluorescence‐derived DO variation is monitored, revealing rapid initial DO redistribution followed by a quasi‐steady transpor…",
-      "key_findings": "原文摘要中的主要结果：Spatially resolved analysis of laser‐perforated porous electrodes reveals heterogeneous DO distributions in non‐pore regions, pore interiors, and pore edges. This work provides a quantitative in situ approach for probing electrode‐structure‐dependent DO distributions during H 2 O 2 electrosynthesis.",
-      "relevance_reason": "命中 gas diffusion electrode、porous electrode，可用于 GDE 润湿/淹没、孔结构或 Micro-CT 三维结构—性能分析。",
+      "methods_summary": "However, H 2 O 2 production is governed not only by catalyst properties but also by the local dissolved oxygen (DO) distribution at the electrode–electrolyte interface, which remains difficult to resolve using conventional bulk measurements. Using this system, current‐dependent near‐interface fluorescence‐derived DO variation is monitored, revealing rapid initial DO redistribution followed by a quasi‐steady transport–reaction balance.",
+      "key_findings": "This work provides a quantitative in situ approach for probing electrode‐structure‐dependent DO distributions during H 2 O 2 electrosynthesis.",
+      "relevance_reason": "Matched gas diffusion electrode, porous electrode; relevant to GDE flooding/wetting, porous-electrode transport, or Micro-CT / tomography structure analysis.",
       "abstract": "ABSTRACT Hydrogen peroxide (H 2 O 2 ) is an important green oxidant, and its electrosynthesis via the two‐electron oxygen reduction reaction (2e − ORR) provides a sustainable alternative to the conventional anthraquinone process. However, H 2 O 2 production is governed not only by catalyst properties but also by the local dissolved oxygen (DO) distribution at the electrode–electrolyte interface, which remains difficult to resolve using conventional bulk measurements. Herein, we develop an in situ fluorescence imaging system based on the oxygen‐dependent quenching of tris(2,2‐bipyridine) ruthenium(II) (Ru(bpy) 3 2+ ), enabling quantitative visualization of fluorescence‐derived DO variations in the near‐electrode region during electrocatalytic H 2 O 2 production. A reliable calibration correlates fluorescence intensity with DO concentration, while a DnCNN‐based denoising strategy suppresses fluorescence noise, improves the detection limit, and preserves pixel‐scale spatial information. Using this system, current‐dependent near‐interface fluorescence‐derived DO variation is monitored, revealing rapid initial DO redistribution followed by a quasi‐steady transport–reaction balance. Comparative studies of carbon paper and gas diffusion electrodes reveal distinct electrode‐architecture‐associated near‐interface DO responses, suggesting differences in local oxygen accessibility and interfacial transport behavior. Spatially resolved analysis of laser‐perforated porous electrodes reveals heterogeneous DO distributions in non‐pore regions, pore interiors, and pore edges. This work provides a quantitative in situ approach for probing electrode‐structure‐dependent DO distributions during H 2 O 2 electrosynthesis.",
       "tags": [
         "gas diffusion electrode",
@@ -52,10 +468,12 @@
       ],
       "score": 84,
       "url": "https://doi.org/10.1002/smll.75713",
-      "archive": false,
+      "archive": true,
       "impact_factor": null,
-      "quartile": "Q —",
-      "first_seen": "2026-09-30T09:42:29+02:00"
+      "quartile": "JCR —",
+      "first_seen": "2026-09-30T09:42:29+02:00",
+      "summary_en": "ABSTRACT Hydrogen peroxide (H 2 O 2 ) is an important green oxidant, and its electrosynthesis via the two‐electron oxygen reduction reaction (2e − ORR) provides a sustainable alternative to the conventional anthraquinone process. However, H 2 O 2 production is governed not only by catalyst properties but also by the local dissolved oxygen (DO) distribution at the electrode–electrolyte interface, which remains difficult to resolve using conventional bulk measurements.",
+      "summary_mode": "abstract-extraction"
     },
     {
       "id": "W7204895863",
@@ -73,9 +491,9 @@
         "María Escudero‐Escribano"
       ],
       "summary_zh": "摘要提要（未启用 AI 中文总结）：Electrocatalytic nitrate reduction is a key reaction in sustainable nitrogen cycling and water remediation, yet the mechanistic interpretation of its voltammetric response remains poorly understood. On silver electrodes, cyclic voltammograms often display multiple cathodic features assigned to different reaction steps, although a consistent mechanistic interpretation remains elusive.",
-      "methods_summary": "原文摘要中的方法信息：Here, we combine cyclic voltammetry analysis with in-situ product detection using scanning electrochemical microscopy (SECM), and hydrodynamic analysis using rotating disk electrode (RDE), to investigate nitrate-to-nitrite electroreduction on silver. We show that the cathodic response changes from a single peak to two distinct features with increasing nitrate concentration when using phosphate buffer as supporting e…",
-      "key_findings": "原文摘要中的主要结果：We show that the cathodic response changes from a single peak to two distinct features with increasing nitrate concentration when using phosphate buffer as supporting electrolyte. Analysis of concentration, scan rate, and pH dependencies, together with systematic variation of phosphate electrolyte composition, indicates that these features arise from distinct interfacial proton-transfer regimes associated with the a…",
-      "relevance_reason": "命中 cyclic voltammetry、voltammetric，可用于 CV、EIS、参比校准、传质或动力学/机理分析。",
+      "methods_summary": "Here, we combine cyclic voltammetry analysis with in-situ product detection using scanning electrochemical microscopy (SECM), and hydrodynamic analysis using rotating disk electrode (RDE), to investigate nitrate-to-nitrite electroreduction on silver. We show that the cathodic response changes from a single peak to two distinct features with increasing nitrate concentration when using phosphate buffer as supporting electrolyte.",
+      "key_findings": "We show that the cathodic response changes from a single peak to two distinct features with increasing nitrate concentration when using phosphate buffer as supporting electrolyte. Analysis of concentration, scan rate, and pH dependencies, together with systematic variation of phosphate electrolyte composition, indicates that these features arise from distinct interfacial proton-transfer regimes associated with the availability of H 2 PO 4- as a proton donor.",
+      "relevance_reason": "Matched cyclic voltammetry, voltammetric; relevant to CV, EIS, reference-electrode calibration, mass transport, selectivity, or electrochemical mechanism analysis.",
       "abstract": "Electrocatalytic nitrate reduction is a key reaction in sustainable nitrogen cycling and water remediation, yet the mechanistic interpretation of its voltammetric response remains poorly understood. On silver electrodes, cyclic voltammograms often display multiple cathodic features assigned to different reaction steps, although a consistent mechanistic interpretation remains elusive. Here, we combine cyclic voltammetry analysis with in-situ product detection using scanning electrochemical microscopy (SECM), and hydrodynamic analysis using rotating disk electrode (RDE), to investigate nitrate-to-nitrite electroreduction on silver. We show that the cathodic response changes from a single peak to two distinct features with increasing nitrate concentration when using phosphate buffer as supporting electrolyte. Analysis of concentration, scan rate, and pH dependencies, together with systematic variation of phosphate electrolyte composition, indicates that these features arise from distinct interfacial proton-transfer regimes associated with the availability of H 2 PO 4- as a proton donor. In addition, SECM enables the assignment of each feature to local nitrite formation, ruling out changes in product identity as the origin of each feature. These findings show that phosphate electrolyte modulates proton-donor availability, and, consequently, the voltammetric response of nitrate reduction on silver, providing a framework for interpreting the complex electrocatalytic behavior observed in this system.",
       "tags": [
         "cyclic voltammetry",
@@ -83,10 +501,12 @@
       ],
       "score": 79,
       "url": "https://doi.org/10.26434/chemrxiv.15003438/v2",
-      "archive": false,
+      "archive": true,
       "impact_factor": null,
-      "quartile": "Q —",
-      "first_seen": "2026-09-30T09:42:29+02:00"
+      "quartile": "JCR —",
+      "first_seen": "2026-09-30T09:42:29+02:00",
+      "summary_en": "Electrocatalytic nitrate reduction is a key reaction in sustainable nitrogen cycling and water remediation, yet the mechanistic interpretation of its voltammetric response remains poorly understood. We show that the cathodic response changes from a single peak to two distinct features with increasing nitrate concentration when using phosphate buffer as supporting electrolyte.",
+      "summary_mode": "abstract-extraction"
     },
     {
       "id": "W7213876650",
@@ -105,9 +525,9 @@
         "Alejandro A. Franco"
       ],
       "summary_zh": "摘要提要（未启用 AI 中文总结）：Porous carbon components strongly influence transport, kinetics, and performance in electrochemical energy devices, like electrodes in redox flow batteries or gas diffusion layers in proton exchange membrane fuel cells. Yet quantitative links between industrial felt manufacturing and the resulting microstructure remain insufficiently understood.",
-      "methods_summary": "原文摘要中的方法信息：At each stage, the evolving three-dimensional microstructure is resolved and quantified using fiber- and pore-scale descriptors, including pore-size distributions, fiber-orientation tensors, and transport-related properties.",
-      "key_findings": "原文摘要中的主要结果：The simulations reveal process–structure–transport relationships, identifying key parameters governing pore-throat size, fiber reorientation, and effective diffusivity. These findings define the microstructural design space accessible through conventional felt manufacturing and provide a basis for future process optimization and integration with subsequent thermal-processing stages.",
-      "relevance_reason": "命中 gas diffusion layer、microstructure，可用于 GDE 润湿/淹没、孔结构或 Micro-CT 三维结构—性能分析。",
+      "methods_summary": "At each stage, the evolving three-dimensional microstructure is resolved and quantified using fiber- and pore-scale descriptors, including pore-size distributions, fiber-orientation tensors, and transport-related properties. The simulations reveal process–structure–transport relationships, identifying key parameters governing pore-throat size, fiber reorientation, and effective diffusivity.",
+      "key_findings": "These findings define the microstructural design space accessible through conventional felt manufacturing and provide a basis for future process optimization and integration with subsequent thermal-processing stages.",
+      "relevance_reason": "Matched gas diffusion layer, microstructure; relevant to GDE flooding/wetting, porous-electrode transport, or Micro-CT / tomography structure analysis.",
       "abstract": "Porous carbon components strongly influence transport, kinetics, and performance in electrochemical energy devices, like electrodes in redox flow batteries or gas diffusion layers in proton exchange membrane fuel cells. Yet quantitative links between industrial felt manufacturing and the resulting microstructure remain insufficiently understood. Recent studies have explored alternative bottom-up fabrication strategies to achieve greater microstructural control, while computational optimization often considers stochastic microstructures without accounting for manufacturability. Consequently, the extent to which conventional manufacturing processes can tailor microstructure remains unclear. Here, we develop a discrete element method framework that resolves fiber-scale interactions and microstructural evolution during mechanical processing of oxidized polyacrylonitrile precursor felts. The framework represents successive stages of fiber generation, web formation, web laying, needle punching, and calendering. At each stage, the evolving three-dimensional microstructure is resolved and quantified using fiber- and pore-scale descriptors, including pore-size distributions, fiber-orientation tensors, and transport-related properties. The simulations reveal process–structure–transport relationships, identifying key parameters governing pore-throat size, fiber reorientation, and effective diffusivity. These findings define the microstructural design space accessible through conventional felt manufacturing and provide a basis for future process optimization and integration with subsequent thermal-processing stages.",
       "tags": [
         "gas diffusion layer",
@@ -115,10 +535,12 @@
       ],
       "score": 80,
       "url": "https://doi.org/10.26434/chemrxiv.15009145/v1",
-      "archive": false,
+      "archive": true,
       "impact_factor": null,
-      "quartile": "Q —",
-      "first_seen": "2026-09-30T09:42:29+02:00"
+      "quartile": "JCR —",
+      "first_seen": "2026-09-30T09:42:29+02:00",
+      "summary_en": "Porous carbon components strongly influence transport, kinetics, and performance in electrochemical energy devices, like electrodes in redox flow batteries or gas diffusion layers in proton exchange membrane fuel cells. Yet quantitative links between industrial felt manufacturing and the resulting microstructure remain insufficiently understood.",
+      "summary_mode": "abstract-extraction"
     },
     {
       "id": "W7214501293",
@@ -138,9 +560,9 @@
         "Ingo Kuehne"
       ],
       "summary_zh": "摘要提要（未启用 AI 中文总结）：Redox‐cycling at interdigitated microelectrode arrays provides amplified current signals for the detection of electroactive species. However, stable operation conventionally requires a reference electrode to control the electrolyte potential.",
-      "methods_summary": "原文摘要中的方法信息：By modulating the electrolyte potential and using the phase‐sensitive current response as an error signal, the counter‐electrode potential is adjusted to maintain maximum redox‐cycling current.",
-      "key_findings": "原文摘要中的主要结果：SPICE simulations based on FEM‐derived current–potential characteristics demonstrate suppression of drift‐induced current variations. The concept is suitable for compact and highly integrated redox‐cycling sensor systems.",
-      "relevance_reason": "命中 kinetic、reference electrode，可用于 CV、EIS、参比校准、传质或动力学/机理分析。",
+      "methods_summary": "For the investigated sensor system, the simulations show a broad current maximum around the optimum electrolyte potential. By modulating the electrolyte potential and using the phase‐sensitive current response as an error signal, the counter‐electrode potential is adjusted to maintain maximum redox‐cycling current.",
+      "key_findings": "The concept is suitable for compact and highly integrated redox‐cycling sensor systems.",
+      "relevance_reason": "Matched kinetic, reference electrode; relevant to CV, EIS, reference-electrode calibration, mass transport, selectivity, or electrochemical mechanism analysis.",
       "abstract": "Redox‐cycling at interdigitated microelectrode arrays provides amplified current signals for the detection of electroactive species. However, stable operation conventionally requires a reference electrode to control the electrolyte potential. Here, a two‐dimensional finite‐element model based on Nernst–Planck transport and Butler–Volmer electrode kinetics was developed to analyze the influence of electrolyte potential on redox‐cycling currents. The model was parameterized for the p‐aminophenol/quinoneimine redox couple and reproduced experimentally reported steady‐state currents of approximately 80 nA for 10 µM p‐aminophenol. For the investigated sensor system, the simulations show a broad current maximum around the optimum electrolyte potential. With generator and collector potentials of +150 and −150 mV, respectively, electrolyte‐potential deviations of ±50 mV had little influence on the redox‐cycling current, whereas deviations of ±100 mV reduced the current by approximately 7.5%. These findings explain the experimentally observed tolerance of the system toward potential drift when Au pseudo‐reference electrodes are used. A reference‐electrode‐free control approach based on maximum‐current‐point detection is proposed. By modulating the electrolyte potential and using the phase‐sensitive current response as an error signal, the counter‐electrode potential is adjusted to maintain maximum redox‐cycling current. SPICE simulations based on FEM‐derived current–potential characteristics demonstrate suppression of drift‐induced current variations. The concept is suitable for compact and highly integrated redox‐cycling sensor systems.",
       "tags": [
         "kinetic",
@@ -148,10 +570,12 @@
       ],
       "score": 77,
       "url": "https://doi.org/10.1002/elan.70228",
-      "archive": false,
+      "archive": true,
       "impact_factor": null,
-      "quartile": "Q —",
-      "first_seen": "2026-09-30T09:42:29+02:00"
+      "quartile": "JCR —",
+      "first_seen": "2026-09-30T09:42:29+02:00",
+      "summary_en": "Redox‐cycling at interdigitated microelectrode arrays provides amplified current signals for the detection of electroactive species. However, stable operation conventionally requires a reference electrode to control the electrolyte potential.",
+      "summary_mode": "abstract-extraction"
     },
     {
       "id": "W7214352146",
@@ -172,9 +596,9 @@
         "Valentin Mirceski"
       ],
       "summary_zh": "摘要提要（未启用 AI 中文总结）：Background Efficient electrochemical reduction of hydrogen peroxide is important for catalytic, sensing, and energy-related electrochemical applications, while understanding the underlying electrode mechanism remains essential for the rational design of high-performance materials. Methods An Ag@SnO 2 /MWCNT hybrid nanocomposite was synthesized hydrothermally using SnCl 2 and silver acetate precursors, with citric ac…",
-      "methods_summary": "原文摘要中的方法信息：Methods An Ag@SnO 2 /MWCNT hybrid nanocomposite was synthesized hydrothermally using SnCl 2 and silver acetate precursors, with citric acid as a complexing agent. Additionally, cyclic voltammetry and square-wave voltammetry indicate an EC′-type mechanism at the Ag/SnO/SnO 2 heterojunction, where the SnO/SnO 2 redox couple acts as a mediator facilitating electron transfer.",
-      "key_findings": "原文摘要中的主要结果：Physico-chemical characterization confirmed the formation of SnO 2 nanostructures integrated with conductive multiwalled carbon nanotubes (MWCNTs), while Ag incorporation provided additional active sites and improved the electrode kinetics. The developed electrode exhibited improved electrocatalytic performance toward H 2 O 2 reduction.",
-      "relevance_reason": "命中 cyclic voltammetry、kinetic，可用于 CV、EIS、参比校准、传质或动力学/机理分析。",
+      "methods_summary": "Methods An Ag@SnO 2 /MWCNT hybrid nanocomposite was synthesized hydrothermally using SnCl 2 and silver acetate precursors, with citric acid as a complexing agent. Additionally, cyclic voltammetry and square-wave voltammetry indicate an EC′-type mechanism at the Ag/SnO/SnO 2 heterojunction, where the SnO/SnO 2 redox couple acts as a mediator facilitating electron transfer.",
+      "key_findings": "Physico-chemical characterization confirmed the formation of SnO 2 nanostructures integrated with conductive multiwalled carbon nanotubes (MWCNTs), while Ag incorporation provided additional active sites and improved the electrode kinetics. The developed electrode exhibited improved electrocatalytic performance toward H 2 O 2 reduction.",
+      "relevance_reason": "Matched cyclic voltammetry, kinetic; relevant to CV, EIS, reference-electrode calibration, mass transport, selectivity, or electrochemical mechanism analysis.",
       "abstract": "Background Efficient electrochemical reduction of hydrogen peroxide is important for catalytic, sensing, and energy-related electrochemical applications, while understanding the underlying electrode mechanism remains essential for the rational design of high-performance materials. Methods An Ag@SnO 2 /MWCNT hybrid nanocomposite was synthesized hydrothermally using SnCl 2 and silver acetate precursors, with citric acid as a complexing agent. Physico-chemical characterization confirmed the formation of SnO 2 nanostructures integrated with conductive multiwalled carbon nanotubes (MWCNTs), while Ag incorporation provided additional active sites and improved the electrode kinetics. The obtained composite was employed as a modified electrode for H 2 O 2 reduction in an alkaline medium. Significant findings Cyclic voltammograms recorded between 20 and 100 mV s −1 in the presence of 4 mM H 2 O 2 exhibited nearly invariant profiles with minimal current variation, indicating a complex electrocatalytic mechanism. The observed behaviour suggests surface-mediated disproportionation of H 2 O 2 on Ag sites, generating O 2 that is subsequently reduced electrochemically, thereby maintaining the interfacial H 2 O 2 concentration during catalysis. Additionally, cyclic voltammetry and square-wave voltammetry indicate an EC′-type mechanism at the Ag/SnO/SnO 2 heterojunction, where the SnO/SnO 2 redox couple acts as a mediator facilitating electron transfer. The developed electrode exhibited improved electrocatalytic performance toward H 2 O 2 reduction.",
       "tags": [
         "cyclic voltammetry",
@@ -182,10 +606,12 @@
       ],
       "score": 76,
       "url": "https://doi.org/10.1016/j.jtice.2026.107016",
-      "archive": false,
+      "archive": true,
       "impact_factor": null,
-      "quartile": "Q —",
-      "first_seen": "2026-09-30T09:42:29+02:00"
+      "quartile": "JCR —",
+      "first_seen": "2026-09-30T09:42:29+02:00",
+      "summary_en": "Background Efficient electrochemical reduction of hydrogen peroxide is important for catalytic, sensing, and energy-related electrochemical applications, while understanding the underlying electrode mechanism remains essential for the rational design of high-performance materials. Physico-chemical characterization confirmed the formation of SnO 2 nanostructures integrated with conductive multiwalled carbon nanotubes (MWCNTs), while Ag incorporation provided additional active sites and improved the electrode kinetics.",
+      "summary_mode": "abstract-extraction"
     },
     {
       "id": "W7211875689",
@@ -204,9 +630,9 @@
         "Juran Noh"
       ],
       "summary_zh": "摘要提要（未启用 AI 中文总结）：Electrochemical CO2 reduction reaction (ECO2RR) is a promising technology for converting rapidly rising atmospheric CO2—driven by fossil fuel consumption and industrial processes—into a circular carbon economy. In particular, ECO2RR is expected to enable renewable-based long-duration energy storage (LDES) systems through the highly efficient conversion of CO2 into high-value multi-carbon (C2+) compounds.",
-      "methods_summary": "原文摘要中的方法信息：However, scaling ECO2RR to the industrial level remains challenging because, under high-current operation, the CO2 consumption rate exceeds its supply rate, causing a sharp decline in local CO2 concentration. To address this challenge, this review categorizes and analyzes recent strategies for CO2 microenvironment engineering that overcome mass transfer limitations at high-current densities, focusing on two compleme…",
-      "key_findings": "原文摘要中的主要结果：In particular, ECO2RR is expected to enable renewable-based long-duration energy storage (LDES) systems through the highly efficient conversion of CO2 into high-value multi-carbon (C2+) compounds. We further show that these strategies are not mutually independent but create complementary structural and chemical synergies, and we propose future directions for simultaneously improving high-current operability and C2+…",
-      "relevance_reason": "命中 gas diffusion electrode、flooding、wetting，可用于 GDE 润湿/淹没、孔结构或 Micro-CT 三维结构—性能分析。",
+      "methods_summary": "However, scaling ECO2RR to the industrial level remains challenging because, under high-current operation, the CO2 consumption rate exceeds its supply rate, causing a sharp decline in local CO2 concentration. To address this challenge, this review categorizes and analyzes recent strategies for CO2 microenvironment engineering that overcome mass transfer limitations at high-current densities, focusing on two complementary approaches: (1) enhancing gas-phase CO2 supply while suppressing flooding through nano/microsc…",
+      "key_findings": "In particular, ECO2RR is expected to enable renewable-based long-duration energy storage (LDES) systems through the highly efficient conversion of CO2 into high-value multi-carbon (C2+) compounds. We further show that these strategies are not mutually independent but create complementary structural and chemical synergies, and we propose future directions for simultaneously improving high-current operability and C2+ product selectivity.",
+      "relevance_reason": "Matched gas diffusion electrode, flooding, wetting; relevant to GDE flooding/wetting, porous-electrode transport, or Micro-CT / tomography structure analysis.",
       "abstract": "Electrochemical CO2 reduction reaction (ECO2RR) is a promising technology for converting rapidly rising atmospheric CO2—driven by fossil fuel consumption and industrial processes—into a circular carbon economy. In particular, ECO2RR is expected to enable renewable-based long-duration energy storage (LDES) systems through the highly efficient conversion of CO2 into high-value multi-carbon (C2+) compounds. However, scaling ECO2RR to the industrial level remains challenging because, under high-current operation, the CO2 consumption rate exceeds its supply rate, causing a sharp decline in local CO2 concentration. The resulting increase in local pH promotes both carbonate formation and electrode flooding within the gas diffusion electrode (GDE), creating a wetting-induced mass transfer bottleneck. To address this challenge, this review categorizes and analyzes recent strategies for CO2 microenvironment engineering that overcome mass transfer limitations at high-current densities, focusing on two complementary approaches: (1) enhancing gas-phase CO2 supply while suppressing flooding through nano/microscale hydrophobic polymers and structural gradient designs, and (2) enhancing active CO supply in the liquid phase through electrolyte composition optimization. We further show that these strategies are not mutually independent but create complementary structural and chemical synergies, and we propose future directions for simultaneously improving high-current operability and C2+ product selectivity.",
       "tags": [
         "gas diffusion electrode",
@@ -217,8 +643,10 @@
       "url": "https://doi.org/10.3390/nanoenergyadv6030026",
       "archive": true,
       "impact_factor": null,
-      "quartile": "Q —",
-      "first_seen": "2026-09-30T09:32:23+02:00"
+      "quartile": "JCR —",
+      "first_seen": "2026-09-30T09:32:23+02:00",
+      "summary_en": "Electrochemical CO2 reduction reaction (ECO2RR) is a promising technology for converting rapidly rising atmospheric CO2—driven by fossil fuel consumption and industrial processes—into a circular carbon economy. In particular, ECO2RR is expected to enable renewable-based long-duration energy storage (LDES) systems through the highly efficient conversion of CO2 into high-value multi-carbon (C2+) compounds.",
+      "summary_mode": "abstract-extraction"
     },
     {
       "id": "W7214645631",
@@ -241,9 +669,9 @@
         "Bing Ding"
       ],
       "summary_zh": "摘要提要（未启用 AI 中文总结）：Abstract Silicon (Si) is a highly promising anode for next-generation all-solid-state batteries (ASSBs) owing to its exceptional theoretical capacity and low propensity for dendrite formation. However, severe volume fluctuations during (de)lithiation induce chemomechanical degradation and progressive loss of solid–solid contact, drastically limiting long-term cycling stability.",
-      "methods_summary": "原文摘要中的方法信息：Utilizing in situ three-electrode electrochemical impedance spectroscopy, we successfully decouple the interfacial kinetics, revealing significantly suppressed interfacial resistance during operation.",
-      "key_findings": "原文摘要中的主要结果：However, severe volume fluctuations during (de)lithiation induce chemomechanical degradation and progressive loss of solid–solid contact, drastically limiting long-term cycling stability.",
-      "relevance_reason": "命中 kinetic、electrochemical impedance spectroscopy、impedance spectroscopy，可用于 CV、EIS、参比校准、传质或动力学/机理分析。",
+      "methods_summary": "Utilizing in situ three-electrode electrochemical impedance spectroscopy, we successfully decouple the interfacial kinetics, revealing significantly suppressed interfacial resistance during operation.",
+      "key_findings": "However, severe volume fluctuations during (de)lithiation induce chemomechanical degradation and progressive loss of solid–solid contact, drastically limiting long-term cycling stability.",
+      "relevance_reason": "Matched kinetic, electrochemical impedance spectroscopy, impedance spectroscopy; relevant to CV, EIS, reference-electrode calibration, mass transport, selectivity, or electrochemical mechanism analysis.",
       "abstract": "Abstract Silicon (Si) is a highly promising anode for next-generation all-solid-state batteries (ASSBs) owing to its exceptional theoretical capacity and low propensity for dendrite formation. However, severe volume fluctuations during (de)lithiation induce chemomechanical degradation and progressive loss of solid–solid contact, drastically limiting long-term cycling stability. Here, we report a structurally engineered anode comprising a porous silicon core conformally encapsulated by a graphene-like hard-carbon (HC) layer (pSi@C) to resolve these interfacial bottlenecks. The predefined internal voids of the porous framework intrinsically buffer Si swelling, while the robust carbon shell mitigates macroscopic mechanical stress and establishes a highly efficient mixed ionic–electronic transport network. Utilizing in situ three-electrode electrochemical impedance spectroscopy, we successfully decouple the interfacial kinetics, revealing significantly suppressed interfacial resistance during operation. Consequently, paired with an NCM811 cathode in a full-cell configuration, the pSi@C anode demonstrates robust cycling, delivering a capacity retention of 73.2% after 200 cycles at 0.5 C. This combined architectural design fundamentally addresses the chemomechanical failure of Si, offering a compelling pathway for the practical deployment of high-energy-density ASSBs.",
       "tags": [
         "kinetic",
@@ -254,8 +682,10 @@
       "url": "https://doi.org/10.1021/acsami.6c14371",
       "archive": true,
       "impact_factor": null,
-      "quartile": "Q —",
-      "first_seen": "2026-09-30T09:32:23+02:00"
+      "quartile": "JCR —",
+      "first_seen": "2026-09-30T09:32:23+02:00",
+      "summary_en": "Abstract Silicon (Si) is a highly promising anode for next-generation all-solid-state batteries (ASSBs) owing to its exceptional theoretical capacity and low propensity for dendrite formation. However, severe volume fluctuations during (de)lithiation induce chemomechanical degradation and progressive loss of solid–solid contact, drastically limiting long-term cycling stability.",
+      "summary_mode": "abstract-extraction"
     },
     {
       "id": "W7212271305",
@@ -274,9 +704,9 @@
         "Antoni Forner‐Cuenca"
       ],
       "summary_zh": "摘要提要（未启用 AI 中文总结）：Hypothesis Covalent grafting of linear hydrocarbon chains onto carbon surfaces can provide a controllable route to hydrophobic interfaces, in which chain length governs surface energetics and liquid repellency while improving coating robustness relative to non-covalent hydrophobization approaches. This fluorine-free strategy is therefore hypothesized to provide a fundamentally relevant route for re-engineering porou…",
-      "methods_summary": "原文摘要中的方法信息：The resulting interfaces were analyzed by microscopy and spectroscopy to verify coating formation, and by contact-angle and electrochemical measurements to relate molecular structure to wettability, surface energy, and transport-relevant behavior. Experiments A chemical grafting route using an 18‑carbon alkyl chain was evaluated, while electrochemical grafting was systematically applied to unbranched hydrocarbon cha…",
-      "key_findings": "原文摘要中的主要结果：These results show that covalent hydrocarbon grafting offers a robust platform for engineering low-energy carbon interfaces and establish molecular chain length as a key parameter governing the macroscopic wetting behavior of porous carbon materials.",
-      "relevance_reason": "命中 gas diffusion layer、wetting，可用于 GDE 润湿/淹没、孔结构或 Micro-CT 三维结构—性能分析。",
+      "methods_summary": "The resulting interfaces were analyzed by microscopy and spectroscopy to verify coating formation, and by contact-angle and electrochemical measurements to relate molecular structure to wettability, surface energy, and transport-relevant behavior. Experiments A chemical grafting route using an 18‑carbon alkyl chain was evaluated, while electrochemical grafting was systematically applied to unbranched hydrocarbon chains containing 10, 14, 16, and 18 carbon atoms.",
+      "key_findings": "These results show that covalent hydrocarbon grafting offers a robust platform for engineering low-energy carbon interfaces and establish molecular chain length as a key parameter governing the macroscopic wetting behavior of porous carbon materials.",
+      "relevance_reason": "Matched gas diffusion layer, wetting; relevant to GDE flooding/wetting, porous-electrode transport, or Micro-CT / tomography structure analysis.",
       "abstract": "Hypothesis Covalent grafting of linear hydrocarbon chains onto carbon surfaces can provide a controllable route to hydrophobic interfaces, in which chain length governs surface energetics and liquid repellency while improving coating robustness relative to non-covalent hydrophobization approaches. This fluorine-free strategy is therefore hypothesized to provide a fundamentally relevant route for re-engineering porous transport materials, where fluoropolymer-based wetting control remains the prevailing paradigm in electrochemical energy systems. Experiments A chemical grafting route using an 18‑carbon alkyl chain was evaluated, while electrochemical grafting was systematically applied to unbranched hydrocarbon chains containing 10, 14, 16, and 18 carbon atoms. The resulting interfaces were analyzed by microscopy and spectroscopy to verify coating formation, and by contact-angle and electrochemical measurements to relate molecular structure to wettability, surface energy, and transport-relevant behavior. Findings Within the electrografted series, the grafted layers establish a clear chain length-dependent evolution of interfacial properties. Increasing alkyl chain length progressively lowers the solid surface energy and enhances liquid repellency, demonstrating that hydrophobicity can be tuned through molecular design of the grafted interface. The electrografted C18 surface reaches a surface energy of 22.3 mJ m −2 , close to that of polytetrafluoroethylene (20.4 mJ m −2 ), despite being fluorine-free. These results show that covalent hydrocarbon grafting offers a robust platform for engineering low-energy carbon interfaces and establish molecular chain length as a key parameter governing the macroscopic wetting behavior of porous carbon materials.",
       "tags": [
         "gas diffusion layer",
@@ -286,8 +716,10 @@
       "url": "https://doi.org/10.1016/j.jcis.2026.141583",
       "archive": true,
       "impact_factor": null,
-      "quartile": "Q —",
-      "first_seen": "2026-09-30T09:32:23+02:00"
+      "quartile": "JCR —",
+      "first_seen": "2026-09-30T09:32:23+02:00",
+      "summary_en": "Hypothesis Covalent grafting of linear hydrocarbon chains onto carbon surfaces can provide a controllable route to hydrophobic interfaces, in which chain length governs surface energetics and liquid repellency while improving coating robustness relative to non-covalent hydrophobization approaches. These results show that covalent hydrocarbon grafting offers a robust platform for engineering low-energy carbon interfaces and establish molecular chain length as a key parameter governing the macroscopic wetting behavior of porous carbon materials.",
+      "summary_mode": "abstract-extraction"
     },
     {
       "id": "W7213275047",
@@ -307,9 +739,9 @@
         "Sanjeeve Thakur"
       ],
       "summary_zh": "摘要提要（未启用 AI 中文总结）：Molybdenum diselenide (MoSe 2 ) is known for its high intrinsic electrocatalytic activity; however, its practical performance is often limited by severe nanosheet agglomeration, which restricts the exposure of electrochemically active basal planes. In this study, MoSe 2 nanostructures are synthesized in the presence of uniformly dispersed zeolitic imidazole framework (ZIF-67) dodecahedra, which retains most of its s…",
-      "methods_summary": "原文摘要中的方法信息：Cyclic voltammetry reveals a 88% reduction in peak-to-peak potential (Epp), indicating enhanced charge-transfer kinetics, while Tafel analysis shows a 35% improvement in corrosion stability.",
-      "key_findings": "原文摘要中的主要结果：Cyclic voltammetry reveals a 88% reduction in peak-to-peak potential (Epp), indicating enhanced charge-transfer kinetics, while Tafel analysis shows a 35% improvement in corrosion stability. The device shows a 37% increase in power conversion efficiency and stability up to 30 days, retaining 70% of its initial PCE.",
-      "relevance_reason": "命中 cyclic voltammetry、kinetic、tafel，可用于 CV、EIS、参比校准、传质或动力学/机理分析。",
+      "methods_summary": "Cyclic voltammetry reveals a 88% reduction in peak-to-peak potential (Epp), indicating enhanced charge-transfer kinetics, while Tafel analysis shows a 35% improvement in corrosion stability.",
+      "key_findings": "Cyclic voltammetry reveals a 88% reduction in peak-to-peak potential (Epp), indicating enhanced charge-transfer kinetics, while Tafel analysis shows a 35% improvement in corrosion stability. The device shows a 37% increase in power conversion efficiency and stability up to 30 days, retaining 70% of its initial PCE.",
+      "relevance_reason": "Matched cyclic voltammetry, kinetic, tafel; relevant to CV, EIS, reference-electrode calibration, mass transport, selectivity, or electrochemical mechanism analysis.",
       "abstract": "Molybdenum diselenide (MoSe 2 ) is known for its high intrinsic electrocatalytic activity; however, its practical performance is often limited by severe nanosheet agglomeration, which restricts the exposure of electrochemically active basal planes. In this study, MoSe 2 nanostructures are synthesized in the presence of uniformly dispersed zeolitic imidazole framework (ZIF-67) dodecahedra, which retains most of its structure. This strategy promoted the circumferential anchoring of MoSe 2 on the ZIF67 surface, effectively suppressing restacking and inducing considerable exfoliation. As a result, the specific surface area (SSA) increases by 1.5-fold, leading to a higher density of accessible active sites. Cyclic voltammetry reveals a 88% reduction in peak-to-peak potential (Epp), indicating enhanced charge-transfer kinetics, while Tafel analysis shows a 35% improvement in corrosion stability. The device shows a 37% increase in power conversion efficiency and stability up to 30 days, retaining 70% of its initial PCE. Moreover, post-restoration measurements reveal an efficiency of 4.41% with only a 16.3% loss compared to the initial PCE. These results demonstrate that ZIF67-mediated growth is an effective route to enhance the electrocatalytic performance of MoSe 2 by mitigating nanosheet agglomeration and increasing the accessibility of active sites.",
       "tags": [
         "cyclic voltammetry",
@@ -320,8 +752,10 @@
       "url": "https://doi.org/10.1016/j.nxener.2026.100972",
       "archive": true,
       "impact_factor": null,
-      "quartile": "Q —",
-      "first_seen": "2026-09-30T09:32:23+02:00"
+      "quartile": "JCR —",
+      "first_seen": "2026-09-30T09:32:23+02:00",
+      "summary_en": "Molybdenum diselenide (MoSe 2 ) is known for its high intrinsic electrocatalytic activity; however, its practical performance is often limited by severe nanosheet agglomeration, which restricts the exposure of electrochemically active basal planes. Cyclic voltammetry reveals a 88% reduction in peak-to-peak potential (Epp), indicating enhanced charge-transfer kinetics, while Tafel analysis shows a 35% improvement in corrosion stability.",
+      "summary_mode": "abstract-extraction"
     },
     {
       "id": "W7213759149",
@@ -341,9 +775,9 @@
         "Martin Andrew Edwards"
       ],
       "summary_zh": "摘要提要（未启用 AI 中文总结）：Quantitative interpretation of hydrodynamic electrochemical measurements commonly relies on analytical models that assume idealized device geometries. However, verifying the internal geometry of fully enclosed, single-step-3D-printed electrochemical flow cells is challenging because the devices cannot be taken apart without being destroyed.",
-      "methods_summary": "原文摘要中的方法信息：Herein, X-ray micro-computed tomography (micro-CT) is used to non-destructively characterize 3D channel architectures with sub-10 µm voxel resolution. Yet both the simulated and theory results deviate by 30-40% from experimental voltammetry, indicating a discrepancy that geometric non-idealities do not explain.",
-      "key_findings": "原文摘要中的主要结果：Yet, employing true (micro-CT-generated) geometries in three-dimensional multiphysics models of fluid flow and mass transport yielded currents in agreement with the channel flow electrode limiting current equation (based on flux equations formalized by Levich) for rectangular channels!",
-      "relevance_reason": "命中 micro-ct、tomography，可用于 GDE 润湿/淹没、孔结构或 Micro-CT 三维结构—性能分析。",
+      "methods_summary": "Herein, X-ray micro-computed tomography (micro-CT) is used to non-destructively characterize 3D channel architectures with sub-10 µm voxel resolution. Yet both the simulated and theory results deviate by 30-40% from experimental voltammetry, indicating a discrepancy that geometric non-idealities do not explain.",
+      "key_findings": "Yet, employing true (micro-CT-generated) geometries in three-dimensional multiphysics models of fluid flow and mass transport yielded currents in agreement with the channel flow electrode limiting current equation (based on flux equations formalized by Levich) for rectangular channels!",
+      "relevance_reason": "Matched micro-ct, tomography; relevant to GDE flooding/wetting, porous-electrode transport, or Micro-CT / tomography structure analysis.",
       "abstract": "Quantitative interpretation of hydrodynamic electrochemical measurements commonly relies on analytical models that assume idealized device geometries. However, verifying the internal geometry of fully enclosed, single-step-3D-printed electrochemical flow cells is challenging because the devices cannot be taken apart without being destroyed. Herein, X-ray micro-computed tomography (micro-CT) is used to non-destructively characterize 3D channel architectures with sub-10 µm voxel resolution. The 3D-printed channels deviate substantially from the as-designed rectangular geometry, showing corrugated sloping sidewalls and a sagging, undulating ceiling. Yet, employing true (micro-CT-generated) geometries in three-dimensional multiphysics models of fluid flow and mass transport yielded currents in agreement with the channel flow electrode limiting current equation (based on flux equations formalized by Levich) for rectangular channels! This agreement and analysis of transport demonstrate that sidewall corrugation/slope and ceiling sag/undulation do not account for experimental deviations from ideal hydrodynamic behavior. Yet both the simulated and theory results deviate by 30-40% from experimental voltammetry, indicating a discrepancy that geometric non-idealities do not explain. Together, this suggests the disagreement between theory and experiment arises from incomplete consumption of the redox probe at the electrode surface, a condition consistent with the 3D-printed composite electrodes being partially blocked. More broadly, the work establishes the combination of micro-CT, multiphysics simulation, and experiment as a general, non-destructive framework for characterizing complex hydrodynamic electrochemical systems.",
       "tags": [
         "micro-ct",
@@ -353,8 +787,10 @@
       "url": "https://doi.org/10.26434/chemrxiv.15009425/v1",
       "archive": true,
       "impact_factor": null,
-      "quartile": "Q —",
-      "first_seen": "2026-09-30T09:32:23+02:00"
+      "quartile": "JCR —",
+      "first_seen": "2026-09-30T09:32:23+02:00",
+      "summary_en": "Quantitative interpretation of hydrodynamic electrochemical measurements commonly relies on analytical models that assume idealized device geometries. Yet, employing true (micro-CT-generated) geometries in three-dimensional multiphysics models of fluid flow and mass transport yielded currents in agreement with the channel flow electrode limiting current equation (based on flux equations formalized by Levich) for rectangular channels!",
+      "summary_mode": "abstract-extraction"
     },
     {
       "id": "W7214521452",
@@ -368,9 +804,9 @@
       "publication_date": "2026-09-28",
       "authors": [],
       "summary_zh": "摘要提要（未启用 AI 中文总结）：The corrosion inhibition and hydrogen permeation behavior of St3 carbon steel were investigated in aggressive environments containing H2S (400 ppm), CO2 (1 atm), and mixed H2S/CO2 media in a 3 wt.%NaCl solution using the AKB-1 organic inhibitor at concentrations of 5-15 ppm.Gravimetric measurements, electrochemical polarization, electrochemical impedance spectroscopy (EIS), and hydrogen permeation techniques were em…",
-      "methods_summary": "原文摘要中的方法信息：The corrosion inhibition and hydrogen permeation behavior of St3 carbon steel were investigated in aggressive environments containing H2S (400 ppm), CO2 (1 atm), and mixed H2S/CO2 media in a 3 wt.%NaCl solution using the AKB-1 organic inhibitor at concentrations of 5-15 ppm.Gravimetric measurements, electrochemical polarization, electrochemical impedance spectroscopy (EIS), and hydrogen permeation techniques were em…",
-      "key_findings": "原文摘要中的主要结果：The corrosion inhibition and hydrogen permeation behavior of St3 carbon steel were investigated in aggressive environments containing H2S (400 ppm), CO2 (1 atm), and mixed H2S/CO2 media in a 3 wt.%NaCl solution using the AKB-1 organic inhibitor at concentrations of 5-15 ppm.Gravimetric measurements, electrochemical polarization, electrochemical impedance spectroscopy (EIS), and hydrogen permeation techniques were em…",
-      "relevance_reason": "命中 electrochemical impedance spectroscopy、impedance spectroscopy，可用于 CV、EIS、参比校准、传质或动力学/机理分析。",
+      "methods_summary": "The corrosion inhibition and hydrogen permeation behavior of St3 carbon steel were investigated in aggressive environments containing H2S (400 ppm), CO2 (1 atm), and mixed H2S/CO2 media in a 3 wt.%NaCl solution using the AKB-1 organic inhibitor at concentrations of 5-15 ppm.Gravimetric measurements, electrochemical polarization, electrochemical impedance spectroscopy (EIS), and hydrogen permeation techniques were employed to evaluate the protective performance of the inhibitor.The results showed that AKB-1 signifi…",
+      "key_findings": "The corrosion inhibition and hydrogen permeation behavior of St3 carbon steel were investigated in aggressive environments containing H2S (400 ppm), CO2 (1 atm), and mixed H2S/CO2 media in a 3 wt.%NaCl solution using the AKB-1 organic inhibitor at concentrations of 5-15 ppm.Gravimetric measurements, electrochemical polarization, electrochemical impedance spectroscopy (EIS), and hydrogen permeation techniques were employed to evaluate the protective performance of the inhibitor.The results showed that AKB-1 significantly reduced the corrosion rate of St3…",
+      "relevance_reason": "Matched electrochemical impedance spectroscopy, impedance spectroscopy; relevant to CV, EIS, reference-electrode calibration, mass transport, selectivity, or electrochemical mechanism analysis.",
       "abstract": "The corrosion inhibition and hydrogen permeation behavior of St3 carbon steel were investigated in aggressive environments containing H2S (400 ppm), CO2 (1 atm), and mixed H2S/CO2 media in a 3 wt.%NaCl solution using the AKB-1 organic inhibitor at concentrations of 5-15 ppm.Gravimetric measurements, electrochemical polarization, electrochemical impedance spectroscopy (EIS), and hydrogen permeation techniques were employed to evaluate the protective performance of the inhibitor.The results showed that AKB-1 significantly reduced the corrosion rate of St3 steel in all investigated media, and its protective efficiency increased with inhibitor concentration.The highest inhibition efficiency reached 98.0% in H2S medium, 94.8% in CO2 medium, and 96.8% in mixed H2S/CO2 medium at an inhibitor concentration of 15 ppm.Hydrogen permeation studies demonstrated that AKB-1 effectively retarded hydrogen transport through the steel membrane, with the hydrogen diffusion retardation coefficient reaching γH=15.4 in H2S medium.Electrochemical results indicated that the inhibitor predominantly suppressed the anodic dissolution process and increased charge transfer resistance.Adsorption analysis showed that surface coverage exceeded θ=0.9 at 15 ppm and followed the Frumkin adsorption isotherm.The calculated adsorption free energy (ΔGads= -21 to -24 kJ/mol) suggests that the inhibitor acts mainly through physical adsorption mechanisms.The obtained results demonstrate that AKB-1 is an effective corrosion inhibitor for steel operating in H2S/CO2-containing environments.",
       "tags": [
         "electrochemical impedance spectroscopy",
@@ -380,8 +816,10 @@
       "url": "https://doi.org/10.17675/2305-6894-2026-3-19",
       "archive": true,
       "impact_factor": null,
-      "quartile": "Q —",
-      "first_seen": "2026-09-30T09:32:23+02:00"
+      "quartile": "JCR —",
+      "first_seen": "2026-09-30T09:32:23+02:00",
+      "summary_en": "The corrosion inhibition and hydrogen permeation behavior of St3 carbon steel were investigated in aggressive environments containing H2S (400 ppm), CO2 (1 atm), and mixed H2S/CO2 media in a 3 wt.%NaCl solution using the AKB-1 organic inhibitor at concentrations of 5-15 ppm.Gravimetric measurements, electrochemical polarization, electrochemical impedance spectroscopy (EIS), and hydrogen permeation techniques were employed to evaluate the protective performance of the inhibitor.The results showed that AKB-1 significantly reduced the corrosion rate of St3…",
+      "summary_mode": "abstract-extraction"
     },
     {
       "id": "W7212018207",
@@ -399,9 +837,9 @@
         "Maik Eichelbaum"
       ],
       "summary_zh": "摘要提要（未启用 AI 中文总结）：Abstract Electrical impedance tomography (EIT) was assessed as a measurement approach for spatial conductivity mapping of electrochemical energy system materials such as polymer electrolyte membrane fuel cell components. Polymer electrolyte membranes were selectively activated or deactivated, and defined artificial defects were introduced into catalyst-coated membranes (CCMs) and gas diffusion layers to evaluate the…",
-      "methods_summary": "原文摘要中的方法信息：Abstract Electrical impedance tomography (EIT) was assessed as a measurement approach for spatial conductivity mapping of electrochemical energy system materials such as polymer electrolyte membrane fuel cell components. Reconstructed conductivity distributions were independently verified using scanning electrochemical microscopy to confirm spatial contrast and reconstruction accuracy.",
-      "key_findings": "原文摘要中的主要结果：Reproducibility studies on CCMs showed that measurement variability and sample remounting effects remained sufficiently low for consistent defect identification, with defect and background signals clearly separated for different confidence intervals.",
-      "relevance_reason": "命中 gas diffusion layer、tomography，可用于 GDE 润湿/淹没、孔结构或 Micro-CT 三维结构—性能分析。",
+      "methods_summary": "Abstract Electrical impedance tomography (EIT) was assessed as a measurement approach for spatial conductivity mapping of electrochemical energy system materials such as polymer electrolyte membrane fuel cell components. Reconstructed conductivity distributions were independently verified using scanning electrochemical microscopy to confirm spatial contrast and reconstruction accuracy.",
+      "key_findings": "Reproducibility studies on CCMs showed that measurement variability and sample remounting effects remained sufficiently low for consistent defect identification, with defect and background signals clearly separated for different confidence intervals.",
+      "relevance_reason": "Matched gas diffusion layer, tomography; relevant to GDE flooding/wetting, porous-electrode transport, or Micro-CT / tomography structure analysis.",
       "abstract": "Abstract Electrical impedance tomography (EIT) was assessed as a measurement approach for spatial conductivity mapping of electrochemical energy system materials such as polymer electrolyte membrane fuel cell components. Polymer electrolyte membranes were selectively activated or deactivated, and defined artificial defects were introduced into catalyst-coated membranes (CCMs) and gas diffusion layers to evaluate the sensitivity and diagnostic capability of EIT. Reconstructed conductivity distributions were independently verified using scanning electrochemical microscopy to confirm spatial contrast and reconstruction accuracy. EIT enabled rapid, nondestructive detection of large-area variations in activation state and degradation. Localized defects were reliably detected, with the methodology prioritizing spatial localization and fault identification providing a distinct advantage over electrical impedance spectroscopy, which lacks the spatial context to distinguish between localized and global degradation. Reproducibility studies on CCMs showed that measurement variability and sample remounting effects remained sufficiently low for consistent defect identification, with defect and background signals clearly separated for different confidence intervals. Simulation studies with different electrode counts and positions, defect arrangements, and sample sizes including a realistic fuel cell application-scale CCM sample were performed as a qualitative design illustration for possible future EIT applications. This development constitutes an important methodological step toward fast nondestructive electrochemical imaging of fuel cell materials and may provide a powerful tool for in-line, in situ, and operando investigations of localized activation, degradation, defects, and heterogeneities in electrochemical energy devices.",
       "tags": [
         "gas diffusion layer",
@@ -411,8 +849,10 @@
       "url": "https://doi.org/10.1021/acsmeasuresciau.6c00202",
       "archive": true,
       "impact_factor": null,
-      "quartile": "Q —",
-      "first_seen": "2026-09-30T09:32:23+02:00"
+      "quartile": "JCR —",
+      "first_seen": "2026-09-30T09:32:23+02:00",
+      "summary_en": "Abstract Electrical impedance tomography (EIT) was assessed as a measurement approach for spatial conductivity mapping of electrochemical energy system materials such as polymer electrolyte membrane fuel cell components. Reproducibility studies on CCMs showed that measurement variability and sample remounting effects remained sufficiently low for consistent defect identification, with defect and background signals clearly separated for different confidence intervals.",
+      "summary_mode": "abstract-extraction"
     },
     {
       "id": "W7204988593",
@@ -435,9 +875,9 @@
         "Nicola Sodini"
       ],
       "summary_zh": "摘要提要（未启用 AI 中文总结）：Aqueous rechargeable Zn-based batteries are gaining attention for their sustainability, safety, and cost-effectiveness; however, no industrially viable solutions are yet available, due to the synergistic issues of passivation and shape change. In particular, flow batteries with particulate Zn anodes are attractive for long-term stationary storage, at the cost of additional morpho-chemical processes involving the Zn…",
-      "methods_summary": "原文摘要中的方法信息：To this aim, we employ dual-probe chemically sensitive X-ray and thermal neutron tomography and radiography. Specifically, we analyzed an in situ anode in both pristine and discharged states, and we followed its self-discharge process in operando.",
-      "key_findings": "原文摘要中的主要结果：Our findings contribute to paving the way for next-generation Zn flow batteries with improved efficiency and longevity.",
-      "relevance_reason": "命中 x-ray tomography、tomography，可用于 GDE 润湿/淹没、孔结构或 Micro-CT 三维结构—性能分析。",
+      "methods_summary": "To this aim, we employ dual-probe chemically sensitive X-ray and thermal neutron tomography and radiography. In situ X-ray tomography reveals the advancement of Zn particle consumption and IPS development.",
+      "key_findings": "Our findings contribute to paving the way for next-generation Zn flow batteries with improved efficiency and longevity.",
+      "relevance_reason": "Matched x-ray tomography, tomography; relevant to GDE flooding/wetting, porous-electrode transport, or Micro-CT / tomography structure analysis.",
       "abstract": "Aqueous rechargeable Zn-based batteries are gaining attention for their sustainability, safety, and cost-effectiveness; however, no industrially viable solutions are yet available, due to the synergistic issues of passivation and shape change. In particular, flow batteries with particulate Zn anodes are attractive for long-term stationary storage, at the cost of additional morpho-chemical processes involving the Zn particle bed and the interparticle space (IPS). Thus, the understanding of this system requires space-dependent information about the arrangement, dimensions, and chemical states of Zn and its discharge products. To this aim, we employ dual-probe chemically sensitive X-ray and thermal neutron tomography and radiography. Specifically, we analyzed an in situ anode in both pristine and discharged states, and we followed its self-discharge process in operando. In situ X-ray tomography reveals the advancement of Zn particle consumption and IPS development. In situ neutron tomography shows the formation and distribution of hydroxides. In operando, neutron radiography gives access to hydrogen bubble formation and dynamics. This first-of-its-kind analysis provides crucial insights, directly informing anode design strategies. Our findings contribute to paving the way for next-generation Zn flow batteries with improved efficiency and longevity.",
       "tags": [
         "x-ray tomography",
@@ -447,8 +887,10 @@
       "url": "https://doi.org/10.1038/s41598-026-49097-8",
       "archive": true,
       "impact_factor": null,
-      "quartile": "Q —",
-      "first_seen": "2026-09-30T09:32:23+02:00"
+      "quartile": "JCR —",
+      "first_seen": "2026-09-30T09:32:23+02:00",
+      "summary_en": "Aqueous rechargeable Zn-based batteries are gaining attention for their sustainability, safety, and cost-effectiveness; however, no industrially viable solutions are yet available, due to the synergistic issues of passivation and shape change. Our findings contribute to paving the way for next-generation Zn flow batteries with improved efficiency and longevity.",
+      "summary_mode": "abstract-extraction"
     },
     {
       "id": "W7213974616",
@@ -468,9 +910,9 @@
         "Anitha Varghese"
       ],
       "summary_zh": "摘要提要（未启用 AI 中文总结）：Abstract The escalating global demand for renewable energy sources and chemicals necessitates sustainable and resource-conscious production protocols that address future demands with a minimal environmental impact. The current study presents the viability of the AgCoAc@Ti3C2Tx-based catalyst for the CO2 fixation and oxygen evolution reaction (OER) reactions at mild operational parameters.",
-      "methods_summary": "原文摘要中的方法信息：Abstract The escalating global demand for renewable energy sources and chemicals necessitates sustainable and resource-conscious production protocols that address future demands with a minimal environmental impact.",
-      "key_findings": "原文摘要中的主要结果：This tailored architecture leads to dual functionality, demonstrating enhanced performance in both electrocarboxylation and the OER, which has not been explored in similar systems. This synergy in AgCoAc@Ti3C2Tx yielded a maximum of 70% PAA at a current density of 50 mA cm–2 at room temperature.",
-      "relevance_reason": "命中 electrocarboxylation、carboxylation、co2 fixation、co2，与 CO₂ 电羧化、非水电合成或 Ni 相关体系直接相关。",
+      "methods_summary": "The OpenAlex abstract does not state the experimental or analytical methods in enough detail.",
+      "key_findings": "This tailored architecture leads to dual functionality, demonstrating enhanced performance in both electrocarboxylation and the OER, which has not been explored in similar systems. This synergy in AgCoAc@Ti3C2Tx yielded a maximum of 70% PAA at a current density of 50 mA cm–2 at room temperature.",
+      "relevance_reason": "Matched electrocarboxylation, carboxylation, co2 fixation, co2; directly relevant to CO2 electrocarboxylation, non-aqueous electrosynthesis, or Ni-mediated carbon incorporation.",
       "abstract": "Abstract The escalating global demand for renewable energy sources and chemicals necessitates sustainable and resource-conscious production protocols that address future demands with a minimal environmental impact. The current study presents the viability of the AgCoAc@Ti3C2Tx-based catalyst for the CO2 fixation and oxygen evolution reaction (OER) reactions at mild operational parameters. Unlike previously reported MXene-based electrocatalysts, this work integrates a controlled electrodeposition methodology to create a synergistic AgCoAc active interface directly on a conductive MXene support. This tailored architecture leads to dual functionality, demonstrating enhanced performance in both electrocarboxylation and the OER, which has not been explored in similar systems. The multilayered Ti3C2Tx, having a large electroactive area, improves the physicochemical properties and charge-transfer pathways of AgCoAc moieties, restricting particle aggregation and stabilizing the composite structure. Meanwhile, AgCoAc anchored on Ti3C2Tx amplifies its conductive properties and provides dual metal coordination sites, elevating the catalyst efficiency for the electrocatalytic process. Electrocarboxylation of benzyl bromide with CO2 was carried out in a single-chamber cell comprising tetrabutylammonium bromide/acetonitrile (TBABr/ACN) as the electrolytic medium to generate phenylacetic acid (PAA). This synergy in AgCoAc@Ti3C2Tx yielded a maximum of 70% PAA at a current density of 50 mA cm–2 at room temperature. The performance of AgCoAc@Ti3C2Tx was further investigated for the OER in 1 M KOH, which showcased a low overpotential of 251 mV at 10 mA cm–2 with a Tafel slope of 93 mV dec–1, validating excellent OER performance. Hence, the developed protocol provides a facile catalyst preparation strategy for the dual-purpose multimetallic AgCoAc@Ti3C2Tx composite, which showcased admirable outcomes for electrocarboxylation as well as the OER.",
       "tags": [
         "electrocarboxylation",
@@ -482,8 +924,10 @@
       "url": "https://doi.org/10.1021/acs.energyfuels.6c03182",
       "archive": true,
       "impact_factor": null,
-      "quartile": "Q —",
-      "first_seen": "2026-09-30T09:10:56+02:00"
+      "quartile": "JCR —",
+      "first_seen": "2026-09-30T09:10:56+02:00",
+      "summary_en": "Abstract The escalating global demand for renewable energy sources and chemicals necessitates sustainable and resource-conscious production protocols that address future demands with a minimal environmental impact. This tailored architecture leads to dual functionality, demonstrating enhanced performance in both electrocarboxylation and the OER, which has not been explored in similar systems.",
+      "summary_mode": "abstract-extraction"
     },
     {
       "id": "W7213314465",
@@ -506,9 +950,9 @@
         "Ryan Guterman"
       ],
       "summary_zh": "摘要提要（未启用 AI 中文总结）：Binders play a key role in fabricating efficient gas diffusion electrodes (GDEs), where catalyst layers are sprayed onto hydrophobic gas diffusion layers (GDLs). In a previous work, we investigated the use of a dry‐pressed single‐layer GDE composed of Polytetrafluoroethylene (PTFE) and SnO 2 supported on carbon black for CO 2 reduction to formic acid (FA) with high Faradaic efficiencies (FEs) of 80%–90% at current d…",
-      "methods_summary": "原文摘要中的方法信息：In a previous work, we investigated the use of a dry‐pressed single‐layer GDE composed of Polytetrafluoroethylene (PTFE) and SnO 2 supported on carbon black for CO 2 reduction to formic acid (FA) with high Faradaic efficiencies (FEs) of 80%–90% at current densities of 200 mA cm −2 .",
-      "key_findings": "原文摘要中的主要结果：The results demonstrated that incorporation of the PIL significantly improved electrode performance for electrochemical CO 2 reduction (eCO 2 RR). We examined Nafion, Sustainion, PTFE, and an imidazolium‐based polymeric ionic liquid (PIL), specifically poly(1‐vinyl‐3‐dodecylimidazolium bromide) (PIL1‐d), which was anticipated to provide enhanced performance.",
-      "relevance_reason": "命中 gas diffusion electrode、gas diffusion layer、gde、flooding，可用于 GDE 润湿/淹没、孔结构或 Micro-CT 三维结构—性能分析。",
+      "methods_summary": "In a previous work, we investigated the use of a dry‐pressed single‐layer GDE composed of Polytetrafluoroethylene (PTFE) and SnO 2 supported on carbon black for CO 2 reduction to formic acid (FA) with high Faradaic efficiencies (FEs) of 80%–90% at current densities of 200 mA cm −2 .",
+      "key_findings": "The results demonstrated that incorporation of the PIL significantly improved electrode performance for electrochemical CO 2 reduction (eCO 2 RR). We examined Nafion, Sustainion, PTFE, and an imidazolium‐based polymeric ionic liquid (PIL), specifically poly(1‐vinyl‐3‐dodecylimidazolium bromide) (PIL1‐d), which was anticipated to provide enhanced performance.",
+      "relevance_reason": "Matched gas diffusion electrode, gas diffusion layer, gde, flooding; relevant to GDE flooding/wetting, porous-electrode transport, or Micro-CT / tomography structure analysis.",
       "abstract": "Binders play a key role in fabricating efficient gas diffusion electrodes (GDEs), where catalyst layers are sprayed onto hydrophobic gas diffusion layers (GDLs). In a previous work, we investigated the use of a dry‐pressed single‐layer GDE composed of Polytetrafluoroethylene (PTFE) and SnO 2 supported on carbon black for CO 2 reduction to formic acid (FA) with high Faradaic efficiencies (FEs) of 80%–90% at current densities of 200 mA cm −2 . However, dry‐pressed single‐layer electrodes suffer from progressive electrowetting and flooding during the reduction. To address these limitations, we transferred this approach to catalyst‐coated hydrophobic GDLs, which require suitable binders/ionomers. We examined Nafion, Sustainion, PTFE, and an imidazolium‐based polymeric ionic liquid (PIL), specifically poly(1‐vinyl‐3‐dodecylimidazolium bromide) (PIL1‐d), which was anticipated to provide enhanced performance. The results demonstrated that incorporation of the PIL significantly improved electrode performance for electrochemical CO 2 reduction (eCO 2 RR). This improvement was most pronounced for unsupported SnO 2 and for larger SnO 2 nanoparticles (>100 nm). Dynamic light scattering measurements indicated that the PIL already stabilized the SnO 2 dispersion in the catalyst ink during spray coating through interactions with the oxide nanoparticles. An ionomer loading of 5 wt.% PIL in the catalyst layer was optimal, yielding a maximum FE of 92% FA at 200 mA cm −2 .",
       "tags": [
         "gas diffusion electrode",
@@ -521,8 +965,10 @@
       "url": "https://doi.org/10.1002/celc.70303",
       "archive": true,
       "impact_factor": null,
-      "quartile": "Q —",
-      "first_seen": "2026-09-30T09:10:56+02:00"
+      "quartile": "JCR —",
+      "first_seen": "2026-09-30T09:10:56+02:00",
+      "summary_en": "Binders play a key role in fabricating efficient gas diffusion electrodes (GDEs), where catalyst layers are sprayed onto hydrophobic gas diffusion layers (GDLs). The results demonstrated that incorporation of the PIL significantly improved electrode performance for electrochemical CO 2 reduction (eCO 2 RR).",
+      "summary_mode": "abstract-extraction"
     },
     {
       "id": "W7213562266",
@@ -540,9 +986,9 @@
         "Wathiq Sattar Abdul‐Hassan"
       ],
       "summary_zh": "摘要提要（未启用 AI 中文总结）：Four β-keto ester derivatives containing 1,2,4-triazole (A7 and A8) or 1,3,4-oxadiazole (A13 and A14) thioether units were synthesized by S-alkylation of the corresponding thiol/thione precursors with ethyl 4-chloro-3-oxobutanoate in ethanol using sodium acetate as a stoichiometric basic additive. The proposed structures are supported by FT-IR, 1H NMR, and 13C NMR data, including disappearance of the precursor S–H r…",
-      "methods_summary": "原文摘要中的方法信息：Four β-keto ester derivatives containing 1,2,4-triazole (A7 and A8) or 1,3,4-oxadiazole (A13 and A14) thioether units were synthesized by S-alkylation of the corresponding thiol/thione precursors with ethyl 4-chloro-3-oxobutanoate in ethanol using sodium acetate as a stoichiometric basic additive. Solvent-dependent keto–enol behavior was examined qualitatively by 1H NMR spectroscopy in DMSO-d6 and CDCl3 at 298 K.",
-      "key_findings": "原文摘要中的主要结果：UV/Vis spectra showed intense absorptions mainly in the ultraviolet region and weaker solvent- and concentration-sensitive features at longer wavelengths. Cyclic voltammetry in DMF containing 0.10 M tetrabutylammonium perchlorate revealed multiple cathodic processes that were predominantly irreversible on the experimental time scale.",
-      "relevance_reason": "命中 cyclic voltammetry、reference electrode、ferrocene、dmf，可用于 CV、EIS、参比校准、传质或动力学/机理分析。",
+      "methods_summary": "Four β-keto ester derivatives containing 1,2,4-triazole (A7 and A8) or 1,3,4-oxadiazole (A13 and A14) thioether units were synthesized by S-alkylation of the corresponding thiol/thione precursors with ethyl 4-chloro-3-oxobutanoate in ethanol using sodium acetate as a stoichiometric basic additive. Solvent-dependent keto–enol behavior was examined qualitatively by 1H NMR spectroscopy in DMSO-d6 and CDCl3 at 298 K.",
+      "key_findings": "UV/Vis spectra showed intense absorptions mainly in the ultraviolet region and weaker solvent- and concentration-sensitive features at longer wavelengths. Cyclic voltammetry in DMF containing 0.10 M tetrabutylammonium perchlorate revealed multiple cathodic processes that were predominantly irreversible on the experimental time scale.",
+      "relevance_reason": "Matched cyclic voltammetry, reference electrode, ferrocene, dmf; relevant to CV, EIS, reference-electrode calibration, mass transport, selectivity, or electrochemical mechanism analysis.",
       "abstract": "Four β-keto ester derivatives containing 1,2,4-triazole (A7 and A8) or 1,3,4-oxadiazole (A13 and A14) thioether units were synthesized by S-alkylation of the corresponding thiol/thione precursors with ethyl 4-chloro-3-oxobutanoate in ethanol using sodium acetate as a stoichiometric basic additive. The proposed structures are supported by FT-IR, 1H NMR, and 13C NMR data, including disappearance of the precursor S–H resonances and appearance of signals attributable to the β-keto ester fragment. Solvent-dependent keto–enol behavior was examined qualitatively by 1H NMR spectroscopy in DMSO-d6 and CDCl3 at 298 K. Only keto-form diagnostic resonances were resolved in DMSO-d6. In CDCl₃, A7 displayed signals of both keto and enol species; A8 and A14 displayed resolved enol-form signals without a resolved keto methylene signal; and A13 retained a resolved keto methylene signal without detectable enol resonances. UV/Vis spectra showed intense absorptions mainly in the ultraviolet region and weaker solvent- and concentration-sensitive features at longer wavelengths. Cyclic voltammetry in DMF containing 0.10 M tetrabutylammonium perchlorate revealed multiple cathodic processes that were predominantly irreversible on the experimental time scale. Because the Ag quasi-reference electrode was not calibrated against an internal ferrocene standard, the electrochemical results are interpreted comparatively within this data set rather than as absolute formal potentials. The combined results demonstrate qualitative relationships among heterocycle identity, methoxy substitution, solvent-dependent tautomeric signatures, and electrochemical response.",
       "tags": [
         "cyclic voltammetry",
@@ -554,8 +1000,10 @@
       "url": "https://doi.org/10.65382/2221-8688-2027-1-149-169",
       "archive": true,
       "impact_factor": null,
-      "quartile": "Q —",
-      "first_seen": "2026-09-30T09:10:56+02:00"
+      "quartile": "JCR —",
+      "first_seen": "2026-09-30T09:10:56+02:00",
+      "summary_en": "Four β-keto ester derivatives containing 1,2,4-triazole (A7 and A8) or 1,3,4-oxadiazole (A13 and A14) thioether units were synthesized by S-alkylation of the corresponding thiol/thione precursors with ethyl 4-chloro-3-oxobutanoate in ethanol using sodium acetate as a stoichiometric basic additive. UV/Vis spectra showed intense absorptions mainly in the ultraviolet region and weaker solvent- and concentration-sensitive features at longer wavelengths.",
+      "summary_mode": "abstract-extraction"
     },
     {
       "id": "W7213913198",
@@ -578,9 +1026,9 @@
         "Khasan Berdimuradov"
       ],
       "summary_zh": "摘要提要（未启用 AI 中文总结）：A magnetically recoverable Fe₃O₄@TpBD–Ni nanocomposite electrode was developed as a heterogeneous electrocatalyst for the electro-organic C–H carboxylation of aromatic substrates using CO₂ as a C1 feedstock. The material integrates catalytically active Ni sites within a porous β-ketoenamine-linked TpBD covalent organic framework supported on Fe₃O₄ nanoparticles, combining an accessible catalytic environment, efficie…",
-      "methods_summary": "原文摘要中的方法信息：A magnetically recoverable Fe₃O₄@TpBD–Ni nanocomposite electrode was developed as a heterogeneous electrocatalyst for the electro-organic C–H carboxylation of aromatic substrates using CO₂ as a C1 feedstock.",
-      "key_findings": "原文摘要中的主要结果：Comprehensive characterization by FT-IR, SEM, XRD, EDX, VSM, and TGA confirmed the formation, structural integrity, Ni incorporation, and magnetic stability of the composite. The Fe₃O₄@TpBD–Ni electrode enabled efficient Kolbe–Schmitt-type carboxylation in a choline chloride/ethylene glycol (ChCl/EG, 1:2) deep eutectic solvent (DES) under mild conditions (room temperature, 12 mA, 1.5 h), affording the corresponding…",
-      "relevance_reason": "命中 carboxylation、co2，与 CO₂ 电羧化、非水电合成或 Ni 相关体系直接相关。",
+      "methods_summary": "A magnetically recoverable Fe₃O₄@TpBD–Ni nanocomposite electrode was developed as a heterogeneous electrocatalyst for the electro-organic C–H carboxylation of aromatic substrates using CO₂ as a C1 feedstock.",
+      "key_findings": "Comprehensive characterization by FT-IR, SEM, XRD, EDX, VSM, and TGA confirmed the formation, structural integrity, Ni incorporation, and magnetic stability of the composite. The Fe₃O₄@TpBD–Ni electrode enabled efficient Kolbe–Schmitt-type carboxylation in a choline chloride/ethylene glycol (ChCl/EG, 1:2) deep eutectic solvent (DES) under mild conditions (room temperature, 12 mA, 1.5 h), affording the corresponding aromatic carboxylic acids in 90–98% isolated yields.",
+      "relevance_reason": "Matched carboxylation, co2; directly relevant to CO2 electrocarboxylation, non-aqueous electrosynthesis, or Ni-mediated carbon incorporation.",
       "abstract": "A magnetically recoverable Fe₃O₄@TpBD–Ni nanocomposite electrode was developed as a heterogeneous electrocatalyst for the electro-organic C–H carboxylation of aromatic substrates using CO₂ as a C1 feedstock. The material integrates catalytically active Ni sites within a porous β-ketoenamine-linked TpBD covalent organic framework supported on Fe₃O₄ nanoparticles, combining an accessible catalytic environment, efficient charge-transfer pathways, and magnetic responsiveness. Comprehensive characterization by FT-IR, SEM, XRD, EDX, VSM, and TGA confirmed the formation, structural integrity, Ni incorporation, and magnetic stability of the composite. The Fe₃O₄@TpBD–Ni electrode enabled efficient Kolbe–Schmitt-type carboxylation in a choline chloride/ethylene glycol (ChCl/EG, 1:2) deep eutectic solvent (DES) under mild conditions (room temperature, 12 mA, 1.5 h), affording the corresponding aromatic carboxylic acids in 90–98% isolated yields. Notably, the optimized composite electrode exhibited superior performance compared with conventional Ni rod, Ni foam, and graphite electrodes, highlighting the beneficial synergistic effect of the porous magnetic COF–Ni architecture. The catalyst could be readily separated by an external magnetic field and retained its catalytic activity upon repeated use, with limited Ni leaching, demonstrating good operational stability and recyclability. Moreover, the process showed high atom economy and low E-factor values, further supporting its sustainability. Overall, Fe₃O₄@TpBD–Ni provides a robust and recyclable heterogeneous electrocatalytic platform for CO₂ incorporation into aromatic carboxylic acids and offers a promising approach to sustainable electrochemical CO₂ valorization.",
       "tags": [
         "carboxylation",
@@ -590,8 +1038,10 @@
       "url": "https://doi.org/10.1016/j.nwnano.2026.100245",
       "archive": true,
       "impact_factor": null,
-      "quartile": "Q —",
-      "first_seen": "2026-09-30T09:10:56+02:00"
+      "quartile": "JCR —",
+      "first_seen": "2026-09-30T09:10:56+02:00",
+      "summary_en": "A magnetically recoverable Fe₃O₄@TpBD–Ni nanocomposite electrode was developed as a heterogeneous electrocatalyst for the electro-organic C–H carboxylation of aromatic substrates using CO₂ as a C1 feedstock. Comprehensive characterization by FT-IR, SEM, XRD, EDX, VSM, and TGA confirmed the formation, structural integrity, Ni incorporation, and magnetic stability of the composite.",
+      "summary_mode": "abstract-extraction"
     },
     {
       "id": "W7212032188",
@@ -609,9 +1059,9 @@
         "Yanwei Lum"
       ],
       "summary_zh": "摘要提要（未启用 AI 中文总结）：Abstract CO2 electrolysis has progressed rapidly toward industrially relevant current densities, but its practical deployment is increasingly limited by reactor-level instabilities. Specifically, salt precipitation has emerged as a critical yet not well-understood challenge in high-rate CO2 electrolysis.",
-      "methods_summary": "原文摘要中的方法信息：Abstract CO2 electrolysis has progressed rapidly toward industrially relevant current densities, but its practical deployment is increasingly limited by reactor-level instabilities. Specifically, salt precipitation has emerged as a critical yet not well-understood challenge in high-rate CO2 electrolysis.",
-      "key_findings": "原文摘要中的主要结果：In this minireview, we summarize the mechanistic origins, spatial distribution, and performance consequences of salt precipitation in CO2 electrolysis. We further assess emerging diagnostic tools and outline salt precipitation mitigation strategies towards the development of stable CO2 electrolyzers.",
-      "relevance_reason": "命中 gas diffusion layer、flooding、co2 electrolysis、electrolyzer，可用于 GDE 润湿/淹没、孔结构或 Micro-CT 三维结构—性能分析。",
+      "methods_summary": "Abstract CO2 electrolysis has progressed rapidly toward industrially relevant current densities, but its practical deployment is increasingly limited by reactor-level instabilities. Specifically, salt precipitation has emerged as a critical yet not well-understood challenge in high-rate CO2 electrolysis.",
+      "key_findings": "We further assess emerging diagnostic tools and outline salt precipitation mitigation strategies towards the development of stable CO2 electrolyzers.",
+      "relevance_reason": "Matched gas diffusion layer, flooding, co2 electrolysis, electrolyzer; relevant to GDE flooding/wetting, porous-electrode transport, or Micro-CT / tomography structure analysis.",
       "abstract": "Abstract CO2 electrolysis has progressed rapidly toward industrially relevant current densities, but its practical deployment is increasingly limited by reactor-level instabilities. Specifically, salt precipitation has emerged as a critical yet not well-understood challenge in high-rate CO2 electrolysis. Recent studies show that this phenomenon is governed not simply by bulk electrolyte composition, but by coupled interfacial properties including local alkalinity, cation migration and water distribution. The resulting bi(carbonate) accumulation can lead to supersaturation within the confined pore structures of the gas diffusion layer and subsequently salt nucleation and precipitation. These deposits reduce CO2 mass transport and eventually induce flooding that substantially compromise electrolyzer performance. In this minireview, we summarize the mechanistic origins, spatial distribution, and performance consequences of salt precipitation in CO2 electrolysis. We further assess emerging diagnostic tools and outline salt precipitation mitigation strategies towards the development of stable CO2 electrolyzers.",
       "tags": [
         "gas diffusion layer",
@@ -623,8 +1073,10 @@
       "url": "https://doi.org/10.1021/acs.energyfuels.6c03732",
       "archive": true,
       "impact_factor": null,
-      "quartile": "Q —",
-      "first_seen": "2026-09-30T09:10:56+02:00"
+      "quartile": "JCR —",
+      "first_seen": "2026-09-30T09:10:56+02:00",
+      "summary_en": "Abstract CO2 electrolysis has progressed rapidly toward industrially relevant current densities, but its practical deployment is increasingly limited by reactor-level instabilities. Specifically, salt precipitation has emerged as a critical yet not well-understood challenge in high-rate CO2 electrolysis.",
+      "summary_mode": "abstract-extraction"
     },
     {
       "id": "W7214465541",
@@ -645,9 +1097,9 @@
         "Vinay Budhraja"
       ],
       "summary_zh": "摘要提要（未启用 AI 中文总结）：Potassium-selective organic electrochemical transistors (OECTs) provide a route for coupling ion recognition with amplified electronic readout in low-voltage sensing platforms. Here, we report a multilayer screen-printed OECT incorporating Ag/AgCl contacts, carbon conductors, a polyethylene glycol (PEG)- and Tween 80-modified PEDOT:PSS channel, dielectric encapsulation, and a potassium ionophore III-based ion-select…",
-      "methods_summary": "原文摘要中的方法信息：The electrical and electrochemical response of the device was investigated over KCl concentrations from 1.0 × 10⁻⁴ to 1.67 M using output and transfer characteristics, transient gate modulation, cyclic voltammetry, electrochemical impedance spectroscopy, and interference measurements. Impedance spectroscopy further showed a concentration-dependent reduction in effective electrochemical impedance and enhanced low-fre…",
-      "key_findings": "原文摘要中的主要结果：Transient measurements showed reversible and concentration-dependent switching, while cyclic voltammetry revealed increasing anodic and cathodic current magnitudes with increasing KCl concentration. Impedance spectroscopy further showed a concentration-dependent reduction in effective electrochemical impedance and enhanced low-frequency capacitive behavior.",
-      "relevance_reason": "命中 cyclic voltammetry、electrochemical impedance spectroscopy、impedance spectroscopy，可用于 CV、EIS、参比校准、传质或动力学/机理分析。",
+      "methods_summary": "The electrical and electrochemical response of the device was investigated over KCl concentrations from 1.0 × 10⁻⁴ to 1.67 M using output and transfer characteristics, transient gate modulation, cyclic voltammetry, electrochemical impedance spectroscopy, and interference measurements. Impedance spectroscopy further showed a concentration-dependent reduction in effective electrochemical impedance and enhanced low-frequency capacitive behavior.",
+      "key_findings": "Transient measurements showed reversible and concentration-dependent switching, while cyclic voltammetry revealed increasing anodic and cathodic current magnitudes with increasing KCl concentration. Impedance spectroscopy further showed a concentration-dependent reduction in effective electrochemical impedance and enhanced low-frequency capacitive behavior.",
+      "relevance_reason": "Matched cyclic voltammetry, electrochemical impedance spectroscopy, impedance spectroscopy; relevant to CV, EIS, reference-electrode calibration, mass transport, selectivity, or electrochemical mechanism analysis.",
       "abstract": "Potassium-selective organic electrochemical transistors (OECTs) provide a route for coupling ion recognition with amplified electronic readout in low-voltage sensing platforms. Here, we report a multilayer screen-printed OECT incorporating Ag/AgCl contacts, carbon conductors, a polyethylene glycol (PEG)- and Tween 80-modified PEDOT:PSS channel, dielectric encapsulation, and a potassium ionophore III-based ion-selective membrane. The electrical and electrochemical response of the device was investigated over KCl concentrations from 1.0 × 10⁻⁴ to 1.67 M using output and transfer characteristics, transient gate modulation, cyclic voltammetry, electrochemical impedance spectroscopy, and interference measurements. Increasing K⁺ concentration produced progressively stronger drain-current modulation, yielding a current sensitivity of 4.61 µA decade⁻¹ (R² = 0.9918) and an equivalent gate-voltage-shift sensitivity of 137.7 mV decade⁻¹ (R² = 0.9953). Transient measurements showed reversible and concentration-dependent switching, while cyclic voltammetry revealed increasing anodic and cathodic current magnitudes with increasing KCl concentration. Impedance spectroscopy further showed a concentration-dependent reduction in effective electrochemical impedance and enhanced low-frequency capacitive behavior. The device exhibited preferential response to K⁺ over NH₄⁺, Na⁺, Mg²⁺, and Ca²⁺, with drain-current modulation approximately 1.3–4.8 times larger than that of the tested interferents. The combined measurements establish a direct relationship between selective K⁺ transport, interfacial electrochemical processes, and modulation of electronic conduction in the PEDOT:PSS channel, providing mechanistic insight into ion sensing in screen-printed OECTs.",
       "tags": [
         "cyclic voltammetry",
@@ -658,8 +1110,10 @@
       "url": "https://doi.org/10.31224/8334",
       "archive": true,
       "impact_factor": null,
-      "quartile": "Q —",
-      "first_seen": "2026-09-30T09:10:56+02:00"
+      "quartile": "JCR —",
+      "first_seen": "2026-09-30T09:10:56+02:00",
+      "summary_en": "Potassium-selective organic electrochemical transistors (OECTs) provide a route for coupling ion recognition with amplified electronic readout in low-voltage sensing platforms. Transient measurements showed reversible and concentration-dependent switching, while cyclic voltammetry revealed increasing anodic and cathodic current magnitudes with increasing KCl concentration.",
+      "summary_mode": "abstract-extraction"
     },
     {
       "id": "W7213221707",
@@ -682,9 +1136,9 @@
         "Jae‐Young Choi"
       ],
       "summary_zh": "摘要提要（未启用 AI 中文总结）：Electrochemical CO 2 reduction reaction (CO 2 RR) offers a highly sustainable pathway for converting carbon emissions into valuable chemicals; however, developing robust catalysts from secondary resources that can withstand electrolyte flooding in zero-gap membrane electrode assemblies (MEAs) remain a significant challenge. Herein, we demonstrate a practical strategy by upcycling high-purity (~99.9%) silver nanopart…",
-      "methods_summary": "原文摘要中的方法信息：Electrochemical CO 2 reduction reaction (CO 2 RR) offers a highly sustainable pathway for converting carbon emissions into valuable chemicals; however, developing robust catalysts from secondary resources that can withstand electrolyte flooding in zero-gap membrane electrode assemblies (MEAs) remain a significant challenge.",
-      "key_findings": "原文摘要中的主要结果：Most importantly, the flooding-resistant electrode exhibits unprecedented stability, operating continuously for over 600 h at 100 mA cm −2 and for 55 h at an industrially demanding 200 mA cm −2 with a stable CO Faradaic efficiency of ~95%. Herein, we demonstrate a practical strategy by upcycling high-purity (~99.9%) silver nanoparticles (EoL-Ag NPs) reclaimed from end-of-life silicon solar panels into durable electr…",
-      "relevance_reason": "命中 gas diffusion electrode、flooding、electrolyzer，可用于 GDE 润湿/淹没、孔结构或 Micro-CT 三维结构—性能分析。",
+      "methods_summary": "The OpenAlex abstract does not state the experimental or analytical methods in enough detail.",
+      "key_findings": "Most importantly, the flooding-resistant electrode exhibits unprecedented stability, operating continuously for over 600 h at 100 mA cm −2 and for 55 h at an industrially demanding 200 mA cm −2 with a stable CO Faradaic efficiency of ~95%. Herein, we demonstrate a practical strategy by upcycling high-purity (~99.9%) silver nanoparticles (EoL-Ag NPs) reclaimed from end-of-life silicon solar panels into durable electrocatalysts for high-rate CO production.",
+      "relevance_reason": "Matched gas diffusion electrode, flooding, electrolyzer; relevant to GDE flooding/wetting, porous-electrode transport, or Micro-CT / tomography structure analysis.",
       "abstract": "Electrochemical CO 2 reduction reaction (CO 2 RR) offers a highly sustainable pathway for converting carbon emissions into valuable chemicals; however, developing robust catalysts from secondary resources that can withstand electrolyte flooding in zero-gap membrane electrode assemblies (MEAs) remain a significant challenge. Herein, we demonstrate a practical strategy by upcycling high-purity (~99.9%) silver nanoparticles (EoL-Ag NPs) reclaimed from end-of-life silicon solar panels into durable electrocatalysts for high-rate CO production. The EoL-Ag NPs, synthesized via a scalable laser-assisted photoreduction process following selective hydrometallurgical impurity extraction, exhibit an exceptionally pristine metallic state (Ag 0 ). Crucially, this upcycling route naturally imparts a multi-scale, polydisperse nano-to-micro morphology to the EoL-Ag NPs. This structural roughness establishes a robust hydrophobic microenvironment within the gas diffusion electrode, lowering the water adhesive force by 2.7-fold and enhancing localized affinity for gaseous CO 2 . Evaluated in a 10 cm 2 zero-gap MEA electrolyzer, the EoL-Ag catalyst outlasts conventional commercial counterparts, delivering a maximum CO partial current density of 296 mA cm −2 at a total current density of 400 mA cm −2 . Most importantly, the flooding-resistant electrode exhibits unprecedented stability, operating continuously for over 600 h at 100 mA cm −2 and for 55 h at an industrially demanding 200 mA cm −2 with a stable CO Faradaic efficiency of ~95%. This work proves that upcycled solar waste can serve as a highly durable alternative to commercial noble catalysts, simultaneously resolving PV waste accumulation and advancing scalable carbon utilization.",
       "tags": [
         "gas diffusion electrode",
@@ -695,8 +1149,10 @@
       "url": "https://doi.org/10.1016/j.jcou.2026.103569",
       "archive": true,
       "impact_factor": null,
-      "quartile": "Q —",
-      "first_seen": "2026-09-30T09:10:56+02:00"
+      "quartile": "JCR —",
+      "first_seen": "2026-09-30T09:10:56+02:00",
+      "summary_en": "Electrochemical CO 2 reduction reaction (CO 2 RR) offers a highly sustainable pathway for converting carbon emissions into valuable chemicals; however, developing robust catalysts from secondary resources that can withstand electrolyte flooding in zero-gap membrane electrode assemblies (MEAs) remain a significant challenge. Most importantly, the flooding-resistant electrode exhibits unprecedented stability, operating continuously for over 600 h at 100 mA cm −2 and for 55 h at an industrially demanding 200 mA cm −2 with a stable CO Faradaic efficiency of…",
+      "summary_mode": "abstract-extraction"
     },
     {
       "id": "W7214544279",
@@ -710,9 +1166,9 @@
       "publication_date": "2026-09-28",
       "authors": [],
       "summary_zh": "摘要提要（未启用 AI 中文总结）：In addition to previously published data on the corrosion resistance of reinforced concrete, the results of electrochemical impedance spectroscopy (EIS) measurements of samples with two modifications of the IFKhAN-78 inhibitor are presented: a migrating modification that includes surfactants, and its contact analogue without them.These measurements were performed regularly during 4-month exposure in 3% NaCl solution…",
-      "methods_summary": "原文摘要中的方法信息：In addition to previously published data on the corrosion resistance of reinforced concrete, the results of electrochemical impedance spectroscopy (EIS) measurements of samples with two modifications of the IFKhAN-78 inhibitor are presented: a migrating modification that includes surfactants, and its contact analogue without them.These measurements were performed regularly during 4-month exposure in 3% NaCl solution…",
-      "key_findings": "原文摘要中的主要结果：In addition to previously published data on the corrosion resistance of reinforced concrete, the results of electrochemical impedance spectroscopy (EIS) measurements of samples with two modifications of the IFKhAN-78 inhibitor are presented: a migrating modification that includes surfactants, and its contact analogue without them.These measurements were performed regularly during 4-month exposure in 3% NaCl solution…",
-      "relevance_reason": "命中 electrochemical impedance spectroscopy、impedance spectroscopy、equivalent circuit，可用于 CV、EIS、参比校准、传质或动力学/机理分析。",
+      "methods_summary": "In addition to previously published data on the corrosion resistance of reinforced concrete, the results of electrochemical impedance spectroscopy (EIS) measurements of samples with two modifications of the IFKhAN-78 inhibitor are presented: a migrating modification that includes surfactants, and its contact analogue without them.These measurements were performed regularly during 4-month exposure in 3% NaCl solution with the concrete samples completely immersed in the electrolyte.The results showed a significant d…",
+      "key_findings": "In addition to previously published data on the corrosion resistance of reinforced concrete, the results of electrochemical impedance spectroscopy (EIS) measurements of samples with two modifications of the IFKhAN-78 inhibitor are presented: a migrating modification that includes surfactants, and its contact analogue without them.These measurements were performed regularly during 4-month exposure in 3% NaCl solution with the concrete samples completely immersed in the electrolyte.The results showed a significant difference in the impedance spectra betwe…",
+      "relevance_reason": "Matched electrochemical impedance spectroscopy, impedance spectroscopy, equivalent circuit; relevant to CV, EIS, reference-electrode calibration, mass transport, selectivity, or electrochemical mechanism analysis.",
       "abstract": "In addition to previously published data on the corrosion resistance of reinforced concrete, the results of electrochemical impedance spectroscopy (EIS) measurements of samples with two modifications of the IFKhAN-78 inhibitor are presented: a migrating modification that includes surfactants, and its contact analogue without them.These measurements were performed regularly during 4-month exposure in 3% NaCl solution with the concrete samples completely immersed in the electrolyte.The results showed a significant difference in the impedance spectra between the concretes treated with these two inhibitors.It was shown that the presence of the surfactant in the inhibitor leads to a significant decrease in the resistance of the concrete layer and the surface oxide-hydroxide layer on the steel surface.During the initial period, while the steel remains passive, an adsorption capacity appears in the equivalent circuit in the presence of the surfactant, which disappears after the onset of intensive corrosion.The concrete treated with the contact inhibitor without surfactants remained passive throughout the test period, and its behavior in the low-frequency region is adequately described by CPE element of capacitive nature.",
       "tags": [
         "electrochemical impedance spectroscopy",
@@ -723,8 +1179,10 @@
       "url": "https://doi.org/10.17675/2305-6894-2026-15-3-13",
       "archive": true,
       "impact_factor": null,
-      "quartile": "Q —",
-      "first_seen": "2026-09-30T09:10:56+02:00"
+      "quartile": "JCR —",
+      "first_seen": "2026-09-30T09:10:56+02:00",
+      "summary_en": "In addition to previously published data on the corrosion resistance of reinforced concrete, the results of electrochemical impedance spectroscopy (EIS) measurements of samples with two modifications of the IFKhAN-78 inhibitor are presented: a migrating modification that includes surfactants, and its contact analogue without them.These measurements were performed regularly during 4-month exposure in 3% NaCl solution with the concrete samples completely immersed in the electrolyte.The results showed a significant difference in the impedance spectra betwe…",
+      "summary_mode": "abstract-extraction"
     }
   ]
 }
