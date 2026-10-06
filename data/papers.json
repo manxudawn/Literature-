@@ -1,11 +1,11 @@
 {
-  "brief_date": "2026 · 10 · 05",
-  "last_updated": "2026-10-05T15:24+02:00",
+  "brief_date": "2026 · 10 · 06",
+  "last_updated": "2026-10-06T14:38+02:00",
   "summary_mode": "English abstract extraction; no AI/API required",
   "journal_metric_snapshot": "2025 JIF / JCR quartile, curated 2026-09-30",
   "keyword_count": 38,
   "keyword_config_updated": "2026-09-30",
-  "match_score": 0,
+  "match_score": 94,
   "trackers": [
     {
       "name": "Ni electrocarboxylation",
@@ -25,6 +25,416 @@
     }
   ],
   "papers": [
+    {
+      "id": "W7168181748",
+      "doi": "https://doi.org/10.1021/acselectrochem.6c00241",
+      "topic": "organic",
+      "badge": "Recent pick",
+      "read_minutes": 6,
+      "title": "Electrochemical Carboxylation of Organic Halides at Preparative Scale Using Recirculation Flow Process",
+      "journal": "ACS electrochemistry.",
+      "journal_issn": [
+        "2997-0571"
+      ],
+      "year": 2026,
+      "publication_date": "2026-07-13",
+      "authors": [
+        "Iryna Lesko",
+        "Isabelle Lachaise",
+        "Christine Cachet‐Vivier",
+        "Stéphane Sengmany",
+        "Raphaël Beltran",
+        "Erwan Le Gall",
+        "Éric Léonel"
+      ],
+      "summary_en": "Abstract The direct electrochemical carboxylation of aryl chlorides and bromides by CO2 using a recirculation flow cell is described. The global superiority of the flow technology over the batch process is underlined by the statistical comparison of the results obtained in both conditions and the calculation of the molar electric consumption for conversion.",
+      "methods_summary": "Abstract The direct electrochemical carboxylation of aryl chlorides and bromides by CO2 using a recirculation flow cell is described. The reactions are simply carried out with common and affordable equipment under galvanostatic mode at –10 °C, using DMF as the solvent and carbon dioxide at atmospheric pressure.",
+      "key_findings": "The global superiority of the flow technology over the batch process is underlined by the statistical comparison of the results obtained in both conditions and the calculation of the molar electric consumption for conversion.",
+      "relevance_reason": "Matched electrochemical carboxylation, carboxylation, carbon dioxide, co2; directly relevant to CO2 electrocarboxylation, non-aqueous electrosynthesis, or Ni-mediated carbon incorporation.",
+      "abstract": "Abstract The direct electrochemical carboxylation of aryl chlorides and bromides by CO2 using a recirculation flow cell is described. The process employs a Mg sacrificial rod anode surrounded by a cylindrical shaped nickel foam cathode. The reactions are simply carried out with common and affordable equipment under galvanostatic mode at –10 °C, using DMF as the solvent and carbon dioxide at atmospheric pressure. Under these smooth conditions, an important range of carboxylic acids is accessible at a 100 mmol scale. The global superiority of the flow technology over the batch process is underlined by the statistical comparison of the results obtained in both conditions and the calculation of the molar electric consumption for conversion.",
+      "tags": [
+        "electrochemical carboxylation",
+        "carboxylation",
+        "carbon dioxide",
+        "co2",
+        "nickel",
+        "dmf"
+      ],
+      "score": 99,
+      "url": "https://doi.org/10.1021/acselectrochem.6c00241",
+      "archive": false,
+      "discovery_source": "topic-search",
+      "summary_mode": "abstract-extraction",
+      "impact_factor": null,
+      "quartile": "JCR —",
+      "first_seen": "2026-10-06T14:38:24+02:00"
+    },
+    {
+      "id": "W7154056028",
+      "doi": "https://doi.org/10.1007/s43979-026-00169-8",
+      "topic": "gde",
+      "badge": "Recent pick",
+      "read_minutes": 6,
+      "title": "Gas diffusion layer regulated phosphoric acid distribution for durable high-temperature polymer electrolyte membrane fuel cells under high-current loading",
+      "journal": "Carbon Neutrality",
+      "journal_issn": [
+        "2731-3948",
+        "2788-8614"
+      ],
+      "year": 2026,
+      "publication_date": "2026-04-14",
+      "authors": [
+        "Weiwei Ni",
+        "Zhangxun Xia",
+        "Ruili Sun",
+        "Zinan Zhang",
+        "Xi Chen",
+        "Yangyang Hu",
+        "Jicai Huang",
+        "Suli Wang"
+      ],
+      "summary_en": "Abstract High-temperature polymer electrolyte membrane fuel cells (HT-PEMFCs) offer promising power sources for heavy-duty vehicles (HDV) due to their effective management of heat and water. However, the long-term stability of HT-PEMFCs is critically constrained by phosphoric acid (PA) electrolyte loss especially at high current working circumstances.",
+      "methods_summary": "Combined with high-current–density (HCD) accelerated stress tests (AST) at 1.6 A cm −2 and in-operando 3D X-ray microscopic (XRM) characterization to systematically elucidate the influence of GDL structure on acid-loss pathways and performance degradation, the GDL featuring a dense microporous layer (MPL) with low mesoporosity exhibited the superior anti-leaching capability, showing the lowest acid loss rate (2.1 ng cm −2 h −1 L −1 ) and the smallest voltage decay (0.23 mV cycle −1 ) during HCD AST.",
+      "key_findings": "However, the long-term stability of HT-PEMFCs is critically constrained by phosphoric acid (PA) electrolyte loss especially at high current working circumstances. This work suggests that engineering the overall GDL structure is an effective route to achieving long-term stable HT-PEMFC operation at HCD, providing key theoretical guidance for the design of next-generation, high-performance and durable membrane electrode assemblies (MEAs) for the heavy-duty applications.",
+      "relevance_reason": "Matched gas diffusion layer, gdl, catalyst layer, operando; relevant to GDE flooding/wetting, porous-electrode transport, or Micro-CT / tomography structure analysis.",
+      "abstract": "Abstract High-temperature polymer electrolyte membrane fuel cells (HT-PEMFCs) offer promising power sources for heavy-duty vehicles (HDV) due to their effective management of heat and water. However, the long-term stability of HT-PEMFCs is critically constrained by phosphoric acid (PA) electrolyte loss especially at high current working circumstances. Herein this work, gas diffusion layers (GDLs) of distinct porous structures were designed to regulate PA distribution under rigorous loading circumstance. Combined with high-current–density (HCD) accelerated stress tests (AST) at 1.6 A cm −2 and in-operando 3D X-ray microscopic (XRM) characterization to systematically elucidate the influence of GDL structure on acid-loss pathways and performance degradation, the GDL featuring a dense microporous layer (MPL) with low mesoporosity exhibited the superior anti-leaching capability, showing the lowest acid loss rate (2.1 ng cm −2 h −1 L −1 ) and the smallest voltage decay (0.23 mV cycle −1 ) during HCD AST. Mechanistic analysis reveals that the dense MPL effectively mitigates liquid PA migration through catalyst layer (CL) cracks, while the high porosity compensates the performance loss led by mass transport resistance. This work suggests that engineering the overall GDL structure is an effective route to achieving long-term stable HT-PEMFC operation at HCD, providing key theoretical guidance for the design of next-generation, high-performance and durable membrane electrode assemblies (MEAs) for the heavy-duty applications.",
+      "tags": [
+        "gas diffusion layer",
+        "gdl",
+        "catalyst layer",
+        "operando"
+      ],
+      "score": 99,
+      "url": "https://doi.org/10.1007/s43979-026-00169-8",
+      "archive": false,
+      "discovery_source": "topic-search",
+      "summary_mode": "abstract-extraction",
+      "impact_factor": null,
+      "quartile": "JCR —",
+      "first_seen": "2026-10-06T14:38:24+02:00"
+    },
+    {
+      "id": "W7214799000",
+      "doi": "https://doi.org/10.1021/acsomega.6c09469",
+      "topic": "analysis",
+      "badge": "Latest research",
+      "read_minutes": 6,
+      "title": "Poly(Allura Red AC)-Modified Glassy Carbon Electrode: Electropolymerization, Characterization, and Application in Uric Acid Detection",
+      "journal": "ACS Omega",
+      "journal_issn": [
+        "2470-1343"
+      ],
+      "year": 2026,
+      "publication_date": "2026-09-29",
+      "authors": [
+        "Fatma Ağın",
+        "Elif Mollahasanoğlu",
+        "Gökçe Öztürk",
+        "Fatih Erdemır",
+        "Dilek Kul"
+      ],
+      "summary_en": "Abstract In this study, the electropolymerization, electrochemical characterization, and analytical applicability of a poly(Allura Red AC)-modified glassy carbon electrode were systematically investigated. The modified electrode exhibited enhanced electrocatalytic activity toward the oxidation of uric acid, enabling sensitive voltammetric determination.",
+      "methods_summary": "The resulting polymer film was characterized by cyclic voltammetry, electrochemical impedance spectroscopy, surface coverage analysis, electroactive surface area determination, and pH-dependent electrochemical studies. Under optimized conditions, the sensor showed a linear range of 0.2–40 μM and low detection limits of 7.64 nM and 6.47 nM by cyclic voltammetry and differential pulse voltammetry, respectively.",
+      "key_findings": "The modified electrode exhibited enhanced electrocatalytic activity toward the oxidation of uric acid, enabling sensitive voltammetric determination. Under optimized conditions, the sensor showed a linear range of 0.2–40 μM and low detection limits of 7.64 nM and 6.47 nM by cyclic voltammetry and differential pulse voltammetry, respectively.",
+      "relevance_reason": "Matched cyclic voltammetry, voltammetric, electrochemical impedance spectroscopy, impedance spectroscopy; relevant to CV, EIS, reference-electrode calibration, mass transport, selectivity, or electrochemical mechanism analysis.",
+      "abstract": "Abstract In this study, the electropolymerization, electrochemical characterization, and analytical applicability of a poly(Allura Red AC)-modified glassy carbon electrode were systematically investigated. Electropolymerization parameters, including monomer concentration, buffer type, pH, and ionic strength, were optimized to obtain a stable and electroactive poly(Allura Red AC) film. The resulting polymer film was characterized by cyclic voltammetry, electrochemical impedance spectroscopy, surface coverage analysis, electroactive surface area determination, and pH-dependent electrochemical studies. The modified electrode exhibited enhanced electrocatalytic activity toward the oxidation of uric acid, enabling sensitive voltammetric determination. Under optimized conditions, the sensor showed a linear range of 0.2–40 μM and low detection limits of 7.64 nM and 6.47 nM by cyclic voltammetry and differential pulse voltammetry, respectively. The developed methods were successfully applied to protein-free human serum samples, providing accurate recoveries and no prominent interfering peaks within the uric acid oxidation potential window. This work provides a comprehensive understanding of the formation and electrochemical properties of poly(Allura Red AC) films while demonstrating their applicability as an electrocatalytic sensing interface for sensitive uric acid determination in biological samples.",
+      "tags": [
+        "cyclic voltammetry",
+        "voltammetric",
+        "electrochemical impedance spectroscopy",
+        "impedance spectroscopy"
+      ],
+      "score": 99,
+      "url": "https://doi.org/10.1021/acsomega.6c09469",
+      "archive": false,
+      "discovery_source": "topic-search",
+      "summary_mode": "abstract-extraction",
+      "impact_factor": null,
+      "quartile": "JCR —",
+      "first_seen": "2026-10-06T14:38:24+02:00"
+    },
+    {
+      "id": "W7169787974",
+      "doi": "https://doi.org/10.1021/jacs.6c04924",
+      "topic": "organic",
+      "badge": "Recent pick",
+      "read_minutes": 6,
+      "title": "ATR-SEIRAS Studies of Butadiene Electrocarboxylation in Aprotic Media",
+      "journal": "Journal of the American Chemical Society",
+      "journal_issn": [
+        "0002-7863",
+        "1520-5126",
+        "1943-2984"
+      ],
+      "year": 2026,
+      "publication_date": "2026-07-20",
+      "authors": [
+        "Maria Rodrigues Pinto",
+        "Francesco Longhin",
+        "Carolina Isabela Elizarraras",
+        "Georg Kastlunger",
+        "Brian Joseph Seger"
+      ],
+      "summary_en": "The electrocarboxylation of butadiene (BD) offers a sustainable route to hexenedioate synthesis through CO2 utilization. Electrolysis experiments reveal higher hexenedioate Faradaic efficiency on Au, followed by Cu and Pt, while CO selectivity shows the opposite trend (Pt > Cu > Au), providing complementary evidence for metal-dependent trends observed in the spectroscopic measurements.",
+      "methods_summary": "Herein, we employ in situ Attenuated Total Reflectance Surface Enhanced Infrared Absorption Spectroscopy (ATR-SEIRAS), electrolysis experiments with product analysis and density functional theory (DFT) to investigate BD electrocarboxylation on Au, Cu, and Pt. ATR-SEIRAS tracks the evolution of interfacial species and shows that BD suppresses the CO adsorption band on Cu but remains unchanged on Pt, consistent with DFT predictions that result from its preferential binding and the destabilization of BD chemisorption…",
+      "key_findings": "Electrolysis experiments reveal higher hexenedioate Faradaic efficiency on Au, followed by Cu and Pt, while CO selectivity shows the opposite trend (Pt > Cu > Au), providing complementary evidence for metal-dependent trends observed in the spectroscopic measurements. Herein, we employ in situ Attenuated Total Reflectance Surface Enhanced Infrared Absorption Spectroscopy (ATR-SEIRAS), electrolysis experiments with product analysis and density functional theory (DFT) to investigate BD electrocarboxylation on Au, Cu, and Pt.",
+      "relevance_reason": "Matched electrocarboxylation, carboxylation, co2, diene; directly relevant to CO2 electrocarboxylation, non-aqueous electrosynthesis, or Ni-mediated carbon incorporation.",
+      "abstract": "The electrocarboxylation of butadiene (BD) offers a sustainable route to hexenedioate synthesis through CO2 utilization. Hexenedioate can be converted into adipic acid, the main precursor to Nylon, which is currently produced from fossil-based feedstocks. However, key aspects of BD electrocarboxylation remain unclear, particularly the involvement of surface-bound intermediates and competing interfacial reactions, such as the CO2 reduction reaction (CO2RR). Herein, we employ in situ Attenuated Total Reflectance Surface Enhanced Infrared Absorption Spectroscopy (ATR-SEIRAS), electrolysis experiments with product analysis and density functional theory (DFT) to investigate BD electrocarboxylation on Au, Cu, and Pt. ATR-SEIRAS tracks the evolution of interfacial species and shows that BD suppresses the CO adsorption band on Cu but remains unchanged on Pt, consistent with DFT predictions that result from its preferential binding and the destabilization of BD chemisorption at increasingly cathodic potentials. Electrolysis experiments reveal higher hexenedioate Faradaic efficiency on Au, followed by Cu and Pt, while CO selectivity shows the opposite trend (Pt > Cu > Au), providing complementary evidence for metal-dependent trends observed in the spectroscopic measurements. Although CO still forms in the presence of BD, part of the CO2•- is consumed by BD to generate electrocarboxylation products, and the CO that is produced does not adsorb on Cu because BD or BD-derived species outcompete and displace it. These findings highlight the effect of BD adsorption and potential-dependent radical competition in shaping electrocarboxylation reactions, emphasizing the importance of considering interfacial contributions in the electrochemical process.",
+      "tags": [
+        "electrocarboxylation",
+        "carboxylation",
+        "co2",
+        "diene"
+      ],
+      "score": 99,
+      "url": "https://doi.org/10.1021/jacs.6c04924",
+      "archive": false,
+      "discovery_source": "topic-search",
+      "summary_mode": "abstract-extraction",
+      "impact_factor": "15.6",
+      "quartile": "JCR Q1",
+      "metric_year": "2025 JIF",
+      "first_seen": "2026-10-06T14:38:24+02:00"
+    },
+    {
+      "id": "W7169191988",
+      "doi": "https://doi.org/10.1149/ma2026-01361655mtgabs",
+      "topic": "gde",
+      "badge": "Recent pick",
+      "read_minutes": 7,
+      "title": "( Invited ) Operando Diagnostics for Performance and Degradation Analysis of Proton Exchange Membrane Water Electrolyzers",
+      "journal": "ECS Meeting Abstracts",
+      "journal_issn": [
+        "1091-8213",
+        "2151-2035",
+        "2151-2043",
+        "2152-8365"
+      ],
+      "year": 2026,
+      "publication_date": "2026-07-07",
+      "authors": [
+        "Shawn Litster",
+        "Fausto N Pasmay",
+        "Corinne Smith",
+        "Kara J. Ferner",
+        "Mee Hyun Ha",
+        "Rebekah Ann Adams",
+        "Indranil Sinha"
+      ],
+      "summary_en": "The electrification of transportation and industry is vital to building a resilient, efficient, and flexible energy infrastructure that reduces air pollution, including particulate emissions that pose significant health hazards. However, many sectors, such as heavy-duty ground transportation, aviation, and industries like ammonia, steel, and cement production, are technically challenging and economically demanding to electrify.",
+      "methods_summary": "We have evaluated the transport properties of electrodes that are challenging to directly probe due to their micrometer and sub-micrometer length-scales using ultra-high-resolution three-dimensional imaging with X-ray computed tomography (nano-CT) and plasma-focused ion beam cross-sectioning with scanning electron microscopy (pFIB-SEM) for image-based simulations. In this presentation, we will delve into the relevant transport mechanisms and the fundamental limits of reducing these overpotentials through modeling.",
+      "key_findings": "The talk will also highlight an operando method for monitoring the floating potential and degradation of gas recombination catalysts (GRCs) in PEMWE membranes, which helps minimize H2 accumulation in the O2 exhaust and improve the safety of hydrogen generation under elevated backpressures.",
+      "relevance_reason": "Matched tomography, porous transport layer, electrolyzer, operando; relevant to GDE flooding/wetting, porous-electrode transport, or Micro-CT / tomography structure analysis.",
+      "abstract": "The electrification of transportation and industry is vital to building a resilient, efficient, and flexible energy infrastructure that reduces air pollution, including particulate emissions that pose significant health hazards. However, many sectors, such as heavy-duty ground transportation, aviation, and industries like ammonia, steel, and cement production, are technically challenging and economically demanding to electrify. Utilizing hydrogen with low carbon intensity is key to reducing reliance on fossil fuels and emissions. Proton exchange membrane water electrolyzers (PEMWEs) play a vital role in this transition due to their high efficiency, rapid response time, and capability to electrochemically compress hydrogen. However, despite encouraging progress, significant material improvements are necessary to meet ambitious cost targets. In addition to cost, it is important to limit the amount of iridium used in reaching goals for installed electrolyzer capacity and for substantial use of low-carbon hydrogen in industry and transportation. Achieving this reduced iridium loading requires identifying factors that limit iridium efficacy and utilization, and developing novel catalysts and electrode architectures that enable lower iridium use. One critical aspect of enhancing catalyst performance to achieve high currents at efficient, low voltages is minimizing overpotential losses. These losses result from electron, proton, and water transport to the oxygen evolution catalysts. Additionally, there are secondary current-induced loss mechanisms, including membrane and electrode dry-out and ionic contaminant polarization. In this presentation, we will delve into the relevant transport mechanisms and the fundamental limits of reducing these overpotentials through modeling. We have evaluated the transport properties of electrodes that are challenging to directly probe due to their micrometer and sub-micrometer length-scales using ultra-high-resolution three-dimensional imaging with X-ray computed tomography (nano-CT) and plasma-focused ion beam cross-sectioning with scanning electron microscopy (pFIB-SEM) for image-based simulations. Subsequently, we will briefly review existing methods for experimentally diagnosing transport limitations and highlight new methods currently under development in our laboratory. These new diagnostics include a galvanostatic intermittent titration technique (GITT) for electrolyzers and a limiting-current diagnostic for PEMWEs. Applications of GITT that will be highlighted in this talk include elucidating the impact of porous transport layers, novel catalysts for low loading, and electrode degradation during ASTs. The talk will also highlight an operando method for monitoring the floating potential and degradation of gas recombination catalysts (GRCs) in PEMWE membranes, which helps minimize H2 accumulation in the O2 exhaust and improve the safety of hydrogen generation under elevated backpressures.",
+      "tags": [
+        "tomography",
+        "porous transport layer",
+        "electrolyzer",
+        "operando"
+      ],
+      "score": 89,
+      "url": "https://doi.org/10.1149/ma2026-01361655mtgabs",
+      "archive": false,
+      "discovery_source": "topic-search",
+      "summary_mode": "abstract-extraction",
+      "impact_factor": null,
+      "quartile": "JCR —",
+      "first_seen": "2026-10-06T14:38:24+02:00"
+    },
+    {
+      "id": "W7203792896",
+      "doi": "https://doi.org/10.1021/prechem.6c00086",
+      "topic": "organic",
+      "badge": "Recent research",
+      "read_minutes": 6,
+      "title": "Enhanced CO2 Activation and Ethylene Electrocarboxylation on Rare-Earth Doped Cu2S: Insights from Electronic and Geometric Modulation",
+      "journal": "Precision Chemistry",
+      "journal_issn": [
+        "2771-9316"
+      ],
+      "year": 2026,
+      "publication_date": "2026-08-19",
+      "authors": [
+        "Kaini Zhang",
+        "Shaohua Shen"
+      ],
+      "summary_en": "Abstract M@Cu2S electrocatalysts were theoretically designed by substituting a surface Cu atom on the Cu2S(111) facet with a rare-earth M atom. All M@Cu2S electrocatalysts exhibit favorable structural stability, with negative formation energies and binding energies.",
+      "methods_summary": "The OpenAlex abstract does not state the experimental or analytical methods in enough detail.",
+      "key_findings": "All M@Cu2S electrocatalysts exhibit favorable structural stability, with negative formation energies and binding energies. This work confirms that rare-earth doping with optimized electronic and geometric characteristics enhances the catalytic performance of M@Cu2S for ethylene electrocarboxylation, laying a reliable theoretical foundation for developing efficient electrocatalysts for CO2 conversion and ethylene valorization.",
+      "relevance_reason": "Matched electrocarboxylation, carboxylation, co2; directly relevant to CO2 electrocarboxylation, non-aqueous electrosynthesis, or Ni-mediated carbon incorporation.",
+      "abstract": "Abstract M@Cu2S electrocatalysts were theoretically designed by substituting a surface Cu atom on the Cu2S(111) facet with a rare-earth M atom. All M@Cu2S electrocatalysts exhibit favorable structural stability, with negative formation energies and binding energies. On M@Cu2S, the unique bridge-bonded adsorption configuration (both O atoms of *CO2 are bonded to M) enables effective activation of *CO2, with the hydrogenation step, rather than the C–C coupling step, identified as the potential-determining step (PDS) for ethylene electrocarboxylation. Notably, Eu@Cu2S and Yb@Cu2S exhibit limiting potentials (Ulimit) of 0.97 and 0.81 V versus the standard hydrogen electrode (SHE), respectively, which are lower than those of other M@Cu2S electrocatalysts, indicating their superior catalytic performance. Structure–activity relationship analysis reveals that, among all M@Cu2S electrocatalysts, rare-earth dopants M with higher third ionization energies and larger atomic radii deliver lower Ulimit and correspondingly superior electrocatalytic activity toward ethylene electrocarboxylation to succinic acid. This work confirms that rare-earth doping with optimized electronic and geometric characteristics enhances the catalytic performance of M@Cu2S for ethylene electrocarboxylation, laying a reliable theoretical foundation for developing efficient electrocatalysts for CO2 conversion and ethylene valorization.",
+      "tags": [
+        "electrocarboxylation",
+        "carboxylation",
+        "co2"
+      ],
+      "score": 99,
+      "url": "https://doi.org/10.1021/prechem.6c00086",
+      "archive": false,
+      "discovery_source": "topic-search",
+      "summary_mode": "abstract-extraction",
+      "impact_factor": null,
+      "quartile": "JCR —",
+      "first_seen": "2026-10-06T14:38:24+02:00"
+    },
+    {
+      "id": "W7214658608",
+      "doi": "https://doi.org/10.1016/j.jobe.2026.117445",
+      "topic": "gde",
+      "badge": "Recent research",
+      "read_minutes": 6,
+      "title": "Multifunctional ion and charge transport enhancement in sodium-based structural supercapacitors using biochar and polymeric anion-exchange resins",
+      "journal": "Journal of Building Engineering",
+      "journal_issn": [
+        "2352-7102"
+      ],
+      "year": 2026,
+      "publication_date": "2026-09-01",
+      "authors": [
+        "Y. Tao",
+        "S.A. Hadigheh"
+      ],
+      "summary_en": "Structural supercapacitors (SSCs) offer a promising route for integrating energy storage into load-bearing construction materials, reducing the additional weight and space associated with conventional external devices. Further dosage investigation showed that 5.0 wt.% BC2 increased areal capacitance by approximately 130%, while areal energy density, areal power density, and coulombic efficiency reached 2.6, 1.6, and 1.4 times the reference values, respectively.",
+      "methods_summary": "The OpenAlex abstract does not state the experimental or analytical methods in enough detail.",
+      "key_findings": "Further dosage investigation showed that 5.0 wt.% BC2 increased areal capacitance by approximately 130%, while areal energy density, areal power density, and coulombic efficiency reached 2.6, 1.6, and 1.4 times the reference values, respectively. BC2 showed the most favourable multifunctional response, associated with its broader size distribution, rough porous texture, and higher oxygen-functional-group content.",
+      "relevance_reason": "Matched micro-ct; relevant to GDE flooding/wetting, porous-electrode transport, or Micro-CT / tomography structure analysis.",
+      "abstract": "Structural supercapacitors (SSCs) offer a promising route for integrating energy storage into load-bearing construction materials, reducing the additional weight and space associated with conventional external devices. Sodium-based alkali-activated materials (AAMs) are attractive for their low-carbon potential, construction compatibility, and alkaline pore solution that can support ion transport. However, the use of low-cost, waste-derived additives to enhance the multifunctional electrochemical performance of sodium-based AAMs remains underexplored. This study examines two modification pathways for a slag–fly ash sodium-based AAM, namely an OH - -form polymeric anion-exchange resin and two biochars with contrasting physicochemical characteristics. The resin produced only a modest early-age transport benefit that was not sustained after curing, plausibly due to limited polymer-network continuity, water uptake and swelling, and matrix densification. BC2 showed the most favourable multifunctional response, associated with its broader size distribution, rough porous texture, and higher oxygen-functional-group content. At 28 days, 1.0 wt.% BC2 increased compressive strength and EIS-derived effective conductivity by 15.9% and 24.9%, respectively. Further dosage investigation showed that 5.0 wt.% BC2 increased areal capacitance by approximately 130%, while areal energy density, areal power density, and coulombic efficiency reached 2.6, 1.6, and 1.4 times the reference values, respectively. The 3.0 wt.% BC2 delivered the highest compressive strength, 19.3% above the reference. Micro-CT results further indicated dosage-dependent changes in the X-CT-resolved void structure, including a shift in void-size distribution and fewer large localised voids at lower BC2 dosages. Overall, waste-derived biochar supports the development of sodium-based AAM structural electrolytes for low-carbon, energy-storage-integrated construction materials.",
+      "tags": [
+        "micro-ct"
+      ],
+      "score": 78,
+      "url": "https://doi.org/10.1016/j.jobe.2026.117445",
+      "archive": false,
+      "discovery_source": "topic-search",
+      "summary_mode": "abstract-extraction",
+      "impact_factor": null,
+      "quartile": "JCR —",
+      "first_seen": "2026-10-06T14:38:24+02:00"
+    },
+    {
+      "id": "W7204037768",
+      "doi": "https://doi.org/10.1007/s40843-026-4278-0",
+      "topic": "organic",
+      "badge": "Recent research",
+      "read_minutes": 8,
+      "title": "Promoting CO2 electrocarboxylation to C6+ dicarboxylic acids by tuning Co-Fe interactions",
+      "journal": "Science China Materials",
+      "journal_issn": [
+        "2095-8226",
+        "2199-4501"
+      ],
+      "year": 2026,
+      "publication_date": "2026-08-18",
+      "authors": [
+        "Junjun Mao",
+        "H Sh Liu",
+        "Yu Yang",
+        "Jinqi Xiong",
+        "Linbo Li",
+        "Bo Zhang",
+        "Yang Lou",
+        "Chengsi Pan"
+      ],
+      "summary_en": "No abstract was available from OpenAlex; open the original article for the full study summary.",
+      "methods_summary": "Methods cannot be extracted reliably because the abstract is unavailable.",
+      "key_findings": "Key findings cannot be extracted reliably because the abstract is unavailable.",
+      "relevance_reason": "Matched electrocarboxylation, carboxylation, co2; directly relevant to CO2 electrocarboxylation, non-aqueous electrosynthesis, or Ni-mediated carbon incorporation.",
+      "abstract": "",
+      "tags": [
+        "electrocarboxylation",
+        "carboxylation",
+        "co2"
+      ],
+      "score": 99,
+      "url": "https://doi.org/10.1007/s40843-026-4278-0",
+      "archive": false,
+      "discovery_source": "topic-search",
+      "summary_mode": "abstract-extraction",
+      "impact_factor": null,
+      "quartile": "JCR —",
+      "first_seen": "2026-10-06T14:38:24+02:00"
+    },
+    {
+      "id": "W7164543784",
+      "doi": "https://doi.org/10.1088/2515-7655/ae7cb3",
+      "topic": "gde",
+      "badge": "Recent pick",
+      "read_minutes": 6,
+      "title": "In-operando characterization of energy materials using laboratory x-ray computed tomography",
+      "journal": "Journal of Physics Energy",
+      "journal_issn": [
+        "2515-7655"
+      ],
+      "year": 2026,
+      "publication_date": "2026-06-12",
+      "authors": [
+        "Krzysztof Dzięcioł",
+        "Sunghoon Choi",
+        "Luca Guido Weckelmann",
+        "Rebecca Erkes",
+        "Eichel, Rüdiger-A,",
+        "Florian Hausen"
+      ],
+      "summary_en": "Abstract In-operando laboratory x-ray computed tomography (XCT) enables non-destructive, real-time imaging of battery materials during electrochemical operation, providing critical insights into morphology evolution, degradation mechanisms, and performance limitations. This tutorial guides newcomers through the technique, emphasizing its role in battery research where dynamic processes like electrode plating, stripping, and phase transformations must be captured.",
+      "methods_summary": "Abstract In-operando laboratory x-ray computed tomography (XCT) enables non-destructive, real-time imaging of battery materials during electrochemical operation, providing critical insights into morphology evolution, degradation mechanisms, and performance limitations. The tutorial stresses scripting for multi-modal synchronization, cell design for x-ray transparency, and artifact mitigation, equipping researchers to apply in-operando XCT effectively to various battery systems for innovative, sustainable solutions.",
+      "key_findings": "The tutorial stresses scripting for multi-modal synchronization, cell design for x-ray transparency, and artifact mitigation, equipping researchers to apply in-operando XCT effectively to various battery systems for innovative, sustainable solutions.",
+      "relevance_reason": "Matched tomography, operando; relevant to GDE flooding/wetting, porous-electrode transport, or Micro-CT / tomography structure analysis.",
+      "abstract": "Abstract In-operando laboratory x-ray computed tomography (XCT) enables non-destructive, real-time imaging of battery materials during electrochemical operation, providing critical insights into morphology evolution, degradation mechanisms, and performance limitations. This tutorial guides newcomers through the technique, emphasizing its role in battery research where dynamic processes like electrode plating, stripping, and phase transformations must be captured. Challenges such as optimizing temporal resolution versus image quality and reducing beam-induced damage are covered, with strategies like sparse sampling and super-resolution. Drawing on three examples—(1) hybrid 2D/3D imaging of zinc electrode evolution in various electrolytes Dzięcioł (2023); (2) high-frequency 3D in-operando study of anode morphology in a commercial zinc-air battery Dzięcioł (2025); and (3) a pressurized custom cell for air-sensitive lithium metal batteries Weckelmann (2025) — step-by-step instructions are provided. These instructions cover experiment design, execution, data handling, and practical tips. The tutorial stresses scripting for multi-modal synchronization, cell design for x-ray transparency, and artifact mitigation, equipping researchers to apply in-operando XCT effectively to various battery systems for innovative, sustainable solutions.",
+      "tags": [
+        "tomography",
+        "operando"
+      ],
+      "score": 78,
+      "url": "https://doi.org/10.1088/2515-7655/ae7cb3",
+      "archive": false,
+      "discovery_source": "topic-search",
+      "summary_mode": "abstract-extraction",
+      "impact_factor": null,
+      "quartile": "JCR —",
+      "first_seen": "2026-10-06T14:38:24+02:00"
+    },
+    {
+      "id": "W7155208113",
+      "doi": "https://doi.org/10.1002/celc.202600014",
+      "topic": "organic",
+      "badge": "Recent pick",
+      "read_minutes": 6,
+      "title": "A Cathodic Hydrogen Atom Transfer Strategy for Electrochemical Carboxylation of Dibenzylic C(sp 3 )H Bonds With CO 2",
+      "journal": "ChemElectroChem",
+      "journal_issn": [
+        "2196-0216"
+      ],
+      "year": 2026,
+      "publication_date": "2026-04-21",
+      "authors": [
+        "Yuto Maeji",
+        "Toshimichi Kobayashi",
+        "Kento Kosugi",
+        "Yutaka Saga",
+        "Masanari Hirahara",
+        "Mio Kondo",
+        "Tetsuya Kambe",
+        "Shigeyuki Masaoka"
+      ],
+      "summary_en": "Direct carboxylation of C(sp 3 )H bonds with carbon dioxide (CO 2 ) offers an attractive route to value‐added carboxylic acids but remains challenging due to the inertness of both reaction partners. Consequently, the reaction proceeds efficiently under mild conditions (room temperature, 1 atm CO 2 ) without requiring an external sacrificial redox reagent, affording carboxylation products in good yields (up to 69%) within a short reaction time (2 h).",
+      "methods_summary": "Here, we report a fundamentally distinct electrochemical strategy that enables carboxylation of dibenzylic C(sp 3 )H bonds using hydrogen atom transfer (HAT) species reductively generated at the cathode.",
+      "key_findings": "Consequently, the reaction proceeds efficiently under mild conditions (room temperature, 1 atm CO 2 ) without requiring an external sacrificial redox reagent, affording carboxylation products in good yields (up to 69%) within a short reaction time (2 h).",
+      "relevance_reason": "Matched electrochemical carboxylation, carboxylation, carbon dioxide; directly relevant to CO2 electrocarboxylation, non-aqueous electrosynthesis, or Ni-mediated carbon incorporation.",
+      "abstract": "Direct carboxylation of C(sp 3 )H bonds with carbon dioxide (CO 2 ) offers an attractive route to value‐added carboxylic acids but remains challenging due to the inertness of both reaction partners. Here, we report a fundamentally distinct electrochemical strategy that enables carboxylation of dibenzylic C(sp 3 )H bonds using hydrogen atom transfer (HAT) species reductively generated at the cathode. This represents a rare example of C(sp 3 )H bond functionalization mediated by cathodically generated HAT species. In contrast to anodic HAT systems that require interelectrode diffusion of reactive intermediates, the present method allows all the elementary steps (HAT species generation, C(sp 3 )H bond cleavage, and CO 2 incorporation) to occur at the same cathode. Consequently, the reaction proceeds efficiently under mild conditions (room temperature, 1 atm CO 2 ) without requiring an external sacrificial redox reagent, affording carboxylation products in good yields (up to 69%) within a short reaction time (2 h). Mechanistic studies support a pathway involving sequential electron transfer‐chemical reaction (EC) and CO 2 ‐coupled electron transfer processes for HAT species generation. This work establishes a mechanistically defined platform for electrochemical dibenzylic C(sp 3 )H bond functionalization.",
+      "tags": [
+        "electrochemical carboxylation",
+        "carboxylation",
+        "carbon dioxide"
+      ],
+      "score": 99,
+      "url": "https://doi.org/10.1002/celc.202600014",
+      "archive": false,
+      "discovery_source": "topic-search",
+      "summary_mode": "abstract-extraction",
+      "impact_factor": null,
+      "quartile": "JCR —",
+      "first_seen": "2026-10-06T14:38:24+02:00"
+    },
     {
       "id": "W7214722002",
       "doi": "https://doi.org/10.1002/slct.74328",
