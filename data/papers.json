@@ -1,11 +1,11 @@
 {
-  "brief_date": "2026 · 10 · 09",
-  "last_updated": "2026-10-09T14:28+02:00",
+  "brief_date": "2026 · 10 · 10",
+  "last_updated": "2026-10-10T13:47+02:00",
   "summary_mode": "English abstract extraction; no AI/API required",
   "journal_metric_snapshot": "2025 JIF / JCR quartile, curated 2026-09-30",
   "keyword_count": 38,
   "keyword_config_updated": "2026-09-30",
-  "match_score": 92,
+  "match_score": 89,
   "trackers": [
     {
       "name": "Ni electrocarboxylation",
@@ -25,6 +25,357 @@
     }
   ],
   "papers": [
+    {
+      "id": "W7167824864",
+      "doi": "https://doi.org/10.1016/j.egyai.2026.100843",
+      "topic": "gde",
+      "badge": "Recent pick",
+      "read_minutes": 6,
+      "title": "AI-assisted structure reconstruction and multiphysics modeling of gas diffusion layers",
+      "journal": "Energy and AI",
+      "journal_issn": [
+        "2666-5468"
+      ],
+      "year": 2026,
+      "publication_date": "2026-07-09",
+      "authors": [
+        "Shuheng Yuan",
+        "Linhao Fan",
+        "Yuan Wang",
+        "Siyuan Wu",
+        "Ruyi Xu",
+        "Hao Deng",
+        "Yan Wang",
+        "Jiawei Zhu"
+      ],
+      "summary_en": "Gas diffusion layer (GDL) plays an important role in proton exchange membrane fuel cells (PEMFCs), where its microstructure directly determines the transport properties and overall performance. Traditional methods lack the ability to efficiently reconstruct the microstructure of the GDL and to finely characterize its transport properties, thus failing to effectively guide structural design in engineering applications.",
+      "methods_summary": "To address this issue, an AI-driven Reconstruction and Structure-resolved Transmission Modeling (ADR-STM) framework is developed. This closed-loop framework integrates real microstructure reconstruction, automated segmentation, multiphysics numerical simulation, and quantitative analysis.",
+      "key_findings": "The ADR-STM framework provides an alternative approach to bridge the real microstructures and transport properties, thus offering guidance for GDL designs.",
+      "relevance_reason": "Matched gas diffusion layer, gdl, segmentation, microstructure; relevant to GDE flooding/wetting, porous-electrode transport, or Micro-CT / tomography structure analysis.",
+      "abstract": "Gas diffusion layer (GDL) plays an important role in proton exchange membrane fuel cells (PEMFCs), where its microstructure directly determines the transport properties and overall performance. Traditional methods lack the ability to efficiently reconstruct the microstructure of the GDL and to finely characterize its transport properties, thus failing to effectively guide structural design in engineering applications. To address this issue, an AI-driven Reconstruction and Structure-resolved Transmission Modeling (ADR-STM) framework is developed. This closed-loop framework integrates real microstructure reconstruction, automated segmentation, multiphysics numerical simulation, and quantitative analysis. The ADR-STM framework can efficiently reconstruct real microstructure and achieve phase segmentation, which reduces the consuming time by 96% compared with traditional method. A reconstruction algorithm is developed to alter porosity without changing the fiber orientation distribution. Moreover, the lattice Boltzmann method in this framework can simulate electrical and thermal conduction and gas transport in the GDL, respectively, enabling direct computation of bulk electrical resistance, effective thermal conductivity, and gas permeability. The ADR-STM framework provides an alternative approach to bridge the real microstructures and transport properties, thus offering guidance for GDL designs.",
+      "tags": [
+        "gas diffusion layer",
+        "gdl",
+        "segmentation",
+        "microstructure"
+      ],
+      "score": 99,
+      "url": "https://doi.org/10.1016/j.egyai.2026.100843",
+      "archive": false,
+      "discovery_source": "topic-search",
+      "summary_mode": "abstract-extraction",
+      "impact_factor": null,
+      "quartile": "JCR —",
+      "first_seen": "2026-10-10T13:47:09+02:00"
+    },
+    {
+      "id": "W7164845927",
+      "doi": "https://doi.org/10.1007/s11051-026-06684-0",
+      "topic": "analysis",
+      "badge": "Recent pick",
+      "read_minutes": 6,
+      "title": "Electrochemical studies of ferrocene/ferrocenium redox couple on nitrogen-doped multi-walled carbon nanotubes in organic solvents",
+      "journal": "Journal of Nanoparticle Research",
+      "journal_issn": [
+        "1388-0764",
+        "1572-896X"
+      ],
+      "year": 2026,
+      "publication_date": "2026-06-01",
+      "authors": [
+        "Nikos G. Tsierkezos",
+        "Alexandra Karagianni",
+        "Afroditi Ntziouni",
+        "Jannik René Prokoph",
+        "Konstantinos Kordatos"
+      ],
+      "summary_en": "Abstract In present work, the oxidation of ferrocene (FeCp 2 ) to ferrocenium cation (FeCp 2 + ) was investigated on electrode consisting of nitrogen-doped multi-walled carbon nanotubes (N-MWCNTs) in acetone (ACE), acetonitrile (ACN), dichloromethane (DCM), and dimethyl sulfoxide (DMSO) in presence of n -tetrabutylammonium hexafluorophosphate (NBu 4 PF 6 ) by means of cyclic voltammetry and electrochemical impedance spectroscopy. For comparison reasons studies of FeCp 2 +/0 on glassy carbon (GC) were carried out.",
+      "methods_summary": "Abstract In present work, the oxidation of ferrocene (FeCp 2 ) to ferrocenium cation (FeCp 2 + ) was investigated on electrode consisting of nitrogen-doped multi-walled carbon nanotubes (N-MWCNTs) in acetone (ACE), acetonitrile (ACN), dichloromethane (DCM), and dimethyl sulfoxide (DMSO) in presence of n -tetrabutylammonium hexafluorophosphate (NBu 4 PF 6 ) by means of cyclic voltammetry and electrochemical impedance spectroscopy. In addition, the k s values vary inversely with the R ct parameters indicating that t…",
+      "key_findings": "The lower limit of detection ( LOD ) estimated for N-MWCNTs (0.6 × 10 –6 –3.6 × 10 –6 mol∙L −1 ) and GC (1.8 × 10 –6 –6.2 × 10 –6 mol∙L −1 ) towards FeCp 2 +/0 was found to be strongly tied to the diffusion coefficient of redox system in different solvents.",
+      "relevance_reason": "Matched cyclic voltammetry, kinetic, ferrocene, electrochemical impedance spectroscopy; relevant to CV, EIS, reference-electrode calibration, mass transport, selectivity, or electrochemical mechanism analysis.",
+      "abstract": "Abstract In present work, the oxidation of ferrocene (FeCp 2 ) to ferrocenium cation (FeCp 2 + ) was investigated on electrode consisting of nitrogen-doped multi-walled carbon nanotubes (N-MWCNTs) in acetone (ACE), acetonitrile (ACN), dichloromethane (DCM), and dimethyl sulfoxide (DMSO) in presence of n -tetrabutylammonium hexafluorophosphate (NBu 4 PF 6 ) by means of cyclic voltammetry and electrochemical impedance spectroscopy. For comparison reasons studies of FeCp 2 +/0 on glassy carbon (GC) were carried out. Parameters such as, half-wave potentials ( E 1/2 ), diffusion coefficients ( D ), heterogeneous electron-transfer rate constants ( k s ), and charge-transfer resistances ( R ct ) of FeCp 2 +/0 were determined. The electron-transfer process was found to be reversible and diffusion controlled on both electrodes in all investigated solvents. The E 1/2 values tend to shift towards less positive potentials with the increase of dipole moment and dielectric constant of solvent. Furthermore, both D and k s values tend to decrease with the progressively increase of viscosity of solvent. In addition, the k s values vary inversely with the R ct parameters indicating that the charge-transfer kinetics is strongly affected by the impedance behavior of electrode. Among the electrodes probed, the N-MWCNTs-based film provides faster electrochemical process since it affords insignificant barrier for interfacial electron transfer. The lower limit of detection ( LOD ) estimated for N-MWCNTs (0.6 × 10 –6 –3.6 × 10 –6 mol∙L −1 ) and GC (1.8 × 10 –6 –6.2 × 10 –6 mol∙L −1 ) towards FeCp 2 +/0 was found to be strongly tied to the diffusion coefficient of redox system in different solvents.",
+      "tags": [
+        "cyclic voltammetry",
+        "kinetic",
+        "ferrocene",
+        "electrochemical impedance spectroscopy",
+        "impedance spectroscopy"
+      ],
+      "score": 99,
+      "url": "https://doi.org/10.1007/s11051-026-06684-0",
+      "archive": false,
+      "discovery_source": "topic-search",
+      "summary_mode": "abstract-extraction",
+      "impact_factor": null,
+      "quartile": "JCR —",
+      "first_seen": "2026-10-10T13:47:09+02:00"
+    },
+    {
+      "id": "W7220951541",
+      "doi": "https://doi.org/10.1016/j.scca.2026.100243",
+      "topic": "gde",
+      "badge": "Latest research",
+      "read_minutes": 6,
+      "title": "Electrochemical and thermochemical conversion of CO2 into CO: Comparing technical performances and life cycle impacts",
+      "journal": "Sustainable Chemistry for Climate Action",
+      "journal_issn": [
+        "2772-8269"
+      ],
+      "year": 2026,
+      "publication_date": "2026-10-01",
+      "authors": [
+        "Richard Kingsley Padi",
+        "Bart van den Bosch",
+        "Li Shen"
+      ],
+      "summary_en": "Climate targets are driving interest in electrification of hard-to-defossilise chemical industry. Electrochemical conversion of CO 2 into CO for chemical production has undergone intensive development in the past years.",
+      "methods_summary": "Three CO 2 reduction technologies were analysed via life cycle assessment (LCA): 1) low-temperature gas diffusion electrode (LT-GDE), 2) high-temperature solid oxide electrolysis cell (HT-SOEC), 3) thermochemical reduction via reverse water-gas shift reaction (RWGS).",
+      "key_findings": "Electrochemical conversion of CO 2 into CO for chemical production has undergone intensive development in the past years.",
+      "relevance_reason": "Matched gas diffusion electrode; relevant to GDE flooding/wetting, porous-electrode transport, or Micro-CT / tomography structure analysis.",
+      "abstract": "Climate targets are driving interest in electrification of hard-to-defossilise chemical industry. Electrochemical conversion of CO 2 into CO for chemical production has undergone intensive development in the past years. Municipal sewage sludge incineration in a waste-to-energy system offers not only waste management service and energy production, but also a circular carbon source. Three CO 2 reduction technologies were analysed via life cycle assessment (LCA): 1) low-temperature gas diffusion electrode (LT-GDE), 2) high-temperature solid oxide electrolysis cell (HT-SOEC), 3) thermochemical reduction via reverse water-gas shift reaction (RWGS). These are compared with the conventional CO production via partial oxidation of fossil fuels. In the background of the models, different electricity mixes in Germany, including the current (2020) and projected mixes for 2030 and 2050, were analysed. Of the three technologies, HT-SOEC exhibit the least greenhouse gas emissions (GHG) under the current and 2030 scopes. Under the energy mixes of 2020 and 2030, all three technologies cannot compete with the fossil-CO due to their energy intensive operations that still strongly relies on fossil fuels. The 2050 scope with heat electrification enabled carbon-negative CO production in all three processes, with the LT-GDE technology being the most promising, thereby outcompeting the future fossil-CO. The findings emphasize the need for sustainable green electricity and thermal energy supplies to drive the successful transitions to green CO based chemicals.",
+      "tags": [
+        "gas diffusion electrode"
+      ],
+      "score": 80,
+      "url": "https://doi.org/10.1016/j.scca.2026.100243",
+      "archive": false,
+      "discovery_source": "topic-search",
+      "summary_mode": "abstract-extraction",
+      "impact_factor": null,
+      "quartile": "JCR —",
+      "first_seen": "2026-10-10T13:47:09+02:00"
+    },
+    {
+      "id": "W7161582603",
+      "doi": "https://doi.org/10.1021/acselectrochem.6c00093",
+      "topic": "analysis",
+      "badge": "Recent pick",
+      "read_minutes": 7,
+      "title": "Thermodynamic and Kinetic Analysis of the Fe III/IV Decamethylferrocene Process in Ionic Liquids Using Background-Excluded Fourier Transformed AC Voltammetry",
+      "journal": "ACS electrochemistry.",
+      "journal_issn": [
+        "2997-0571"
+      ],
+      "year": 2026,
+      "publication_date": "2026-05-18",
+      "authors": [
+        "Miguel Gonzalvez",
+        "Xiao Wang",
+        "Alan M. Bond",
+        "Jie Zhang"
+      ],
+      "summary_en": "High Resolution Image Download MS PowerPoint Slide The thermodynamics and electrode kinetics for the Fe III/IV oxidation ([Me 10 Fc] +/2+, [Me 10 Fc] = decamethylferrocene process) that occurs at very positive potentials have been determined at glassy carbon (GC) and boron-doped diamond (BDD) electrodes in room temperature ionic liquids (RTILs) containing bis(trifluoromethanesulfonyl)azanide ([TFSA] − ) and [PF 6 ] − anions and a range of cations. Use of Fourier-Transformed AC (FT-AC) voltammetry overcomes limitations in quantitative studies with DC vol…",
+      "methods_summary": "Use of Fourier-Transformed AC (FT-AC) voltammetry overcomes limitations in quantitative studies with DC voltammetry by isolating the [Me 10 Fc] +/2+ process from overlapping background RTIL oxidation, double layer current contributions, and unexpectedly enhanced background current between the Fe II/III and the Fe III/IV processes.",
+      "key_findings": "Use of Fourier-Transformed AC (FT-AC) voltammetry overcomes limitations in quantitative studies with DC voltammetry by isolating the [Me 10 Fc] +/2+ process from overlapping background RTIL oxidation, double layer current contributions, and unexpectedly enhanced background current between the Fe II/III and the Fe III/IV processes.",
+      "relevance_reason": "Matched voltammetric, kinetic, ferrocene, transfer coefficient; relevant to CV, EIS, reference-electrode calibration, mass transport, selectivity, or electrochemical mechanism analysis.",
+      "abstract": "High Resolution Image Download MS PowerPoint Slide The thermodynamics and electrode kinetics for the Fe III/IV oxidation ([Me 10 Fc] +/2+, [Me 10 Fc] = decamethylferrocene process) that occurs at very positive potentials have been determined at glassy carbon (GC) and boron-doped diamond (BDD) electrodes in room temperature ionic liquids (RTILs) containing bis(trifluoromethanesulfonyl)azanide ([TFSA] − ) and [PF 6 ] − anions and a range of cations. Use of Fourier-Transformed AC (FT-AC) voltammetry overcomes limitations in quantitative studies with DC voltammetry by isolating the [Me 10 Fc] +/2+ process from overlapping background RTIL oxidation, double layer current contributions, and unexpectedly enhanced background current between the Fe II/III and the Fe III/IV processes. The FT-AC voltammetric data have been modeled as an EE mechanism and data optimization employed to determine the reversible potentials ( E 0 ), heterogeneous charge transfer rate constants ( k 0 ), and charge transfer coefficients (α) for both processes . The Fe II/III process is close to reversible with a significantly larger k 0 value than the Fe III/IV process. The electrode material significantly impacts the electrode kinetics, with generally larger k 0 values found with GC compared to BDD electrodes. For the outer sphere Fe II/III process, a plot of D versus the reciprocal of viscosity (1/η) for the [TFSA] − - and [PF 6 ] − -based RTILs follows the Stokes–Einstein relationship and the dependence of k 0 on η is consistent with adiabatic electron transfer theory. In contrast, the Fe III/IV process shows a more complex RTIL-dependent behavior. In particular, significant interactions of the [Me 10 Fc] 2+ dication and RTIL anion are assumed to be the origin of the substantial dependence of E 0 for the Fe III/IV process on the RTIL anion. By comparison, the E 0 value for the Fe II/III process is regarded as relatively medium insensitive and hence often recommended for reference scale calibration purposes. The Fe III/IV process in RTILs with other anions such as [BF 4 ] − and [B(CN) 4 ] − is chemically irreversible but is chemically reversible in hydrophobic RTILs containing the (tris(pentafluoroethyl)trifluorophosphate anion.",
+      "tags": [
+        "voltammetric",
+        "kinetic",
+        "ferrocene",
+        "transfer coefficient"
+      ],
+      "score": 97,
+      "url": "https://doi.org/10.1021/acselectrochem.6c00093",
+      "archive": false,
+      "discovery_source": "topic-search",
+      "summary_mode": "abstract-extraction",
+      "impact_factor": null,
+      "quartile": "JCR —",
+      "first_seen": "2026-10-10T13:47:09+02:00"
+    },
+    {
+      "id": "W7167533029",
+      "doi": "https://doi.org/10.1016/j.mtadv.2026.100876",
+      "topic": "gde",
+      "badge": "Recent pick",
+      "read_minutes": 6,
+      "title": "3D imaging of dry and liquid-impregnated mesoporous materials",
+      "journal": "Materials Today Advances",
+      "journal_issn": [
+        "2590-0498"
+      ],
+      "year": 2026,
+      "publication_date": "2026-07-07",
+      "authors": [
+        "Jason M. J. J. Heinrichs",
+        "Jovana Zečević",
+        "Thomas Weber",
+        "Emiel J. M. Hensen",
+        "Heiner Friedrich"
+      ],
+      "summary_en": "The performance of mesoporous materials in applications, such as drug delivery, batteries, and heterogeneous catalysis, strongly depends on their pore structure. Traditionally, this structure is assessed using bulk characterization techniques such as nitrogen physisorption.",
+      "methods_summary": "Traditionally, this structure is assessed using bulk characterization techniques such as nitrogen physisorption. In contrast, direct nanoscale visualization through electron microscopy (EM) offers valuable qualitative and quantitative insights of pore morphologies.",
+      "key_findings": "Ultimately, we argue that a broader adoption of (cryo-)ET will significantly advance the fundamental understanding of mesoporous materials, their preparation and functionality.",
+      "relevance_reason": "Matched tomography, segmentation; relevant to GDE flooding/wetting, porous-electrode transport, or Micro-CT / tomography structure analysis.",
+      "abstract": "The performance of mesoporous materials in applications, such as drug delivery, batteries, and heterogeneous catalysis, strongly depends on their pore structure. Traditionally, this structure is assessed using bulk characterization techniques such as nitrogen physisorption. In contrast, direct nanoscale visualization through electron microscopy (EM) offers valuable qualitative and quantitative insights of pore morphologies. This short review discusses EM approaches for visualizing mesopores in 3D, details structural mesopore descriptors accessible through these methods, and highlights recent advances in cryogenic electron tomography (cryo-ET) for imaging beam-sensitive and liquid-impregnated mesopores. In addition to this discussion, (cryo)ET is compared to other nanoscale imaging approaches and challenges associated with (cryo-)ET sample preparation, acquisition, and segmentation of reconstructions are addressed. Ultimately, we argue that a broader adoption of (cryo-)ET will significantly advance the fundamental understanding of mesoporous materials, their preparation and functionality.",
+      "tags": [
+        "tomography",
+        "segmentation"
+      ],
+      "score": 77,
+      "url": "https://doi.org/10.1016/j.mtadv.2026.100876",
+      "archive": false,
+      "discovery_source": "topic-search",
+      "summary_mode": "abstract-extraction",
+      "impact_factor": null,
+      "quartile": "JCR —",
+      "first_seen": "2026-10-10T13:47:09+02:00"
+    },
+    {
+      "id": "W7221027144",
+      "doi": "https://doi.org/10.1007/s10008-026-06715-9",
+      "topic": "analysis",
+      "badge": "Latest research",
+      "read_minutes": 6,
+      "title": "Voltammetric studies of TiO2-nanographite based composites",
+      "journal": "Journal of Solid State Electrochemistry",
+      "journal_issn": [
+        "1432-8488",
+        "1433-0768"
+      ],
+      "year": 2026,
+      "publication_date": "2026-10-09",
+      "authors": [
+        "Ana Paula G. S. Castro",
+        "Janine Carvalho Padilha",
+        "Fabio Plut Fernandes",
+        "C. H. A. Cairo",
+        "B. R. C. Cairo",
+        "Hussein A. K. Moussa",
+        "Rubens Nunes de Faria",
+        "Fábio Santos da Silva"
+      ],
+      "summary_en": "Titanium dioxide (TiO 2 ) is a promising electrode material for use as an electrode in electrochemical energy storage. Cyclic voltammetry showed that the incorporation of nanographite increased the voltammetric charge by up to three orders of magnitude compared with pure TiO 2 .",
+      "methods_summary": "Scanning electron microscopy revealed porous films composed of agglomerated TiO 2 , while Raman spectroscopy confirmed the integrity of the graphitic framework through the characteristic D, G, and 2D bands. Cyclic voltammetry showed that the incorporation of nanographite increased the voltammetric charge by up to three orders of magnitude compared with pure TiO 2 .",
+      "key_findings": "Cyclic voltammetry showed that the incorporation of nanographite increased the voltammetric charge by up to three orders of magnitude compared with pure TiO 2 . Diffractograms revealed TiO 2 oxide phases in the anatase form, along with characteristic graphite peaks.",
+      "relevance_reason": "Matched cyclic voltammetry, voltammetric, kinetic; relevant to CV, EIS, reference-electrode calibration, mass transport, selectivity, or electrochemical mechanism analysis.",
+      "abstract": "Titanium dioxide (TiO 2 ) is a promising electrode material for use as an electrode in electrochemical energy storage. However, its low electrical conductivity limits its performance. This study investigated the influence of nanographite incorporation and ionic liquid (IL) addition on the structural and electrochemical properties of TiO 2 . Hydrothermally synthesized TiO 2 nanoparticles and TiO 2 modified with the ILs triethylammonium-propane-sulfonic acid tetrafluoroborate ([TEA-PS][BF 4 ]) (TB) and 1-butyl-3-methylimidazolium hydrogen sulfate ([BMIM][HSO 4 ]) (BM) were used to prepare thick-film electrodes of pure TiO 2 (T) and TiO 2 /nanographite (T/NG) composites. Diffractograms revealed TiO 2 oxide phases in the anatase form, along with characteristic graphite peaks. Scanning electron microscopy revealed porous films composed of agglomerated TiO 2 , while Raman spectroscopy confirmed the integrity of the graphitic framework through the characteristic D, G, and 2D bands. Cyclic voltammetry showed that the incorporation of nanographite increased the voltammetric charge by up to three orders of magnitude compared with pure TiO 2 . After normalization by the active mass, the T/NG/BM electrode exhibited the highest specific charge, reaching 6.93 C g −1 under cathodic polarization, whereas pure TiO 2 remained below 0.22 C g −1 . The distinct electrochemical responses obtained for the two ionic liquids indicate that they modify the interfacial charge-storage mechanism through different kinetic pathways. Overall, the results support a hybrid charge-storage mechanism involving surface-confined Faradaic reactions coupled with pseudocapacitive contributions at the TiO 2 /nanographite interface.",
+      "tags": [
+        "cyclic voltammetry",
+        "voltammetric",
+        "kinetic"
+      ],
+      "score": 89,
+      "url": "https://doi.org/10.1007/s10008-026-06715-9",
+      "archive": false,
+      "discovery_source": "topic-search",
+      "summary_mode": "abstract-extraction",
+      "impact_factor": null,
+      "quartile": "JCR —",
+      "first_seen": "2026-10-10T13:47:09+02:00"
+    },
+    {
+      "id": "W7221017273",
+      "doi": "https://doi.org/10.1021/acsestwater.6c00983",
+      "topic": "analysis",
+      "badge": "Latest research",
+      "read_minutes": 6,
+      "title": "Quantifying Water Matrix Controls on PFAS Electrooxidation Degradation and Energy Efficiency",
+      "journal": "ACS ES&T Water",
+      "journal_issn": [
+        "2690-0637"
+      ],
+      "year": 2026,
+      "publication_date": "2026-10-08",
+      "authors": [
+        "Jiaxiang Zhao",
+        "D. Ricardo Martínez Vargas",
+        "Shiqiang Zou"
+      ],
+      "summary_en": "Abstract Electrooxidation (EO) has been studied for PFAS treatment, but water matrix effects remain poorly understood. Coexisting anions showed divergent effects: chloride enhanced PFOS degradation, nitrate inhibited it above 10 mM, and sulfate exhibited concentration-dependent behavior.",
+      "methods_summary": "Using a bench-scale EO reactor, electrochemical impedance spectroscopy, and response surface methodology (RSM), we evaluated PFAS degradation, electrical energy per order (EE/O), and short-chain transformation products.",
+      "key_findings": "Coexisting anions showed divergent effects: chloride enhanced PFOS degradation, nitrate inhibited it above 10 mM, and sulfate exhibited concentration-dependent behavior. Decreasing PFOS concentration to 0.01 ppm increased EE/O from 1.47 to 4.05 kWh m–3 order–1.",
+      "relevance_reason": "Matched kinetic, electrochemical impedance spectroscopy, impedance spectroscopy; relevant to CV, EIS, reference-electrode calibration, mass transport, selectivity, or electrochemical mechanism analysis.",
+      "abstract": "Abstract Electrooxidation (EO) has been studied for PFAS treatment, but water matrix effects remain poorly understood. This study investigates how water matrix composition, PFAS concentration, and ionic conductivity govern EO performance and energy efficiency. Using a bench-scale EO reactor, electrochemical impedance spectroscopy, and response surface methodology (RSM), we evaluated PFAS degradation, electrical energy per order (EE/O), and short-chain transformation products. PFOS exhibited faster kinetics than PFOA (2.20 vs 0.25 h–1), achieving 99.5% removal at 1 ppm. Decreasing PFOS concentration to 0.01 ppm increased EE/O from 1.47 to 4.05 kWh m–3 order–1. Decreasing ionic conductivity from 50 to 1 mS cm–1 reduced 1-h PFOS removal from 98.4% to 73.5% and increased EE/O from 1.89 to 5.87 kWh m–3 order–1, consistent with increasing uncompensated resistance. Coexisting anions showed divergent effects: chloride enhanced PFOS degradation, nitrate inhibited it above 10 mM, and sulfate exhibited concentration-dependent behavior. The RSM-predicted optimal anion composition (30 mM SO42–, 0 mM NO3–, 10 mM Cl–) was experimentally validated (38.9% vs 40.8% predicted removal). Natural organic matter was the dominant inhibitor in complex matrices. These results quantify how water matrix composition governs EO performance and energy efficiency in PFAS-laden brines and regenerants.",
+      "tags": [
+        "kinetic",
+        "electrochemical impedance spectroscopy",
+        "impedance spectroscopy"
+      ],
+      "score": 88,
+      "url": "https://doi.org/10.1021/acsestwater.6c00983",
+      "archive": false,
+      "discovery_source": "topic-search",
+      "summary_mode": "abstract-extraction",
+      "impact_factor": null,
+      "quartile": "JCR —",
+      "first_seen": "2026-10-10T13:47:09+02:00"
+    },
+    {
+      "id": "W7165803750",
+      "doi": "https://doi.org/10.17918/00011438",
+      "topic": "analysis",
+      "badge": "Recent pick",
+      "read_minutes": 8,
+      "title": "V₄C₃T_x MXene-derived chemically preintercalated bilayered vanadium oxides with nanoflower-like morphology as cathodes in aqueous zinc-ion batteries",
+      "journal": "Unknown journal",
+      "journal_issn": [],
+      "year": 2026,
+      "publication_date": "2026-05-01",
+      "authors": [
+        "Maxwell John MacEachern",
+        "Ekaterina A. Pomerantseva"
+      ],
+      "summary_en": "Hydrated layered frameworks have emerged as a promising class of materials for high-performance aqueous zinc-ion batteries (AZIBs) due to their large interlayer regions and high theoretical capacities. While the other singly charged ion preintercalated BVOs, NVO and KVO, delivered high initial capacities (478 and 473 mAh g⁻¹, respectively), they experienced significant instability over extended cycling attributed to the large cations hindering ion diffusion revealed by electrochemical impedance spectroscopy (EIS).",
+      "methods_summary": "The BVO composition was determined using atomic absorption spectroscopy and thermogravimetric analysis as: Li_[0.016]V₂O₅·0.53H₂O (LVO), Na_[0.45]V₂O₅·0.14H₂O (NVO), K_[0.40]V₂O₅·0.17H₂O (KVO), Mg_[0.21]V₂O₅·0.89H₂O (MVO), Ca_[0.25]V₂O₅·0.94H₂O (CVO), and Zn_[0.17]V₂O₅·0.76H₂O (ZVO). While the other singly charged ion preintercalated BVOs, NVO and KVO, delivered high initial capacities (478 and 473 mAh g⁻¹, respectively), they experienced significant instability over extended cycling attributed to the large cation…",
+      "key_findings": "While the other singly charged ion preintercalated BVOs, NVO and KVO, delivered high initial capacities (478 and 473 mAh g⁻¹, respectively), they experienced significant instability over extended cycling attributed to the large cations hindering ion diffusion revealed by electrochemical impedance spectroscopy (EIS). Recent developments have demonstrated significant improvements in the electrochemical properties of chemically preintercalated bilayered vanadium oxides (CP-BVOs) utilizing MXene precursors, attributed to the unique 2D nanoflake morphologies…",
+      "relevance_reason": "Matched kinetic, electrochemical impedance spectroscopy, impedance spectroscopy; relevant to CV, EIS, reference-electrode calibration, mass transport, selectivity, or electrochemical mechanism analysis.",
+      "abstract": "Hydrated layered frameworks have emerged as a promising class of materials for high-performance aqueous zinc-ion batteries (AZIBs) due to their large interlayer regions and high theoretical capacities. Among these materials, bilayered vanadium oxide (BVO) has become a major research focus because of its high oxidation state V⁵⁺ atoms and ability to have the interlayer structure tuned through chemical preintercalation. This synthesis strategy inserts chemical pillars, in the form of inorganic or organic ions, alongside structural water into the interlayer galleries, providing structure stabilization and charge screening upon electrochemical cycling. Recent developments have demonstrated significant improvements in the electrochemical properties of chemically preintercalated bilayered vanadium oxides (CP-BVOs) utilizing MXene precursors, attributed to the unique 2D nanoflake morphologies of MXene-derived oxides obtained through this conversion pathway. However, prior literature has focused exclusively on V₂CT_x-derived oxides. Utilizing a structurally thicker V₄C₃T_x MXene precursor may allow for greater flexibility in controlling the oxidation kinetics to preserve a residual carbon containing motif. This would enable pathways for electron transfer in the partially oxidized product. Therefore, demonstrating V₄C₃T_x MXene transformation into oxides with 2D nanoflake morphology assembled into nanoflower-like particles is desirable for advancing AZIBs. Here, in this thesis, nanoflower-like V₄C₃T_x-derived CP-BVOs with Li⁺, Na⁺, K⁺, Mg²⁺, Ca²⁺, and Zn²⁺ were first reported using an adapted synthesis consisting of the reaction of MXene precursor with hydrogen peroxide followed by a settling step and hydrothermal treatment. The synthesized materials were characterized by XRD, demonstrating (001) d-spacings of 9.69 Å to 13.97 Å depending on the preintercalated cation. The BVO composition was determined using atomic absorption spectroscopy and thermogravimetric analysis as: Li_[0.016]V₂O₅·0.53H₂O (LVO), Na_[0.45]V₂O₅·0.14H₂O (NVO), K_[0.40]V₂O₅·0.17H₂O (KVO), Mg_[0.21]V₂O₅·0.89H₂O (MVO), Ca_[0.25]V₂O₅·0.94H₂O (CVO), and Zn_[0.17]V₂O₅·0.76H₂O (ZVO). Under electrochemical cycling, LVO demonstrated the poorest performance, due to the dense film formed by the 2D particles instead of the open nanoflower-like architecture. While the other singly charged ion preintercalated BVOs, NVO and KVO, delivered high initial capacities (478 and 473 mAh g⁻¹, respectively), they experienced significant instability over extended cycling attributed to the large cations hindering ion diffusion revealed by electrochemical impedance spectroscopy (EIS). In contrast, the doubly charged ion preintercalated BVOs (MVO, CVO, and ZVO) demonstrated superior electrochemical stability. At low current densities, ZVO demonstrated high capacity and capacity retention (454 mAh g⁻¹ and 73%) because the sites from chemically preintercalated zinc ions are favorable for subsequent intercalation of electrochemically cycled Zn²⁺ ions, effectively improving diffusion. However, under high currents, MVO emerged as the superior electrode, achieving high capacity and capacity retention (235 mAh g⁻¹ and 123%) through long-term cycling due to the large interlayer regions and high water content in the material structure lowering the charge transfer resistance, as shown in EIS, thereby drastically reducing electrochemically induced strain on the BVO lattice. To elucidate the underlying charge storage mechanism governing the electrochemical performance of CP-BVOs, in situ pH evolution measurements were conducted, revealing that redox activity at higher potentials (0.8 - 1.6 V vs. Zn/Zn²⁺) is dominated by reversible proton intercalation, whereas electrochemical activity at lower potentials (below 0.8 V vs Zn/Zn²⁺) might exhibit significant reversible zinc ion intercalation. Complementary, ex situ XRD and SEM demonstrate the reversible formation of basic zinc salts (BZS, Zn_xOTf_y(OH)_[2x-y]·nH₂O) on the surface of the cathode during discharge and subsequent dissolution during charge. This result was further corroborated by EIS, revealing a significant increase in impedance at the end of the discharge across multiple cycles, attributed to the reversible formation of BZS on the cathode. In conclusion, ZVO showed highest performance at lowest current densities, while MVO outperformed all materials at higher current densities highlighting the significance of preintercalated ion selection in BVOs in AZIBs.",
+      "tags": [
+        "kinetic",
+        "electrochemical impedance spectroscopy",
+        "impedance spectroscopy"
+      ],
+      "score": 88,
+      "url": "https://doi.org/10.17918/00011438",
+      "archive": false,
+      "discovery_source": "topic-search",
+      "summary_mode": "abstract-extraction",
+      "impact_factor": null,
+      "quartile": "JCR —",
+      "first_seen": "2026-10-10T13:47:09+02:00"
+    },
+    {
+      "id": "W7163581897",
+      "doi": "https://doi.org/10.1021/acs.inorgchem.6c01354",
+      "topic": "analysis",
+      "badge": "Recent pick",
+      "read_minutes": 6,
+      "title": "Effects of Supporting Electrolyte and Solvent on the Thermodynamics and Kinetics of Reduction Reactions in a Keggin-Type Polyoxotungstate",
+      "journal": "Inorganic Chemistry",
+      "journal_issn": [
+        "0020-1669",
+        "1520-510X"
+      ],
+      "year": 2026,
+      "publication_date": "2026-06-04",
+      "authors": [
+        "Hania A. Guirguis",
+        "Mamta Dagar",
+        "Sophia M. Anderson",
+        "Ellen M. Matson",
+        "Agnes E. Thorarinsdottir"
+      ],
+      "summary_en": "High Resolution Image Download MS PowerPoint Slide We report the thermodynamic and kinetic behavior of reduction reactions of the Keggin-type polyoxometalate (POM) [PW 12 O 40 ] 3– ((PW 12 ) 3– ) in the presence of TBAPF 6, KPF 6, and LiPF 6 supporting electrolytes. Room-temperature electrochemical analyses of (TBA) 3 (PW 12 ) (TBA + = tetrabutylammonium) reveal anodic shifts of the second and third reduction potentials in the presence of KPF 6 and LiPF 6 in acetonitrile (MeCN) and N, N -dimethylformamide (DMF), arising from ion-pairing interactions bet…",
+      "methods_summary": "Variable-temperature cyclic voltammetry analyses reveal ion-pairing behavior between alkali cations and the most reduced charge states of the POM, and associated disruption of POM solvation shell, to shift redox entropies (Δ S redox ) positively as compared to the cation-uncoupled (PW 12 ) 3– /(PW 12 ) 4– reduction.",
+      "key_findings": "Collectively, these results highlight that tuning the identity of supporting electrolyte cation and solvent can influence both the kinetics and thermodynamics of electron transfer in POMs, providing experimental handles for controlling electrochemical properties for targeted applications in electrochemistry.",
+      "relevance_reason": "Matched cyclic voltammetry, kinetic, dmf; relevant to CV, EIS, reference-electrode calibration, mass transport, selectivity, or electrochemical mechanism analysis.",
+      "abstract": "High Resolution Image Download MS PowerPoint Slide We report the thermodynamic and kinetic behavior of reduction reactions of the Keggin-type polyoxometalate (POM) [PW 12 O 40 ] 3– ((PW 12 ) 3– ) in the presence of TBAPF 6, KPF 6, and LiPF 6 supporting electrolytes. Room-temperature electrochemical analyses of (TBA) 3 (PW 12 ) (TBA + = tetrabutylammonium) reveal anodic shifts of the second and third reduction potentials in the presence of KPF 6 and LiPF 6 in acetonitrile (MeCN) and N, N -dimethylformamide (DMF), arising from ion-pairing interactions between the reduced charge states of the POM and alkali cations. Variable-temperature cyclic voltammetry analyses reveal ion-pairing behavior between alkali cations and the most reduced charge states of the POM, and associated disruption of POM solvation shell, to shift redox entropies (Δ S redox ) positively as compared to the cation-uncoupled (PW 12 ) 3– /(PW 12 ) 4– reduction. Collectively, these results highlight that tuning the identity of supporting electrolyte cation and solvent can influence both the kinetics and thermodynamics of electron transfer in POMs, providing experimental handles for controlling electrochemical properties for targeted applications in electrochemistry.",
+      "tags": [
+        "cyclic voltammetry",
+        "kinetic",
+        "dmf"
+      ],
+      "score": 84,
+      "url": "https://doi.org/10.1021/acs.inorgchem.6c01354",
+      "archive": false,
+      "discovery_source": "topic-search",
+      "summary_mode": "abstract-extraction",
+      "impact_factor": null,
+      "quartile": "JCR —",
+      "first_seen": "2026-10-10T13:47:09+02:00"
+    },
     {
       "id": "W7220465806",
       "doi": "https://doi.org/10.48676/unibo/amsdottorato/13226",
@@ -53,7 +404,7 @@
       ],
       "score": 95,
       "url": "https://doi.org/10.48676/unibo/amsdottorato/13226",
-      "archive": false,
+      "archive": true,
       "discovery_source": "topic-search",
       "summary_mode": "abstract-extraction",
       "impact_factor": null,
@@ -95,7 +446,7 @@
       ],
       "score": 99,
       "url": "https://doi.org/10.48550/arxiv.2610.01886",
-      "archive": false,
+      "archive": true,
       "discovery_source": "topic-search",
       "summary_mode": "abstract-extraction",
       "impact_factor": null,
@@ -136,7 +487,7 @@
       ],
       "score": 77,
       "url": "https://doi.org/10.1021/acs.jpcc.6c04540",
-      "archive": false,
+      "archive": true,
       "discovery_source": "topic-search",
       "summary_mode": "abstract-extraction",
       "impact_factor": null,
@@ -178,7 +529,7 @@
       ],
       "score": 99,
       "url": "https://doi.org/10.1002/adfm.78843",
-      "archive": false,
+      "archive": true,
       "discovery_source": "topic-search",
       "summary_mode": "abstract-extraction",
       "impact_factor": null,
@@ -211,7 +562,7 @@
       ],
       "score": 88,
       "url": "https://escholarship.org/uc/item/1d05j2x3",
-      "archive": false,
+      "archive": true,
       "discovery_source": "topic-search",
       "summary_mode": "abstract-extraction",
       "impact_factor": null,
